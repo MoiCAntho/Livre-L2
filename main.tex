@@ -1,0 +1,57 @@
+\documentclass[a4paper, 12pt, openright, twoside, french]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\usepackage[french]{babel}
+\usepackage{hyperref}
+\usepackage{pst-blur}
+\usepackage[pstricks]{bclogo} %% Pas utiliser pdfLaTeX pour le fonctionnement de bclogo
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{tikz,tkz-tab}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage[crop=off]{auto-pst-pdf}
+\usepackage{pstricks-add}
+
+\newenvironment{defi}{\begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}}{\end{bclogo}}
+\newenvironment{ex}{\begin{bclogo}[logo=\bccrayon,noborder=true,barre=snake]{Exemple}}{\end{bclogo}}
+\newenvironment{prop}{\begin{bclogo}[couleur=red!30,couleurBord=red,ombre=true,arrondi=0.1,logo=\bcoutil]{Propriété}}{\end{bclogo}}
+\newenvironment{thm}{\begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle ,ombre=true,arrondi=0.1]{Théorème}}{\end{bclogo}}
+\newenvironment{meth}{\begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : }}{\end{bclogo}}
+\newenvironment{demo}{\begin{bclogo}[couleur=gray!20,couleurBord=gray,logo=\bcloupe ,arrondi=0.1, ombre=true, barre = zigzag]{Démonstration}}{\end{bclogo}}
+\newenvironment{rmq}{\begin{bclogo}[couleur=orange!30,couleurBord=orange,arrondi=0.1,ombre=true,logo=\bcinfo]{Remarque}}{\end{bclogo}}
+
+
+\makeatletter
+\@addtoreset{chapter}{part}
+\makeatother 
+
+\title{Licence $2^{\text{ème}}$ année,\\Physique Mécanique\\ Semestre 1}
+\author{Anthony LOUVAT-SEGURA, Vigrile CHEMINOT}
+\date{November 2022}
+
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\part{Mat-304 : Calcul matriciel et fonctions de plusieurs variables}
+\include{MAT304.tex}
+\part{Mat-307 : Courbes paramétrées et équations différentielles pour la physique}
+\include{MAT307.tex}
+\part{Mec-301 : Mécanique du solide indéformable}
+\include{MEC301.tex}
+\part{Phy-301 : Électromagnétisme 1}
+\include{PHY301.tex}
+\part{Phy302 : Thermodynamique}
+\include{PHY302.tex}
+\part{Annexes}
+\include{Annexes.tex}
+
+\end{document}
