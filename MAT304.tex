@@ -1,0 +1,190 @@
+\chapter{Repérage dans $\mathbb{R}^3$}
+\chapter{Fonctions de plusieurs variables}
+\chapter{Dérivation en plusieurs variables}
+\chapter{Opérateurs différentielles}
+\chapter{Intégration en plusieurs variables}
+\chapter{Calcul matriciel}
+\section{Matrices particulières}
+\section{Déterminants}
+\chapter{Diagonalisation}
+  La diagonalisation est le second "problème principal" d'algèbre, le premier étant la résolution de systèmes
+  linéaires.
+Diagonaliser une matrice revient à la "simplifier".\\
+L'intérêt d'un tel procédé est qu'il simplifie certains calculs tel que la multiplication ou l'exponentiation.\\
+La diagonalisation consiste à chercher une base $\mathscr{B}$ de l'espace, dans laquelle la matrice $A$ est diagonale.\\
+Dans la suite de ce chapitre nous ne considérerons que des matrices carrées.\\
+\begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}
+Une application linéaire $f:\mathbb{R}^{n}\rightarrow\mathbb{R}^{n}$  est dite diagonalisable si et seulement si $\exists \mathscr{B}$ une base de $\mathbb{R}^{n}$ tel que sa matrice représentative $A_{\mathscr{B},\mathscr{B}}(f)$ est diagonale.
+\end{bclogo}
+\section{Éléments propres}
+Il convient dans un premier temps de définir les différents objets qui servirons à la diagonnalisation, ces objets sont appelés éléments propres.
+\begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}
+Soit A une matrice $n\times n$.
+\begin{itemize}
+    \item[$\bullet$] On dit que $\lambda\in\mathbb{C}$ est une valeur propre de $A$ s'il existe $x\in\mathbb{C}^{n}$ avec $x\neq 0$ tel que $Ax = \lambda x$.
+    \item[$\bullet$] On appelle alors le vecteur $x$ le vecteur propre de $A$ associé à la valeur propre $\lambda$.
+    \item[$\bullet$] On appelle spectre de $A$ l'ensemble des valeurs propres de $A$.
+    \item[$\bullet$] On appelle sous espace propre de $A$ (associé à la valeur propre $\lambda$), noté $E_{\lambda}$, l'ensemble de tous les vecteurs $x$ tel que
+$Ax=\lambda x \Leftrightarrow (A-\lambda I_n)x=0$.\\
+Autrement dit, $E_{\lambda}=\ker(A-\lambda I_n)=\{x\in E | Ax=\lambda x\}$\\
+\end{itemize}
+\end{bclogo}
+\begin{bclogo}[logo=\bccrayon,noborder=true,barre=snake]{Exemple}
+Soit la matrice $A=\begin{pmatrix}
+5 & 2 \\
+4 & 3
+\end{pmatrix}$\\
+Par définition d'une valeur propre $\lambda$, nous cherchons un vecteur $x$ tel que $Ax=\lambda x$.
+Dans le cas présent, on a :\\
+$$\begin{pmatrix} 5 & 2\\ 4 & 3\end{pmatrix}\times\begin{pmatrix}x_1\\x_2\end{pmatrix}=\lambda\times\begin{pmatrix}x_1\\x_2\end{pmatrix}$$\\
+Il nous faut donc résoudre le système suivant :\\
+$$\begin{cases}5x_1+2x_2=\lambda x_1\\4x_1 + 3x_2=\lambda x_2\end{cases}$$
+Sa résolution nous renvoie notamment le vecteur $x=(7,7)$ et il se trouve que $Ax=7\times x$.\\
+On a donc que $\lambda = 7$ une valeur propre de la matrice $A$ et $x=(1,1)$ est vecteur un propre de la matrice $A$ associé à la valeur propre $\lambda = 7$.\\
+\\
+\end{bclogo}
+L'utilisation de la définition d'une valeur propre pour son calcul est une opération assez fastidieuse, c'est pour cela que l'on passe par d'autres moyens pour les déterminer.\\
+On utilise pour cela le polynôme caractéristique de la matrice $A$.
+\begin{bclogo}[couleur=red!30,couleurBord=red,ombre=true,arrondi=0.1,logo=\bcoutil]{Propriété}
+Deux matrices semblables ont les même valeurs propres.\\
+Ceci implique notamment qu'un changement de base ne modifie pas les valeurs propres d'une matrice. 
+\end{bclogo}
+\section{Polynôme caractéristique et calcul des éléments propres}
+Le calcul des éléments propres est plus facile en passant par le polynôme caractéristique.
+\begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}
+Soit une application linéaire $f:\mathbb{R}^n\to\mathbb{R}^n$ et sa matrice représentative dans la base $\mathbb{B}$ $A_{\mathbb{B}}(f)$.
+On appelle polynôme caractéristique de l'application $f$, le polynôme défini de la façon suivante :
+$$P_{f}(\lambda)=P_{A}(\lambda)=\det(A-\lambda I_{n})=\begin{vmatrix}
+a_{11}-\lambda & a_{12} & \hdots & a_{1n}\\
+a_{21} & a_{22}-\lambda &&\vdots \\
+\vdots & & \ddots & \vdots\\
+a_{n1} &\hdots&\hdots& a_{nn}-\lambda
+\end{vmatrix}$$
+\\
+\end{bclogo}
+
+\begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle ,ombre=true,arrondi=0.1]{Proposition}
+Les valeurs propres $\lambda$ de $A$ sont les racines du polynôme caractéristique.
+$$\lambda \text{ est une valeur propre de la matrice } A \Leftrightarrow P_A(\lambda) = 0$$
+\end{bclogo}
+
+\begin{bclogo}[logo=\bccrayon,noborder=true,barre=snake]{Exemple}
+Soit la matrice $A$ définie comme $A=\begin{pmatrix}
+7 & 4 \\
+3 & 6 \\
+\end{pmatrix}$.\\
+On commence par chercher les valeurs propres de $A$.\\
+Par la proposition précédente, on a :\\
+$P_A(\lambda) = | A-\lambda I_3 | =\begin{vmatrix}
+7 - \lambda & 4\\
+3 & 6- \lambda \\
+\end{vmatrix} = (7-\lambda)(6-\lambda) -12$\\
+On cherche donc les racines de $P_A(\lambda)$.\\
+$P_A(\lambda)=0$\\
+$\Leftrightarrow {\lambda}^{2}-13\lambda +30 =0$\\
+$\Leftrightarrow {\lambda}_{1}=3 \text{ et } {\lambda}_{2}=10$\\
+
+Les valeurs propres de la matrice $A$ sont donc ${\lambda}_{1}=3 \text{ et } {\lambda}_{2}=10$
+\end{bclogo}
+On constate, assez aisément, que la détermination des valeurs propres à l'aide du polynôme caractéristique est beaucoup plus facile et rapide.
+\begin{bclogo}[couleur=red!30,couleurBord=red,ombre=true,arrondi=0.1,logo=\bcoutil]{Propriétés}
+Soit la matrice $A$ et son polynôme caractéristique $P_A(\lambda)$.
+\begin{itemize}
+\item Si l'on injecte $0$ dans le polynôme caractéristique il nous renverra la valeur du déterminant de cette matrice :\
+$$P_A(0)=\det(A)$$
+\item Le polynôme caractéristique possède $n$ racines dans l'ensemble $\mathbb{C}$
+\end{itemize}
+\end{bclogo}
+
+Le polynôme caractéristique nous donne un moyen simple de déterminer les valeurs propres.\\
+De ces valeurs propres, on peut déduire le reste des éléments propres de la matrice.\\
+\\
+Afin de pouvoir continuer sereinement, nous allons introduire les multiplicités algébriques et géométriques, qui seront utiles pour la suite.
+
+\begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}
+\begin{itemize}
+    \item On appelle multiplicité géométrique d'une valeur propre $\lambda$ la dimension du sous espace propre associé à la valeur propre $\lambda$.
+    \item On appelle multiplicité algébrique d'une valeur propre $\lambda$ la multiplicité de $\lambda$ en tant que racine du polynôme caractéristique.
+\end{itemize}
+\end{bclogo}
+
+\begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : Détermination des éléments propres}
+\begin{enumerate}
+    \item Déterminer le polynôme caractéristique
+    \item Trouver les valeurs propres de $A$, en déduire le spectre de $A$
+    \item Rechercher les vecteurs propres associés au valeurs propres $\lambda$
+    \item Déterminer les sous espaces propres $E_{\lambda}$ associés aux valeurs propres $\lambda$.\\
+    Pour ce faire, il suffit de trouver le noyau de la matrice $A-\lambda I_n$ $\Leftrightarrow \ker(A-\lambda I_n)$.\\
+\end{enumerate}
+\end{bclogo}
+\begin{ex}
+On se donne la matrice $A=\begin{pmatrix}3&-1&1\\0&2&0\\1&-1&3\end{pmatrix}$\\
+On commence par poser $A-\lambda I_3$ :
+$$A-\lambda I_n = \begin{pmatrix}3&-1&1\\0&2&0\\1&-1&3\end{pmatrix}-\begin{pmatrix}\lambda&0&0\\0&\lambda&0\\0&0&\lambda\end{pmatrix}=\begin{pmatrix}3-\lambda&-1&1\\0&2-\lambda&0\\1&-1&3-\lambda\end{pmatrix}=B$$
+Le polynôme caractéristique nous est donné par le déterminant de cette nouvelle matrice $B$.
+$$P_A(\lambda)=\det(A-\lambda I_3)=\det(B)=\begin{vmatrix}3-\lambda&-1&1\\0&2-\lambda&0\\1&-1&3-\lambda\end{vmatrix}$$
+On choisi de développer le déterminant selon la deuxième ligne, en effet celui-ci nous serra plus facile a calculer.On a donc :
+$$P_A(\lambda)=\det(A-\lambda I_3)=(2-\lambda)((3-\lambda)^2-1)$$
+On sait que les racines du polynôme caractéristique, sont les valeurs propres de $A$, donc :
+\begin{align*}
+    \Leftrightarrow & P_A(\lambda) = 0\\
+    \Leftrightarrow & (2-\lambda)((3-\lambda)^2-1) = 0\\
+    \Leftrightarrow & (2-\lambda)(\lambda^2-6\lambda+8) = 0
+\end{align*}
+Le premier facteur nous renvoie $\lambda = 2$ et le deuxième facteur nous donne $\lambda_1=2$ et $\lambda_2=4$.\\
+On a donc les valeurs propres de $A$ qui sont: $\lambda_1 =2$ valeur propre de multiplicité algébrique $2$, $\lambda_2=4$ valeur propre de $A$ de multiplicité algébrique $1$.\\
+On en déduit le spectre de $A$ : $Spec(A)=\{2;4\}$
+\\
+\\
+On souhaite maintenant déterminer les vecteurs propres $x$ associées aux valeurs propres $\lambda$.\\
+Pour une valeur propre $\lambda$ donnée, la recherche du vecteur propre associée passe par la résolution de l'égalité $(A-\lambda I_3)x=0$.\\
+Pour la valeur propre $\lambda_1 = 2$ on a $(A-2I_3)x=0$.On commence par poser $A-2I_3$ :
+$$A-2I_3=\begin{pmatrix}3&-1&1\\0&2&0\\1&-1&3\end{pmatrix}-\begin{pmatrix}2&0&0\\0&2&0\\0&0&2\end{pmatrix}=\begin{pmatrix}1&-1&1\\0&0&0\\1&-1&1\end{pmatrix}=C$$
+Il nous faut donc résoudre :
+\begin{align*}
+    \Leftrightarrow & (A-2I_3)x=0\\
+    \Leftrightarrow & Cx=0\\
+    \Leftrightarrow & \begin{pmatrix}1&-1&1\\0&0&0\\1&-1&1\end{pmatrix}\times\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}=\overrightarrow{0}\\
+    \Leftrightarrow & \begin{cases}x_1-x_2+x3=0\\0=0\\x_1-x_2+x_3=0\end{cases}\\
+    \Leftrightarrow & x_1-x_2+x_3=0\\
+    \Leftrightarrow & x_1=x_2-x_3
+    \Rightarrow \begin{pmatrix}x_2-x_3\\x_2\\x_3\end{pmatrix}=x
+\end{align*}
+On peut décomposer le vecteur :
+$$\begin{pmatrix}x_2-x_3\\x_2\\x_3\end{pmatrix}=\begin{pmatrix}x_2\\x_2\\0\end{pmatrix}+\begin{pmatrix}-x_3\\0\\x_3\end{pmatrix}=x_2\times\begin{pmatrix}1\\1\\0\end{pmatrix}+x_2\times\begin{pmatrix}-1\\0\\1\end{pmatrix}$$
+Il y a donc deux vecteurs propres $v_1=\begin{pmatrix}1\\1\\0\end{pmatrix}$ et $v_2=\begin{pmatrix}-1\\0\\1\end{pmatrix}$ associées a la valeur propre $\lambda_1=2$.\\
+Pour la valeur propre $\lambda_2=4$ on a $(A-4I_3)x=0$.
+Par le même raisonnement que ci-dessus, on obtient :
+\end{ex}
+
+
+\section{Diagonalisation}
+Revenons sur la définition d'une matrice diagonalisable, pour en donner une définition plus mathématique.
+\begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}
+S
+\end{bclogo}
+
+Tout l'enjeu sera de déterminer la matrice $P$.
+
+\begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : Diagonalisation d'une matrice}
+\begin{enumerate}
+    \item Déterminer le polynôme caractéristique
+    \item Trouver les valeurs propres de $A$.\\
+    $\rightarrow$ Si $\lambda_i\in\mathbb{R}$ alors $A$ est diagonalisable sinon elle ne l'est pas, on peut s'arrêter.
+    \item Factoriser le polynôme caractéristique.
+    \item Rechercher les sous espaces propres et leurs dimensions (multiplicité géométrique)
+    \item Trouver les bases $\mathscr{B}_i$ de tous les sous espaces propres.
+    \item Déduire la base $\mathscr{B}$ à partir des bases $\mathscr{B}_i$,
+    ainsi que la matrice de passage a cette base.\\
+    $\mathscr{B} =\bigcup_{i}^{k}\mathscr{B}_i$
+\end{enumerate}
+\end{bclogo}
+\begin{bclogo}[logo=\bccrayon,noborder=true,barre=snake]{Exemple}
+rx
+\end{bclogo}
+\section{Matrices symétriques et formes quadratiques}
+\begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle ,ombre=true,arrondi=0.1]{Critère de Silvester}
+Une matrice $A$ est semi-définie (définie) positive si et seulement si toutes ses mineures principales sont positifs, c'est à  dire :
+$$a_{11}\ge 0, \begin{vmatrix} a_{11}&a_{12}\\ a_{21} & a_{22}\end{vmatrix}\ge 0,\begin{vmatrix}a_{11} & a_{12} & a_{13}\\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33}\end{vmatrix}\ge 0, ...$$
+\end{bclogo}
+\chapter{Extremums en plusieurs variables}
