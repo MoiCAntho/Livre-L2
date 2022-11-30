@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  30 NOV 2022 08:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  30 NOV 2022 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,7 +1174,7 @@ Chapitre 4.
 MAT304.tex:49: Illegal parameter number in definition of \@themark.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1183,7 +1183,7 @@ are all screwed up? I'm going to assume that you meant ##.
 MAT304.tex:49: Illegal parameter number in definition of \@themark.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1192,7 +1192,7 @@ are all screwed up? I'm going to assume that you meant ##.
 MAT304.tex:49: Illegal parameter number in definition of \@themark.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1201,7 +1201,7 @@ are all screwed up? I'm going to assume that you meant ##.
 MAT304.tex:49: Illegal parameter number in definition of \@themark.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1295,14 +1295,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\halign' on input line 49.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 49.
-
 MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1311,7 +1307,7 @@ are all screwed up? I'm going to assume that you meant ##.
 MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1320,7 +1316,7 @@ are all screwed up? I'm going to assume that you meant ##.
 MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1329,7 +1325,7 @@ are all screwed up? I'm going to assume that you meant ##.
 MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    \crcr 
-l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+l.49 ...n{Le gradient \(\overrightarrow{\nabla}\)}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2014,7 +2010,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  AAF97EEAFB60CFB291F04B72B1E42545;17441.
+(rerunfilecheck)             After:  5110227D596444021A009CC73409069E;17438.
  ) 
 Here is how much of TeX's memory you used:
  33153 strings out of 410921
@@ -2023,6 +2019,6 @@ Here is how much of TeX's memory you used:
  53369 multiletter control sequences out of 15000+600000
  483090 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,22n,96p,5747b,1085s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 93i,22n,96p,5748b,1085s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (86 pages, 2008944 bytes).
+Output written on main.xdv (86 pages, 2008952 bytes).

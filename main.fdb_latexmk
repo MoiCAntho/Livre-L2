@@ -3,7 +3,7 @@
   "main.xdv" 0 -1 0 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1669793337 "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" "main.xdv" "main" 1669793337
+["xelatex"] 1669800240 "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" "main.xdv" "main" 1669800240
   "Annexes.aux" 0 -1 0 "xelatex"
   "Annexes.tex" 0 -1 0 ""
   "C:/Users/segur/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1657869726 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -229,7 +229,7 @@
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1650047684 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/xelatex/xetex-pstricks/pstricks.con" 1266284760 204 366747485ba2670f55166e66d1f21249 ""
   "MAT304.aux" 0 -1 0 "xelatex"
-  "MAT304.tex" 1669793260 18536 b39ce2321bef269fdd53b703ea8d4ce3 ""
+  "MAT304.tex" 1669800218 18537 4f2aa740cc93a84a8dd06df0c526b2a8 ""
   "MAT307.aux" 0 -1 0 "xelatex"
   "MAT307.tex" 1669732717 17380 df833ceab21009e15d41ab86b4c9fff4 ""
   "MEC301.aux" 0 -1 0 "xelatex"
@@ -238,10 +238,10 @@
   "PHY301.tex" 1669131441 62 88fca3a215b849a996b4655528b35b65 ""
   "PHY302.aux" 0 -1 0 "xelatex"
   "PHY302.tex" 1669545626 3847 a86dbf75d72906478a5fe0a2e32f3a7d ""
-  "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" 1669732629 2224 6f2df24f856866c28ac0301e4e628def ""
-  "main.aux" 1669793337 34 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" 1669799810 2225 2de216bc6b4048c94879dfd1e8be33af ""
+  "main.aux" 1669800240 34 3985256e7290058c681f74d7a3565a19 "xelatex"
   "main.out" 0 -1 0 "xelatex"
-  "main.tex" 1669732629 2224 6f2df24f856866c28ac0301e4e628def ""
+  "main.tex" 1669799810 2225 2de216bc6b4048c94879dfd1e8be33af ""
   "main.toc" 0 -1 0 "xelatex"
   (generated)
   "Annexes.aux"
