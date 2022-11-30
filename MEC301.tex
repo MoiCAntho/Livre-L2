@@ -8,11 +8,24 @@ En effet, il faudrait diviser les lois en plusieurs théorème pour complètemen
 On appelle moment en $A$ de la force $\overrightarrow{F}$ passant par le point $P$, du solide $\Sigma$ :
 $$\overrightarrow{M_{A}(\overrightarrow{F})}=\overrightarrow{AP}\land\overrightarrow{A}$$
 \end{defi}
-Un moment représente la capacité d'une force a crée une rotation autour d'un axe.
-\section{Torseur force}
+Un moment représente la capacité d'une force a crée une rotation autour d'un axe.\\
+On peut définir la formule de transport des moments qui permet, connaissant le moment en un point $A$ du solide, de calculer le moments de cette force sur n'importe quel point du solide.
+\begin{prop}
+Soient $A$ et $B$ deux points de l'espace et $\overrightarrow{M_{A}}(\overrightarrow{F})$, $\overrightarrow{M_{B}}(\overrightarrow{F})$ leurs moments associés de la force $\overrightarrow{F}$ appliquée en $P$ au solide $\Sigma$.\\
+On définit la formule de transport des moments :
+$$\overrightarrow{M_{B}}(\overrightarrow{F})=\overrightarrow{M_{A}}(\overrightarrow{F})+\overrightarrow{BA}\land\overrightarrow{F}$$
+\end{prop}
+\begin{demo}
+Soit
+\end{demo}
+\begin{meth}
+Calcul d'un moment avec le bras de levier
+
+\end{meth}
+\section{Torseur \index{torseur} force}
 \begin{defi}
 
-$$\{\tau\}_{A}=\left\{\begin{array}{c}\overrightarrow{R}\\\overrightarrow{M_A}\end{array}\right\}_A=\left\{\begin{array}{c} \sum_{1}^{n}\overrightarrow{F_i}\\\sum_{1}^{n}\overrightarrow{AP_i}\land\overrightarrow{F_i}\end{array}\right\}=$$
+$$\{\tau\}_{A}=\begin{Bmatrix}\overrightarrow{R}\\\overrightarrow{M_A}\end{Bmatrix}_A=\begin{Bmatrix} \sum_{1}^{n}\overrightarrow{F_i}\\\sum_{1}^{n}\overrightarrow{AP_i}\land\overrightarrow{F_i}\end{Bmatrix}_A=\begin{Bmatrix} R_x & R_y  & R_z\\ M_x & M_y & M_z\end{Bmatrix}_A$$
 \end{defi}
 \begin{rmq}
 Dans le cas d'un point matériel le torseur force se réduit seulement à la résultante des forces.
@@ -20,8 +33,16 @@ Dans le cas d'un point matériel le torseur force se réduit seulement à la ré
 \subsection{Éléments de réduction}
 \section{Torseur de force répartie}
 \section{Torseur cinématique}
+\begin{defi}
+
+$${\lbrace\chi\rbrace}_{A/R_0}=\begin{Bmatrix}\overrightarrow{\omega}_{\Sigma/R_0}\\\overrightarrow{V}_{\Sigma/R_0}(A)\end{Bmatrix}_{A/R_0}=\begin{Bmatrix} \omega_x & \omega_y  & \omega_z\\ u_A & v_A & w_A\end{Bmatrix}_{A/R_0}$$
+\end{defi}
 \section{Torseur de liaisons}
 \section{Torseur déplacement infinitésimal}
+\begin{defi}
+
+$${\lbrace\delta\chi\rbrace}_{A/R_0}=\begin{Bmatrix}\delta\overrightarrow{\omega}_{\Sigma/R_0}\\\delta\overrightarrow{l}_{\Sigma/R_0}(A)\end{Bmatrix}_{A/R_0}=\begin{Bmatrix} \delta\omega_x & \delta\omega_y  & \delta\omega_z\\ \delta u_A & \delta v_A & \delta w_A\end{Bmatrix}_{A/R_0}$$
+\end{defi}
 \section{Opérations sur les torseurs}
 \chapter{Statique du solide}
 \section{Principe fondamentale de la statique}
@@ -48,7 +69,6 @@ A chaque solide $\Sigma$ est associée un quantité (scalaire), noté $m$, qui r
 $$m=\int dm$$
 avec $dm$ l'élément infinitésimal de masse
 \end{defi}
-
 Sachant cela il est possible de définit la masse à partir des distributions de masse :
 \begin{itemize}
     \item Masse volumique $\rho$ (en $kg.m^{-1}$)
@@ -61,7 +81,6 @@ Par définition de ces trois grandeurs, on peut écrire l'élément infinitésim
     \item $dm=\sigma(M)dS$
     \item $dm=\lambda(M)dl$
 \end{itemize}
-
 où $dV$, $dS$ et $dl$ sont respectivement les éléments infinitésimaux de volume, de surface et le déplacement élémentaire autour d'un point M.\\
  \\
 En définitive, on peut donc écrire :
@@ -73,7 +92,6 @@ En définitive, on peut donc écrire :
 \begin{ex}
 ...
 \end{ex}
-
 \subsection{Centre de Gravité et référentiel barycentrique}
 \section{Torseur cinétique}
 \section{Matrice d'inertie}
