@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  29 NOV 2022 15:38
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  30 NOV 2022 08:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1001,7 +1001,7 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mult@nat@firstbox=\box128
 \colbreak@box=\box129
 \mc@col@check@num=\count413
-) (main.aux (MAT304.aux) (MAT307.aux) (MEC301.aux) (PHY301.aux) (PHY302.aux) (Annexes.aux))
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -1066,11 +1066,13 @@ LaTeX Font Info:    ... okay on input line 40.
 LaTeX Info: Redefining \degres on input line 40.
 LaTeX Info: Redefining \up on input line 40.
 Package hyperref Info: Link coloring OFF on input line 40.
-(main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
- (C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-french.trsl
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-french.trsl
 File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 40.
@@ -1090,18 +1092,14 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] [2
 
-] (main.toc
-Overfull \hbox (3.74901pt too wide) in paragraph at lines 19--19
-[][]\TU/lmr/bx/n/14.4 II Mat-307 : Courbes paramétrées et équations différentielles pour 
- []
-
-[3] [4])
+]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5] [6
+[3] [4
 
-] [7] [8]
+] [5] [6]
 \openout2 = `MAT304.aux'.
 
  (MAT304.tex
@@ -1118,25 +1116,309 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[9
+[7
 
 
-] [10
+] [8
 
 ]
 Chapitre 2.
-[11] [12
+[9] [10
 
 ]
 Chapitre 3.
-Package hyperref Info: bookmark level for unknown bclogo defaults to 0 on input line 8.
+Package hyperref Info: bookmark level for unknown bclogo defaults to 0 on input line 10.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 8.
-[13] [14
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 10.
+
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 11 undefined on input line 13.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 18.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 28.
+
+LaTeX Warning: Reference `mdf@pagelabel-2' on page 11 undefined on input line 28.
+
+[11]
+
+LaTeX Warning: Reference `mdf@pagelabel-3' on page 12 undefined on input line 28.
+
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 30.
+
+LaTeX Warning: Reference `mdf@pagelabel-4' on page 12 undefined on input line 34.
+
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 37.
+
+LaTeX Warning: Reference `mdf@pagelabel-5' on page 12 undefined on input line 44.
+
+[12]
+Chapitre 4.
+MAT304.tex:49: Illegal parameter number in definition of \@themark.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+MAT304.tex:49: Illegal parameter number in definition of \@themark.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+MAT304.tex:49: Illegal parameter number in definition of \@themark.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+MAT304.tex:49: Illegal parameter number in definition of \@themark.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathchoice' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vbox' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\everycr' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tabskip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\halign' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
+
+MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+MAT304.tex:49: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   \crcr 
+l.49 ...on{Le gradient $\overrightarrow{\nabla}$ }
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 51.
+
+LaTeX Warning: Reference `mdf@pagelabel-6' on page 13 undefined on input line 57.
+
+File: bc-outil.mps Graphic file (type mps)
+<bc-outil.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 58.
+
+LaTeX Warning: Reference `mdf@pagelabel-7' on page 13 undefined on input line 65.
+
+[13
 
 ]
-Chapitre 4.
+
+LaTeX Warning: Reference `mdf@pagelabel-8' on page 14 undefined on input line 65.
+
+File: bc-loupe.mps Graphic file (type mps)
+<bc-loupe.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 66.
+
+LaTeX Warning: Reference `mdf@pagelabel-9' on page 14 undefined on input line 68.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 70.
+
+LaTeX Warning: Reference `mdf@pagelabel-10' on page 14 undefined on input line 79.
+
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 80.
+
+LaTeX Warning: Reference `mdf@pagelabel-11' on page 14 undefined on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 83.
+
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 84.
+
+LaTeX Warning: Reference `mdf@pagelabel-12' on page 14 undefined on input line 89.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 92.
+Package mdframed Info: Not enough space on this page on input line 94.
+[14]
+Package mdframed Info: Not enough space on this page on input line 94.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-13' on page 15 undefined on input line 94.
+
 [15] [16
 
 ]
@@ -1151,122 +1433,177 @@ Chapitre 6.
 Chapitre 7.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 26.
+Package mdframed Info: mdframed works in twoside mode on input line 107.
+
+LaTeX Warning: Reference `mdf@pagelabel-14' on page 21 undefined on input line 109.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 31.
+Package mdframed Info: mdframed works in twoside mode on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
+
+
+LaTeX Warning: Reference `mdf@pagelabel-15' on page 21 undefined on input line 122.
 
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 42.
+Package mdframed Info: mdframed works in twoside mode on input line 123.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 
  []
 
-Package mdframed Info: Not enough space on this page on input line 55.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
+
+ []
+
+Package mdframed Info: Not enough space on this page on input line 136.
 [21]
-Package mdframed Info: Not enough space on this page on input line 55.
+Package mdframed Info: Not enough space on this page on input line 136.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-16' on page 22 undefined on input line 136.
+
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 58.
+Package mdframed Info: mdframed works in twoside mode on input line 139.
 
-Overfull \hbox (22.227pt too wide) in paragraph at lines 62--62
+LaTeX Warning: Reference `mdf@pagelabel-17' on page 22 undefined on input line 142.
+
+
+Overfull \hbox (22.227pt too wide) in paragraph at lines 143--143
 []\TU/lmr/bx/n/17.28 Polynôme caractéristique et calcul des éléments propres 
  []
 
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 64.
+Package mdframed Info: mdframed works in twoside mode on input line 145.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
 
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 74.
+(mdframed)              on input line 155.
+
+LaTeX Warning: Reference `mdf@pagelabel-18' on page 22 undefined on input line 155.
+
 [22]
+
+LaTeX Warning: Reference `mdf@pagelabel-19' on page 23 undefined on input line 155.
+
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 76.
+Package mdframed Info: mdframed works in twoside mode on input line 157.
+
+LaTeX Warning: Reference `mdf@pagelabel-20' on page 23 undefined on input line 160.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 81.
+Package mdframed Info: mdframed works in twoside mode on input line 162.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--96
+Underfull \hbox (badness 10000) in paragraph at lines 163--177
 
  []
 
+
+LaTeX Warning: Reference `mdf@pagelabel-21' on page 23 undefined on input line 179.
+
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 100.
+Package mdframed Info: mdframed works in twoside mode on input line 181.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--113
+LaTeX Warning: Reference `mdf@pagelabel-22' on page 23 undefined on input line 188.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 
  []
 
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 114.
+Package mdframed Info: mdframed works in twoside mode on input line 195.
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 119.
+(mdframed)                or something else on input line 200.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-23' on page 23 undefined on input line 200.
 
 [23]
+
+LaTeX Warning: Reference `mdf@pagelabel-24' on page 24 undefined on input line 200.
+
 File: bc-lampe.mps Graphic file (type mps)
 <bc-lampe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 121.
+Package mdframed Info: mdframed works in twoside mode on input line 202.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
+
+
+LaTeX Warning: Reference `mdf@pagelabel-25' on page 24 undefined on input line 210.
 
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 130.
+Package mdframed Info: mdframed works in twoside mode on input line 211.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--152
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
+
+
+LaTeX Warning: Reference `mdf@pagelabel-26' on page 24 undefined on input line 249.
 
 [24]
+
+LaTeX Warning: Reference `mdf@pagelabel-27' on page 25 undefined on input line 249.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 173.
+Package mdframed Info: mdframed works in twoside mode on input line 254.
+
+LaTeX Warning: Reference `mdf@pagelabel-28' on page 25 undefined on input line 256.
+
 File: bc-lampe.mps Graphic file (type mps)
 <bc-lampe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 179.
- [25]
+Package mdframed Info: mdframed works in twoside mode on input line 260.
+[25]
+
+LaTeX Warning: Reference `mdf@pagelabel-29' on page 26 undefined on input line 272.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 192.
+Package mdframed Info: mdframed works in twoside mode on input line 273.
+
+LaTeX Warning: Reference `mdf@pagelabel-30' on page 26 undefined on input line 275.
+
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 196.
- [26]
+Package mdframed Info: mdframed works in twoside mode on input line 277.
+
+LaTeX Warning: Reference `mdf@pagelabel-31' on page 26 undefined on input line 280.
+
+[26]
 Chapitre 8.
 ) [27
 
@@ -1285,15 +1622,25 @@ Chapitre 1.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 4.
+
+LaTeX Warning: Reference `mdf@pagelabel-32' on page 33 undefined on input line 11.
+
 File: bc-info.mps Graphic file (type mps)
 <bc-info.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 19.
+
+LaTeX Warning: Reference `mdf@pagelabel-33' on page 33 undefined on input line 22.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 [33
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 27.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-34' on page 34 undefined on input line 30.
+
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 33.
@@ -1302,13 +1649,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--41
 
  []
 
+
+LaTeX Warning: Reference `mdf@pagelabel-35' on page 34 undefined on input line 41.
+
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 44.
+
+LaTeX Warning: Reference `mdf@pagelabel-36' on page 34 undefined on input line 53.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 54.
 [34]
+
+LaTeX Warning: Reference `mdf@pagelabel-37' on page 35 undefined on input line 76.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 79.
@@ -1317,17 +1673,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
+
+LaTeX Warning: Reference `mdf@pagelabel-38' on page 35 undefined on input line 82.
+
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 86.
 [35]
 Package mdframed Info: Not enough space on this page on input line 102.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-39' on page 36 undefined on input line 102.
+
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 109.
+
+LaTeX Warning: Reference `mdf@pagelabel-40' on page 36 undefined on input line 116.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
- [36]
+[36]
 Package mdframed Info: mdframed works in twoside mode on input line 119.
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--133
@@ -1339,6 +1705,9 @@ Overfull \hbox (2.60799pt too wide) in paragraph at lines 124--146
 $[]$ $[]$ 
  []
 
+
+LaTeX Warning: Reference `mdf@pagelabel-41' on page 37 undefined on input line 146.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 149.
@@ -1346,6 +1715,9 @@ Package mdframed Info: mdframed works in twoside mode on input line 149.
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
+
+
+LaTeX Warning: Reference `mdf@pagelabel-42' on page 37 undefined on input line 156.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 157--164
@@ -1356,33 +1728,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--164
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 176.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-43' on page 38 undefined on input line 188.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 192.
 Package mdframed Info: Not enough space on this page on input line 194.
- [38]
+[38]
 Package mdframed Info: Not enough space on this page on input line 194.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-44' on page 39 undefined on input line 194.
+
 File: bc-lampe.mps Graphic file (type mps)
 <bc-lampe.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 200.
+
+LaTeX Warning: Reference `mdf@pagelabel-45' on page 39 undefined on input line 210.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 211.
- [39]
+
+LaTeX Warning: Reference `mdf@pagelabel-46' on page 39 undefined on input line 236.
+
+[39]
+
+LaTeX Warning: Reference `mdf@pagelabel-47' on page 40 undefined on input line 236.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 239.
+
+LaTeX Warning: Reference `mdf@pagelabel-48' on page 40 undefined on input line 247.
+
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 250.
- [40]
+
+LaTeX Warning: Reference `mdf@pagelabel-49' on page 40 undefined on input line 253.
+
+[40]
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 262.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-50' on page 41 undefined on input line 275.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 279.
- [41] [42
+
+LaTeX Warning: Reference `mdf@pagelabel-51' on page 41 undefined on input line 285.
+
+[41] [42
 
 ]
 Chapitre 2.
@@ -1421,12 +1823,21 @@ Chapitre 1.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 7.
+
+LaTeX Warning: Reference `mdf@pagelabel-52' on page 57 undefined on input line 10.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 13.
+
+LaTeX Warning: Reference `mdf@pagelabel-53' on page 57 undefined on input line 16.
+
 File: bc-info.mps Graphic file (type mps)
 <bc-info.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 17.
+
+LaTeX Warning: Reference `mdf@pagelabel-54' on page 57 undefined on input line 19.
+
 [57
 
 
@@ -1456,6 +1867,9 @@ File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 46.
 
+LaTeX Warning: Reference `mdf@pagelabel-55' on page 63 undefined on input line 50.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 65--68
 
  []
@@ -1464,6 +1878,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--68
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 73.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-56' on page 64 undefined on input line 75.
+
 ) [64] [65
 
 
@@ -1493,9 +1911,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
  []
 
+
+LaTeX Warning: Reference `mdf@pagelabel-57' on page 73 undefined on input line 15.
+
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 16.
+
+LaTeX Warning: Reference `mdf@pagelabel-58' on page 73 undefined on input line 22.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 24.
@@ -1503,6 +1927,10 @@ Package mdframed Info: mdframed works in twoside mode on input line 24.
 
 
 ]
+
+LaTeX Warning: Reference `mdf@pagelabel-59' on page 74 undefined on input line 26.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
@@ -1510,12 +1938,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 35.
+
+LaTeX Warning: Reference `mdf@pagelabel-60' on page 74 undefined on input line 38.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 40.
+
+LaTeX Warning: Reference `mdf@pagelabel-61' on page 74 undefined on input line 42.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 46.
+
+LaTeX Warning: Reference `mdf@pagelabel-62' on page 74 undefined on input line 48.
+
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 50.
@@ -1531,7 +1968,14 @@ Package mdframed Warning: You got a bad break
 (mdframed)                by changing the text, the space
 (mdframed)                or something else on input line 57.
 
-[74] [75] [76
+
+LaTeX Warning: Reference `mdf@pagelabel-63' on page 74 undefined on input line 57.
+
+[74]
+
+LaTeX Warning: Reference `mdf@pagelabel-64' on page 75 undefined on input line 57.
+
+[75] [76
 
 ]
 Chapitre 2.
@@ -1557,16 +2001,28 @@ Chapitre 5.
 
 No file Annexes.tex.
 (main.aux (MAT304.aux) (MAT307.aux) (MEC301.aux) (PHY301.aux) (PHY302.aux) (Annexes.aux))
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8B131DFA1E42658539C8A332FE4F102E;16347.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  AAF97EEAFB60CFB291F04B72B1E42545;17441.
  ) 
 Here is how much of TeX's memory you used:
- 33177 strings out of 410921
- 650624 string characters out of 2822672
- 1189853 words of memory out of 3000000
- 53375 multiletter control sequences out of 15000+600000
+ 33153 strings out of 410921
+ 650534 string characters out of 2822672
+ 1183743 words of memory out of 3000000
+ 53369 multiletter control sequences out of 15000+600000
  483090 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,21n,96p,703b,1081s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 93i,22n,96p,5747b,1085s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (86 pages, 1760092 bytes).
+Output written on main.xdv (86 pages, 2008944 bytes).

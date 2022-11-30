@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1669732729 "main.xdv" "main.pdf" "main" 1669732940
-  "main.xdv" 1669732728 1760092 ff9d7cc6128adfc043dbfbf9972c325d "xelatex"
+["xdvipdfmx"] 0 "main.xdv" "main.pdf" "main" 0
+  "main.xdv" 0 -1 0 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1669732723 "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" "main.xdv" "main" 1669732940
-  "Annexes.aux" 1669732728 1375 a466eb13531729235b6a350649312305 "xelatex"
+["xelatex"] 1669793337 "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" "main.xdv" "main" 1669793337
+  "Annexes.aux" 0 -1 0 "xelatex"
   "Annexes.tex" 0 -1 0 ""
   "C:/Users/segur/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1657869726 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/segur/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1657869728 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -157,6 +157,7 @@
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/bclogo/bc-crayon.mps" 1452539144 10508 32fe774902fc4cc37e74ed9822c93293 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/bclogo/bc-info.mps" 1452539144 3648 a48565c72154ad8c7a3d45288b19b77e ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/bclogo/bc-lampe.mps" 1452539144 2418 93dbaefed4d9e91d7604ed409b3cb560 ""
+  "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/bclogo/bc-loupe.mps" 1452539144 1645 9ebe446257852330f15942884132b67d ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/bclogo/bc-outil.mps" 1452539144 1556 7f76ddb541225db3c36c64030c3bd603 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/bclogo/bclogo.sty" 1452539144 22518 1f6a4ecab39ccbb8d89292d57c25d0b8 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/carlisle/scalefnt.sty" 1522604221 1360 df2086bf924b14b72d6121fe9502fcdb ""
@@ -227,21 +228,21 @@
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1650047684 2245 c8a4088d07cffc2e5207730c738edd76 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1650047684 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/xelatex/xetex-pstricks/pstricks.con" 1266284760 204 366747485ba2670f55166e66d1f21249 ""
-  "MAT304.aux" 1669732727 7401 4d42f3f0a7f31e566e8051b5f648789f "xelatex"
-  "MAT304.tex" 1669551307 12712 1ab344bbc52faa7ea65791634d978121 ""
-  "MAT307.aux" 1669732728 8749 5c28e1fa06cb5f53d9630731622b5a0b "xelatex"
+  "MAT304.aux" 0 -1 0 "xelatex"
+  "MAT304.tex" 1669793260 18536 b39ce2321bef269fdd53b703ea8d4ce3 ""
+  "MAT307.aux" 0 -1 0 "xelatex"
   "MAT307.tex" 1669732717 17380 df833ceab21009e15d41ab86b4c9fff4 ""
-  "MEC301.aux" 1669732728 5684 78101396a3275f2f9d1e04786d23c26e "xelatex"
+  "MEC301.aux" 0 -1 0 "xelatex"
   "MEC301.tex" 1669481503 3762 8b8deb5ffe39fed3d6263d158b8e24c6 ""
-  "PHY301.aux" 1669732728 1609 d067f015cb935d03bddad52cd71b6d9e "xelatex"
+  "PHY301.aux" 0 -1 0 "xelatex"
   "PHY301.tex" 1669131441 62 88fca3a215b849a996b4655528b35b65 ""
-  "PHY302.aux" 1669732728 4954 4a31144b284fe4474ed11155c3f2042a "xelatex"
+  "PHY302.aux" 0 -1 0 "xelatex"
   "PHY302.tex" 1669545626 3847 a86dbf75d72906478a5fe0a2e32f3a7d ""
   "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" 1669732629 2224 6f2df24f856866c28ac0301e4e628def ""
-  "main.aux" 1669732728 1558 72b28bd494aefcbd49294cacbf911056 "xelatex"
-  "main.out" 1669732728 16347 8b131dfa1e42658539c8a332fe4f102e "xelatex"
+  "main.aux" 1669793337 34 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "main.out" 0 -1 0 "xelatex"
   "main.tex" 1669732629 2224 6f2df24f856866c28ac0301e4e628def ""
-  "main.toc" 1669732728 7715 5150d5a5743644de89cd9173f53ac1ae "xelatex"
+  "main.toc" 0 -1 0 "xelatex"
   (generated)
   "Annexes.aux"
   "MAT304.aux"

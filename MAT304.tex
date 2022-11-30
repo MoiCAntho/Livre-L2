@@ -3,15 +3,96 @@
 \chapter{Dérivation en plusieurs variables}
 \section{Définition et premières propriétés}
  En dimension 1, la dérivée ne peut être approchée par uniquement 2 directions (par la gauche et par la droite).
- A partir de la dimension 2, il y a infinité de directions par lesquelles approchée la dérivée.
-
+ A partir de la dimension 2, il y a infinité de directions par lesquelles approchée la dérivée.\\
+ \newline
+ Schéma\\
+On peut commencer par dérivée selon les vecteurs de bases de $\mathbb{R}^n$ ( les vecteurs $\overrightarrow{u_n}$), les vecteurs
+\begin{defi}
+    La dérivée partielle de $f:\mathbb{R}^n\to\mathbb{R}$ par rapport à $x_i$, $1\ge i\ge n$, en $\overrightarrow{a}\in\mathscr{D}_f$, noté $\frac{\partial f(\overrightarrow{a})}{\partial x_i}$ ou $f^{\prime}_{x_i}(\overrightarrow{a})$ est la valeur de la limite suivante quand elle existe :
+    $$\frac{\partial f(\overrightarrow{a})}{\partial x_i}=\lim_{t\to 0}\frac{f(a_1,...,a_i+t,...,a_n)-f(a_1,...,a_n)}{t}$$
+\end{defi}
+Dans le cas d'une fonction défini comme $f:\mathbb{R}^2\to\mathbb{R}$, on a :\\
+$$\frac{\partial f(x,y)}{\partial x} = \lim_{t\to 0}\frac{f(x+t,y)-f(x,y)}{t}$$
+$$\frac{\partial f(x,y)}{\partial y} = \lim_{s\to 0}\frac{f(x+s,y)-f(x,y)}{s}$$
+De manière pratique, on choisit la variable par rapport à laquelle on dérive l'expression, on considère toutes les autres constantes et on dérive "normalement".
+\begin{ex}
+\begin{enumerate}
+    \item Soit $f(\overrightarrow{x})=3x_1^3x_3+2x_1x_2^2-5x_3^4$, on a :
+    $$\frac{\partial f(\overrightarrow{x})}{\partial x_1} = 9x_1^2x_3+2x_2^2 $$
+    $$\frac{\partial f(\overrightarrow{x})}{\partial x_2} = 4x_1x_2$$
+    $$\frac{\partial f(\overrightarrow{x})}{\partial x_3} = 3x_1^3-20x_3^3$$
+    \item Soit $f(x,y)=e^{xy^2}$, on a :
+    $$\frac{\partial f(x,y)}{\partial x} = y^2e^{xy^2}$$
+    $$\frac{\partial f(x,y)}{\partial y} = 2xye^{xy^2}$$
+\end{enumerate}
+\end{ex}
+Il possible de dérivée selon une direction quelconque, pour cela on définit la dérivée directionnelle.
 \begin{defi}
     Soient $f:\mathbb{R}^n\to\mathbb{R}$, $\overrightarrow{a}\in\mathscr{D}_f$ et $\overrightarrow{h}\in\mathbb{R}^n$.\\
-    La dérivée directionnelle de $f$ en $\overrightarrow{a}$ suivant la direction $\overrightarrow{h}$ est, si elle existe,
-    la limite $\lim_{\epsilon\to 0}\frac{f(\overrightarrow{a}+\epsilon\overrightarrow{h})-f(\overrightarrow{a})}{\epsilon}$ et on la note $\frac{\partial f}{\partial\overrightarrow{h}}(\overrightarrow{a})$
+    La dérivée directionnelle de $f$ en $\overrightarrow{a}$ suivant la direction $\overrightarrow{h}$ est la quantité défini par la limite suivante si elle existe:
+    $$\frac{\partial f}{\partial\overrightarrow{h}}(\overrightarrow{a})=\lim_{\epsilon\to 0}\frac{f(\overrightarrow{a}+\epsilon\overrightarrow{h})-f(\overrightarrow{a})}{\epsilon}$$ 
 \end{defi}
-\section{Différentiabilité et formes différentielles}
+\subsection{Gradient et matrice jacobienne}
+On définit pour les fonction
+\begin{defi}
+Soit $f:\mathbb{R}^n\to\mathbb{R}$, on considère les dérivées partielles selon chacune des variables.\\
+A partir de ces dernières, on définit deux objets :
+\begin{itemize}
+    \item Le vecteur gradient de $f$ en $\overrightarrow{a}$ : $\overrightarrow{\text{grad}f(\overrightarrow{a})}=\overrightarrow{\nabla f(\overrightarrow{a})}=\begin{pmatrix}\frac{\partial f(\overrightarrow{a})}{\partial x_1}\\\vdots\\\frac{\partial f(\overrightarrow{a})}{\partial x_n}\end{pmatrix}$
+    \item La matrice jacobienne de $f$ en $\overrightarrow{a}$ : $J_f(\overrightarrow{a})=\begin{pmatrix}\frac{\partial f(\overrightarrow{a})}{\partial x_1}&\hdots&\frac{\partial f(\overrightarrow{a})}{\partial x_n}\end{pmatrix}$
+\end{itemize}
+\end{defi}
+\section{Différentielle}
+\section{Dérivées d'ordres supérieurs}
 \chapter{Opérateurs différentielles}
+Attention, l'expression des opérateurs changent selon le système de coordonnées.
+\section{Le gradient $\overrightarrow{\nabla}$ }
+Nous avons déjà définit le gradient d'une fonction évalué en un point, on va maintenant définir l'opérateur gradient.
+\begin{defi}
+On appelle gradient, l'opérateur définit comme il suit :
+$$\overrightarrow{\nabla}=\begin{pmatrix}\frac{\partial}{\partial x_1}\\\vdots\\\frac{\partial}{\partial x_n}\end{pmatrix}$$
+\newline
+Le gradient d'une fonction $f:\mathbb{R}^n\to\mathbb{R}$ est donc :
+$$\overrightarrow{\nabla}f=\begin{pmatrix}\frac{\partial}{\partial x_1}\\\vdots\\\frac{\partial}{\partial x_n}\end{pmatrix}\times f=\begin{pmatrix}\frac{\partial f}{\partial x_1}\\\vdots\\\frac{\partial f}{\partial x_n}\end{pmatrix}=\overrightarrow{grad(\overrightarrow{f})}$$
+\end{defi}
+\begin{prop}
+Soit un champ vectoriel $\overrightarrow{f}$ dans l'espace $\mathbb{R}^3$, nous avons pour expression du gradient :
+\begin{itemize}
+    \item En coordonnées cartésiennes (par définition) : $$\overrightarrow{\nabla}f=\frac{\partial f}{\partial x}\overrightarrow{u_x}+\frac{\partial f}{\partial y}\overrightarrow{u_y}+\frac{\partial f}{\partial z}\overrightarrow{u_z}$$
+    \item En coordonnées cylindriques : $$\overrightarrow{\nabla}f=\frac{1}{r}\frac{\partial f}{\partial r}\overrightarrow{u_r}+\frac{\partial f}{\partial \theta}\overrightarrow{u_\theta}+\frac{\partial f}{\partial z}\overrightarrow{u_z}$$
+    \item En coordonnées sphériques : $$\overrightarrow{\nabla}f=\frac{\partial r}{\partial x}\overrightarrow{u_r}+\frac{1}{r}\frac{\partial f}{\partial \theta}\overrightarrow{u_\theta}+\frac{1}{r\sin{\theta}}\frac{\partial f}{\partial \phi}\overrightarrow{u_\phi}$$
+\end{itemize}
+\end{prop}
+\begin{demo}
+soit
+\end{demo}
+\section{La divergence $div$}
+\begin{defi}
+Soit un champ de vecteurs $\overrightarrow{f}:\mathbb{R}^n\mapsto\mathbb{R}^n$ de classe $\mathscr{C}^1$ sur $\mathscr{D}_f$.\\
+La divergence de ce champ est défini comme il suit :
+$$\begin{array}{cccc}
+    div(\overrightarrow{f}) \ : & \mathbb{R}^n & \to & \mathbb{R} \\
+         & a & \mapsto & \frac{\partial f_1}{\partial x_1}+\hdots+\frac{\partial f_n}{\partial x_n}
+\end{array}$$
+Une autre manière de la noter et de la calculer passe par le produit scalaire :
+$$div(\overrightarrow{f})=\overrightarrow{\nabla}.\overrightarrow{f}$$
+\end{defi}
+\begin{thm}
+Green-Ostrogradski
+\end{thm}
+\section{Le rotationnel $rot$}
+\begin{defi}
+Soit un champ de vecteurs $\overrightarrow{f}:\mathbb{R}^3\mapsto\mathbb{R}^3$ de classe $\mathscr{C}^1$ sur $\mathscr{D}_f$, de coordonnées\\ $f=(f_1,f_2,f_3)$.\\
+Le rotationnel de $\overrightarrow{f}$ de ce champ est défini par :
+
+$$rot(\overrightarrow{f})=\overrightarrow{\nabla}\land\overrightarrow{f}=\begin{pmatrix}\frac{\partial}{\partial x}\\\frac{\partial}{\partial y}\\\frac{\partial}{\partial z}\end{pmatrix}\land\begin{pmatrix}f_1\\f_2\\f_3\end{pmatrix}=\begin{pmatrix}\frac{\partial f_3}{\partial y}-\frac{\partial f_2}{\partial z}\\\frac{\partial f_1}{\partial z}-\frac{\partial f_3}{\partial x}\\\frac{\partial f_2}{\partial x}-\frac{\partial f_1}{\partial y}\end{pmatrix}$$
+\end{defi}
+
+\section{Le laplacien $\Delta^2$}
+\begin{defi}
+Soit une fonction $f:\mathbb{R}\mapsto\mathbb{R}$ de classe $\mathscr{C}^1$ sur $\mathscr{D}_f$
+\end{defi}
+\section{Équations aux dérivées partielles}
 \chapter{Intégration en plusieurs variables}
 \chapter{Calcul matriciel}
 \section{Matrices particulières}
