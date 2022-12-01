@@ -31,15 +31,16 @@ Il possible de dérivée selon une direction quelconque, pour cela on définit l
     Soient $f:\mathbb{R}^n\to\mathbb{R}$, $\overrightarrow{a}\in\mathscr{D}_f$ et $\overrightarrow{h}\in\mathbb{R}^n$.\\
     La dérivée directionnelle de $f$ en $\overrightarrow{a}$ suivant la direction $\overrightarrow{h}$ est la quantité défini par la limite suivante si elle existe:
     $$\frac{\partial f}{\partial\overrightarrow{h}}(\overrightarrow{a})=\lim_{\epsilon\to 0}\frac{f(\overrightarrow{a}+\epsilon\overrightarrow{h})-f(\overrightarrow{a})}{\epsilon}$$ 
+    \newline
 \end{defi}
 \subsection{Gradient et matrice jacobienne}
 On définit pour les fonction
 \begin{defi}
-Soit $f:\mathbb{R}^n\to\mathbb{R}$, on considère les dérivées partielles selon chacune des variables.\\
-A partir de ces dernières, on définit deux objets :
+Soit un champ de vecteur $f:\mathbb{R}^n\to\mathbb{R}^p$, on considère les dérivées partielles selon chacune des variables.\\
+Selon la valeur de $p$, on créé deux objets :
 \begin{itemize}
-    \item Le vecteur gradient de $f$ en $\overrightarrow{a}$ : $\overrightarrow{\text{grad}f(\overrightarrow{a})}=\overrightarrow{\nabla f(\overrightarrow{a})}=\begin{pmatrix}\frac{\partial f(\overrightarrow{a})}{\partial x_1}\\\vdots\\\frac{\partial f(\overrightarrow{a})}{\partial x_n}\end{pmatrix}$
-    \item La matrice jacobienne de $f$ en $\overrightarrow{a}$ : $J_f(\overrightarrow{a})=\begin{pmatrix}\frac{\partial f(\overrightarrow{a})}{\partial x_1}&\hdots&\frac{\partial f(\overrightarrow{a})}{\partial x_n}\end{pmatrix}$
+    \item Si  p=1, on définit le gradient de la fonction scalaire $f$ en $\overrightarrow{a}$ : $$\overrightarrow{\text{grad}}f(\overrightarrow{a})=\overrightarrow{\nabla} f(\overrightarrow{a})=\begin{pmatrix}\frac{\partial f}{\partial x_1}(\overrightarrow{a})\\\vdots\\\frac{\partial f}{\partial x_n}(\overrightarrow{a})\end{pmatrix}$$
+    \item Si $p>1$, on défini la matrice jacobienne $J_f(\overrightarrow{a})$ (de dimension $n\times p$) de la fonction $f$ en $\overrightarrow{a}$ : $$J_f(\overrightarrow{a})=\begin{pmatrix}\frac{\partial f_1}{\partial x_1}(\overrightarrow{a})&\hdots&\frac{\partial f_1}{\partial x_n}(\overrightarrow{a})\\ \vdots & \ddots & \vdots\\ \frac{\partial f_p}{\partial x_1}(\overrightarrow{a}) & \hdots & \frac{\partial f_p}{\partial x_n}(\overrightarrow{a})\end{pmatrix}$$
 \end{itemize}
 \end{defi}
 \section{Différentielle}
@@ -52,11 +53,11 @@ Nous avons déjà définit le gradient d'une fonction évalué en un point, on v
 On appelle gradient, l'opérateur définit comme il suit :
 $$\overrightarrow{\nabla}=\begin{pmatrix}\frac{\partial}{\partial x_1}\\\vdots\\\frac{\partial}{\partial x_n}\end{pmatrix}$$
 \newline
-Le gradient d'une fonction $f:\mathbb{R}^n\to\mathbb{R}$ est donc :
+Le gradient d'une fonction scalaire $f:\mathbb{R}^n\to\mathbb{R}$ est donc :
 $$\overrightarrow{\nabla}f=\begin{pmatrix}\frac{\partial}{\partial x_1}\\\vdots\\\frac{\partial}{\partial x_n}\end{pmatrix}\times f=\begin{pmatrix}\frac{\partial f}{\partial x_1}\\\vdots\\\frac{\partial f}{\partial x_n}\end{pmatrix}=\overrightarrow{grad(\overrightarrow{f})}$$
 \end{defi}
 \begin{prop}
-Soit un champ vectoriel $\overrightarrow{f}$ dans l'espace $\mathbb{R}^3$, nous avons pour expression du gradient :
+Soit un champ scalaire $\overrightarrow{f}$ dans l'espace $\mathbb{R}^3$, nous avons pour expression du gradient :
 \begin{itemize}
     \item En coordonnées cartésiennes (par définition) : $$\overrightarrow{\nabla}f=\frac{\partial f}{\partial x}\overrightarrow{u_x}+\frac{\partial f}{\partial y}\overrightarrow{u_y}+\frac{\partial f}{\partial z}\overrightarrow{u_z}$$
     \item En coordonnées cylindriques : $$\overrightarrow{\nabla}f=\frac{1}{r}\frac{\partial f}{\partial r}\overrightarrow{u_r}+\frac{\partial f}{\partial \theta}\overrightarrow{u_\theta}+\frac{\partial f}{\partial z}\overrightarrow{u_z}$$
@@ -69,16 +70,23 @@ soit
 \section{La divergence $div$}
 \begin{defi}
 Soit un champ de vecteurs $\overrightarrow{f}:\mathbb{R}^n\mapsto\mathbb{R}^n$ de classe $\mathscr{C}^1$ sur $\mathscr{D}_f$.\\
-La divergence de ce champ est défini comme il suit :
-$$\begin{array}{cccc}
-    div(\overrightarrow{f}) \ : & \mathbb{R}^n & \to & \mathbb{R} \\
-         & a & \mapsto & \frac{\partial f_1}{\partial x_1}+\hdots+\frac{\partial f_n}{\partial x_n}
-\end{array}$$
-Une autre manière de la noter et de la calculer passe par le produit scalaire :
-$$div(\overrightarrow{f})=\overrightarrow{\nabla}.\overrightarrow{f}$$
+La divergence de $\overrightarrow{f}$ est donné par :
+$$div(\overrightarrow{f})=\overrightarrow{\nabla}.\overrightarrow{f}=\sum_{i=1}^n \frac{\partial f_i}{\partial x_i}$$
 \end{defi}
-\begin{thm}
-Green-Ostrogradski
+\begin{rmq}
+La divergence est également égale à la trace de la matrice jacobienne.
+$$div(\overrightarrow{f})=\text{Tr}(J_f)$$
+\end{rmq}
+\begin{prop}
+Soit un champ scalaire $\overrightarrow{f}$ dans l'espace $\mathbb{R}^3$, nous avons pour expression de la divergence :
+\begin{itemize}
+    \item En coordonnées cartésiennes (par définition) : $$div(\overrightarrow{f})=\frac{\partial f_x}{\partial x}+\frac{\partial f_y}{\partial y}+\frac{\partial f_z}{\partial z}$$
+    \item En coordonnées cylindriques : $$div(\overrightarrow{f})=\frac{1}{r}\frac{\partial (r f_r)}{\partial r}+\frac{1}{r}\frac{\partial f_{\theta}}{\partial \theta}+\frac{\partial f_z}{\partial z}$$
+    \item En coordonnées sphériques : $$\overrightarrow{\nabla}f=\frac{\partial r}{\partial x}\overrightarrow{u_r}+\frac{1}{r}\frac{\partial f}{\partial \theta}\overrightarrow{u_\theta}+\frac{1}{r\sin{\theta}}\frac{\partial f}{\partial \phi}\overrightarrow{u_\phi}$$
+\end{itemize}
+\end{prop}
+\begin{thm}[Théorème de Green-Ostrogradski]
+
 \end{thm}
 \section{Le rotationnel $rot$}
 \begin{defi}
@@ -88,9 +96,11 @@ Le rotationnel de $\overrightarrow{f}$ de ce champ est défini par :
 $$rot(\overrightarrow{f})=\overrightarrow{\nabla}\land\overrightarrow{f}=\begin{pmatrix}\frac{\partial}{\partial x}\\\frac{\partial}{\partial y}\\\frac{\partial}{\partial z}\end{pmatrix}\land\begin{pmatrix}f_1\\f_2\\f_3\end{pmatrix}=\begin{pmatrix}\frac{\partial f_3}{\partial y}-\frac{\partial f_2}{\partial z}\\\frac{\partial f_1}{\partial z}-\frac{\partial f_3}{\partial x}\\\frac{\partial f_2}{\partial x}-\frac{\partial f_1}{\partial y}\end{pmatrix}$$
 \end{defi}
 
-\section{Le laplacien $\Delta^2$}
+\section{Le laplacien $\Delta$}
 \begin{defi}
-Soit une fonction $f:\mathbb{R}\mapsto\mathbb{R}$ de classe $\mathscr{C}^1$ sur $\mathscr{D}_f$
+Soit une champ scalaire $f:\mathbb{R}^n\mapsto\mathbb{R}$ de classe $\mathscr{C}^2$ sur $\mathscr{D}_f$.
+Le laplacien, noté $\Delta$ $\nabla^2$, est donné par :
+$$\Delta \overrightarrow{f}=\nabla . \overrightarrow{\nabla} f = div(\overrightarrow{grad}f)=\sum_{i=1}^n \frac{\partial^2 f}{\partial {x_i}^2}$$
 \end{defi}
 \section{Équations aux dérivées partielles}
 \chapter{Intégration en plusieurs variables}
@@ -191,7 +201,6 @@ Il nous faut donc résoudre le système suivant :\\
 $$\begin{cases}5x_1+2x_2=\lambda x_1\\4x_1 + 3x_2=\lambda x_2\end{cases}$$
 Sa résolution nous renvoie notamment le vecteur $x=(7,7)$ et il se trouve que $Ax=7\times x$.\\
 On a donc que $\lambda = 7$ une valeur propre de la matrice $A$ et $x=(1,1)$ est vecteur un propre de la matrice $A$ associé à la valeur propre $\lambda = 7$.\\
-\\
 \end{bclogo}
 L'utilisation de la définition d'une valeur propre pour son calcul est une opération assez fastidieuse, c'est pour cela que l'on passe par d'autres moyens pour les déterminer.\\
 On utilise pour cela le polynôme caractéristique de la matrice $A$.
@@ -325,6 +334,9 @@ On cherche $\ker(A-4I_3)$ :
 Ici il y a un vecteur propre associé à la valeur propre $\lambda_2=4$ qui est $v_1=\begin{pmatrix}1\\0\\1\end{pmatrix}$.\\
 \newline 
 Et enfin, a partir des vecteurs propres on déduit les sous espaces propres, ici :
+$$E_{\lambda_1}=\text{Vect}\begin{pmatrix}\begin{pmatrix}1\\1\\0\end{pmatrix},\begin{pmatrix}-1\\0\\1\end{pmatrix}\end{pmatrix}$$
+
+$$E_{\lambda_2}=\text{Vect}\begin{pmatrix}\begin{pmatrix}1\\0\\1\end{pmatrix}\end{pmatrix}$$
 \end{ex}
 
 
@@ -334,9 +346,22 @@ Revenons sur la définition d'une matrice diagonalisable, pour en donner une dé
 La matrice $A\in\mathbb{M}^{n\times n}$ est diagonalisable, s'il existe une matrice diagonale $D$ et une matrice $P$ inversible telles que $A=PDP^{-1}$, où $P$ est la matrice de passage entre la base canonique et la base $\mathscr{B}$ où la matrice $D$ existe.
 \end{bclogo}
 Une propriété qui viens directement a l'esprit est que les matrices $A$ et $D$ sont semblables (par définition).\\
-Tout l'enjeu sera donc de déterminer la matrice de passage $P$.
+Tout l'enjeu sera donc de déterminer la matrice de passage $P$.\\
+Néanmoins, il peut être intéressant de savoir si une matrice est diagonalisable. 
+\begin{thm}[Théorème: Critère de diagonalisation]
+Soit $A\in\mathbb{M}^{n\times n}(\mathbb{R})$.\\
+La matrice $A$ est diagonalisable $\Leftrightarrow$
+\begin{enumerate}
+    \item toutes les racines $\lambda_1,\hdots,\lambda_k$ de $P_A(\lambda)$ sont contenues dans $\mathbb{R}$.
+    \item $\forall i=1,\hdots,k$ on a $\text{dim}(E_{\lambda_i})=\text{multiplicité algébrique de }\lambda_i$
+\end{enumerate}
 
-\begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : Diagonalisation d'une matrice}
+\end{thm}
+\begin{thm}[Corollaire]
+Si $P_A(\lambda)$ admet $n$ racines réelles distinctes $\Leftrightarrow$ $A$ est diagonalisable
+\end{thm}
+
+\begin{meth}[Diagonalisation d'une matrice]
 \begin{enumerate}
     \item Déterminer le polynôme caractéristique
     \item Trouver les valeurs propres de $A$.\\
@@ -348,13 +373,13 @@ Tout l'enjeu sera donc de déterminer la matrice de passage $P$.
     ainsi que la matrice de passage a cette base.\\
     $\mathscr{B} =\bigcup_{i}^{k}\mathscr{B}_i$
 \end{enumerate}
-\end{bclogo}
-\begin{bclogo}[logo=\bccrayon,noborder=true,barre=snake]{Exemple}
+\end{meth}
+\begin{ex}
 rx
-\end{bclogo}
+\end{ex}
 \section{Matrices symétriques et formes quadratiques}
 \begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle ,ombre=true,arrondi=0.1]{Critère de Silvester}
-Une matrice $A$ est semi-définie (définie) positive si et seulement si toutes ses mineures principales sont positifs, c'est à  dire :
+Une matrice $A$ est semi-définie (définie) positive si et seulement si tous ses mineurs principales sont positifs, c'est à  dire :
 $$a_{11}\ge 0, \begin{vmatrix} a_{11}&a_{12}\\ a_{21} & a_{22}\end{vmatrix}\ge 0,\begin{vmatrix}a_{11} & a_{12} & a_{13}\\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33}\end{vmatrix}\ge 0, ...$$
 \end{bclogo}
 \chapter{Extremums en plusieurs variables}

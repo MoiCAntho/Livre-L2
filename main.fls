@@ -1320,9 +1320,6 @@ INPUT PHY301.aux
 INPUT .\PHY302.aux
 INPUT PHY302.aux
 INPUT PHY302.aux
-INPUT .\Annexes.aux
-INPUT Annexes.aux
-INPUT Annexes.aux
 OUTPUT main.aux
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
@@ -1446,6 +1443,11 @@ INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-loupe.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-loupe.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-outil.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-outil.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-cle.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-cle.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-cle.mps
@@ -1494,6 +1496,10 @@ INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-crayon.mp
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-crayon.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-cle.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-cle.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-cle.mps
+INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-cle.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-lampe.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-lampe.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-crayon.mps
@@ -1511,7 +1517,6 @@ INPUT .\MAT307.tex
 INPUT MAT307.tex
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
-INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
@@ -1615,7 +1620,6 @@ INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-book.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
 INPUT C:\Users\segur\AppData\Local\Programs\MiKTeX\tex\latex\bclogo\bc-info.mps
-OUTPUT Annexes.aux
 INPUT main.aux
 INPUT .\MAT304.aux
 INPUT MAT304.aux
@@ -1632,8 +1636,5 @@ INPUT PHY301.aux
 INPUT .\PHY302.aux
 INPUT PHY302.aux
 INPUT PHY302.aux
-INPUT .\Annexes.aux
-INPUT Annexes.aux
-INPUT Annexes.aux
 INPUT .\main.out
 INPUT .\main.out

@@ -18,9 +18,9 @@
 \newenvironment{defi}{\begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}}{\end{bclogo}}
 \newenvironment{ex}{\begin{bclogo}[logo=\bccrayon,noborder=true,barre=snake]{Exemple}}{\end{bclogo}}
 \newenvironment{prop}{\begin{bclogo}[couleur=red!30,couleurBord=red,ombre=true,arrondi=0.1,logo=\bcoutil]{Propriété}}{\end{bclogo}}
-\newenvironment{thm}{\begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle ,ombre=true,arrondi=0.1]{Théorème}}{\end{bclogo}}
-\newenvironment{meth}{\begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : }}{\end{bclogo}}
-\newenvironment{demo}{\begin{bclogo}[couleur=gray!20,couleurBord=gray,logo=\bcloupe ,arrondi=0.1, ombre=true, barre = zigzag]{Démonstration}}{\end{bclogo}}
+\newenvironment{thm}[1][]{\begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle,ombre=true,arrondi=0.1]{#1}}{\end{bclogo}}
+\newenvironment{meth}[1][]{\begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode: #1 }}{\end{bclogo}}
+\newenvironment{demo}{\begin{bclogo}[couleur=gray!20,couleurBord=gray,logo=\bcloupe,arrondi=0.1, ombre=true, barre = zigzag]{Démonstration}}{\end{bclogo}}
 \newenvironment{rmq}{\begin{bclogo}[couleur=orange!30,couleurBord=orange,arrondi=0.1,ombre=true,logo=\bcinfo]{Remarque}}{\end{bclogo}}
 
 
@@ -32,27 +32,27 @@
 \author{Anthony LOUVAT-SEGURA, Vigrile CHEMINOT}
 \date{November 2022}
 
-\fancyhead{}
-\fancyfoot{}
-\fancyfoot[LE,RO]{\thepage}
+\fancyhead[LO,OR,LE,RE]{}
+\fancyfoot[OL,OR,LE,RE]{}
+\fancyfoot[LE,OR]{\thepage}
 
 
 \begin{document}
 
 \maketitle
 \tableofcontents
-\part{Mat-304 : Calcul matriciel et fonctions de plusieurs variables}
+\part{Mat-304: Calcul matriciel et fonctions de plusieurs variables}
 \include{MAT304.tex}
 \newpage
-\part{Mat-307 : Courbes paramétrées et équations différentielles pour la physique}
+\part{Mat-307: Courbes paramétrées et équations différentielles pour la physique}
 \include{MAT307.tex}
-\part{Mec-301 : Mécanique du solide indéformable}
+\part{Mec-301: Mécanique du solide indéformable}
 \include{MEC301.tex}
-\part{Phy-301 : Électromagnétisme 1}
+\part{Phy-301: Électromagnétisme 1}
 \include{PHY301.tex}
-\part{Phy-302 : Thermodynamique}
+\part{Phy302: Thermodynamique}
 \include{PHY302.tex}
 \part{Annexes}
-\include{Annexes.tex}
+%\include{Annexes.tex}
 
 \end{document}
