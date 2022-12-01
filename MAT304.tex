@@ -204,10 +204,6 @@ On a donc que $\lambda = 7$ une valeur propre de la matrice $A$ et $x=(1,1)$ est
 \end{bclogo}
 L'utilisation de la définition d'une valeur propre pour son calcul est une opération assez fastidieuse, c'est pour cela que l'on passe par d'autres moyens pour les déterminer.\\
 On utilise pour cela le polynôme caractéristique de la matrice $A$.
-\begin{bclogo}[couleur=red!30,couleurBord=red,ombre=true,arrondi=0.1,logo=\bcoutil]{Propriété}
-Deux matrices semblables ont les même valeurs propres.\\
-Ceci implique notamment qu'un changement de base ne modifie pas les valeurs propres d'une matrice. 
-\end{bclogo}
 \section{Polynôme caractéristique et calcul des éléments propres}
 Le calcul des éléments propres est plus facile en passant par le polynôme caractéristique.
 \begin{bclogo}[couleur=blue!30,couleurBord=blue,arrondi=0.1,logo=\bcbook,ombre=true]{Définition}
@@ -270,6 +266,10 @@ Afin de pouvoir continuer sereinement, nous allons introduire les multiplicités
     \item On appelle multiplicité algébrique d'une valeur propre $\lambda$ : la multiplicité de $\lambda$ en tant que racine du polynôme caractéristique.
 \end{itemize}
 \end{bclogo}
+\begin{prop}
+Soit $A\in\mathbb{M}^{n\times n}$, la trace de $A$ est égale à la somme des valeurs propres multipliées avec leur multiplicité propre.
+$$\text{Tr}(A)=\sum_{i=1}^n \lambda_i\times a_i$$
+\end{prop}
 
 \begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : Détermination des éléments propres}
 \begin{enumerate}
@@ -360,7 +360,30 @@ La matrice $A$ est diagonalisable $\Leftrightarrow$
 \begin{thm}[Corollaire]
 Si $P_A(\lambda)$ admet $n$ racines réelles distinctes $\Leftrightarrow$ $A$ est diagonalisable
 \end{thm}
+Une fois le critère de diagonalisation ou son corollaire vérifié on peut déduire la matrice diagonale $D$ ainsi que le la matrice de passage $P$
+\begin{prop}
+Soit la matrice $A\in\mathbb{M}^{n\times n}$ et ses valeurs propres $\lambda_1,\hdots, \lambda_k$ et leurs multiplicités $a_1,\hdots,a_k$ associées.
+La matrice diagonale $D$ est donné par :\\
+$$\begin{pmatrix}
+\lambda_1 & 0 & \hdots & \hdots & \hdots & \hdots & \hdots & \hdots & \hdots & 0\\
+0 & \ddots & 0 & & & & & & & \vdots\\
+\vdots & 0 & \lambda_1 & 0 & & & & & & \vdots\\
+\vdots & & 0 & \lambda_2 & 0 & & & & & \vdots \\
+\vdots & & & 0 & \ddots & 0 & & & & \vdots\\
+\vdots & & & & 0 & \lambda_2 & 0 & & & \vdots\\
+\vdots & & & & & 0 & \ddots & 0 & & \vdots\\
+\vdots & & & & & & 0 & \lambda_k & 0 & \vdots\\
+\vdots & & & & & & & 0 & \ddots & 0 \\
+0 & \hdots & \hdots & \hdots & \hdots & \hdots & \hdots & \hdots & 0 & \lambda_k
+\end{pmatrix}$$
+où les valeurs propres $\lambda_i$ se répète autant fois que la valeur de leur multiplicité $a_i$.
+\end{prop}
+Nous avons la matrice diagonale, maintenant il nous faut trouver la matrice de passage $P$.
+\begin{prop}
 
+\end{prop}
+
+L'ordre des valeurs propres n'influe pas sur le résultat, mais bien faire attention a garder l'ordre choisi sinon les calculs seront faux.
 \begin{meth}[Diagonalisation d'une matrice]
 \begin{enumerate}
     \item Déterminer le polynôme caractéristique

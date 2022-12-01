@@ -1,36 +1,36 @@
 \babel@toc {french}{}\relax 
-\contentsline {part}{I\hspace {1em}Mat-304: Calcul matriciel et fonctions de plusieurs variables}{7}{part.1}%
-\contentsline {chapter}{\numberline {1}Repérage dans $\mathbb {R}^3$}{9}{chapter.1.1}%
-\contentsline {chapter}{\numberline {2}Fonctions de plusieurs variables}{11}{chapter.1.2}%
-\contentsline {chapter}{\numberline {3}Dérivation en plusieurs variables}{13}{chapter.1.3}%
-\contentsline {section}{\numberline {3.1}Définition et premières propriétés}{13}{section.1.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Gradient et matrice jacobienne}{14}{subsection.1.3.1.1}%
-\contentsline {section}{\numberline {3.2}Différentielle}{15}{section.1.3.2}%
-\contentsline {section}{\numberline {3.3}Dérivées d'ordres supérieurs}{15}{section.1.3.3}%
-\contentsline {chapter}{\numberline {4}Opérateurs différentielles}{17}{chapter.1.4}%
-\contentsline {section}{\numberline {4.1}Le gradient $\overrightarrow {\nabla }$}{17}{section.1.4.1}%
-\contentsline {section}{\numberline {4.2}La divergence $div$}{18}{section.1.4.2}%
-\contentsline {section}{\numberline {4.3}Le rotationnel $rot$}{19}{section.1.4.3}%
-\contentsline {section}{\numberline {4.4}Le laplacien $\Delta $}{19}{section.1.4.4}%
-\contentsline {section}{\numberline {4.5}Équations aux dérivées partielles}{19}{section.1.4.5}%
-\contentsline {chapter}{\numberline {5}Intégration en plusieurs variables}{21}{chapter.1.5}%
-\contentsline {chapter}{\numberline {6}Calcul matriciel}{23}{chapter.1.6}%
-\contentsline {section}{\numberline {6.1}Calcul matriciel}{23}{section.1.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Multiplication matricielle}{25}{subsection.1.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Transposition matricielle}{25}{subsection.1.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}Propriétés et caractéristiques de matrices}{25}{subsection.1.6.1.3}%
-\contentsline {section}{\numberline {6.2}Matrices particulières}{25}{section.1.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Matrice carrée et rectangulaire}{25}{subsection.1.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Matrice élémentaire et algorithme de Gaus-Jordan}{25}{subsection.1.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Matrices de passage}{25}{subsection.1.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Matrices triangulaires}{25}{subsection.1.6.2.4}%
-\contentsline {section}{\numberline {6.3}Déterminants et inversion de matrices}{25}{section.1.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Comatrice et matrice adjointe}{25}{subsection.1.6.3.1}%
-\contentsline {chapter}{\numberline {7}Diagonalisation}{27}{chapter.1.7}%
-\contentsline {section}{\numberline {7.1}Éléments propres}{27}{section.1.7.1}%
-\contentsline {section}{\numberline {7.2}Polynôme caractéristique et calcul des éléments propres}{28}{section.1.7.2}%
-\contentsline {section}{\numberline {7.3}Diagonalisation}{32}{section.1.7.3}%
-\contentsline {section}{\numberline {7.4}Matrices symétriques et formes quadratiques}{33}{section.1.7.4}%
+\contentsline {part}{I\hspace {1em}Mat-304: Calcul matriciel et fonctions de plusieurs variables}{5}{part.1}%
+\contentsline {chapter}{\numberline {1}Repérage dans $\mathbb {R}^3$}{7}{chapter.1.1}%
+\contentsline {chapter}{\numberline {2}Fonctions de plusieurs variables}{9}{chapter.1.2}%
+\contentsline {chapter}{\numberline {3}Dérivation en plusieurs variables}{11}{chapter.1.3}%
+\contentsline {section}{\numberline {3.1}Définition et premières propriétés}{11}{section.1.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Gradient et matrice jacobienne}{12}{subsection.1.3.1.1}%
+\contentsline {section}{\numberline {3.2}Différentielle}{13}{section.1.3.2}%
+\contentsline {section}{\numberline {3.3}Dérivées d'ordres supérieurs}{13}{section.1.3.3}%
+\contentsline {chapter}{\numberline {4}Opérateurs différentielles}{15}{chapter.1.4}%
+\contentsline {section}{\numberline {4.1}Le gradient $\overrightarrow {\nabla }$}{15}{section.1.4.1}%
+\contentsline {section}{\numberline {4.2}La divergence $div$}{16}{section.1.4.2}%
+\contentsline {section}{\numberline {4.3}Le rotationnel $rot$}{17}{section.1.4.3}%
+\contentsline {section}{\numberline {4.4}Le laplacien $\Delta $}{17}{section.1.4.4}%
+\contentsline {section}{\numberline {4.5}Équations aux dérivées partielles}{17}{section.1.4.5}%
+\contentsline {chapter}{\numberline {5}Intégration en plusieurs variables}{19}{chapter.1.5}%
+\contentsline {chapter}{\numberline {6}Calcul matriciel}{21}{chapter.1.6}%
+\contentsline {section}{\numberline {6.1}Calcul matriciel}{21}{section.1.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Multiplication matricielle}{23}{subsection.1.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Transposition matricielle}{23}{subsection.1.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Propriétés et caractéristiques de matrices}{23}{subsection.1.6.1.3}%
+\contentsline {section}{\numberline {6.2}Matrices particulières}{23}{section.1.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Matrice carrée et rectangulaire}{23}{subsection.1.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Matrice élémentaire et algorithme de Gaus-Jordan}{23}{subsection.1.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Matrices de passage}{23}{subsection.1.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Matrices triangulaires}{23}{subsection.1.6.2.4}%
+\contentsline {section}{\numberline {6.3}Déterminants et inversion de matrices}{23}{section.1.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Comatrice et matrice adjointe}{23}{subsection.1.6.3.1}%
+\contentsline {chapter}{\numberline {7}Diagonalisation}{25}{chapter.1.7}%
+\contentsline {section}{\numberline {7.1}Éléments propres}{25}{section.1.7.1}%
+\contentsline {section}{\numberline {7.2}Polynôme caractéristique et calcul des éléments propres}{26}{section.1.7.2}%
+\contentsline {section}{\numberline {7.3}Diagonalisation}{31}{section.1.7.3}%
+\contentsline {section}{\numberline {7.4}Matrices symétriques et formes quadratiques}{32}{section.1.7.4}%
 \contentsline {chapter}{\numberline {8}Extremums en plusieurs variables}{35}{chapter.1.8}%
 \contentsline {part}{II\hspace {1em}Mat-307: Courbes paramétrées et équations différentielles pour la physique}{37}{part.2}%
 \contentsline {part}{III\hspace {1em}Courbes}{39}{part.3}%
