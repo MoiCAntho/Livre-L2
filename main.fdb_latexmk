@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1669903427 "main.xdv" "main.pdf" "main" 1669903427
-  "main.xdv" 1669903426 2838324 2f766e4c4c0d29f7492e6a608324cff3 "xelatex"
+["xdvipdfmx"] 1669916268 "main.xdv" "main.pdf" "main" 1669916268
+  "main.xdv" 1669916267 2838324 74b00c0c13f547838dc30212879e525f "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1669903420 "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" "main.xdv" "main" 1669903428
+["xelatex"] 1669916250 "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" "main.xdv" "main" 1669916270
   "C:/Users/segur/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1657869726 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/segur/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1657869728 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/segur/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1669479634 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -226,21 +226,21 @@
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1650047684 2245 c8a4088d07cffc2e5207730c738edd76 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1650047684 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "C:/Users/segur/AppData/Local/Programs/MiKTeX/tex/xelatex/xetex-pstricks/pstricks.con" 1266284760 204 366747485ba2670f55166e66d1f21249 ""
-  "MAT304.aux" 1669903424 14217 de2a115b74c3c298b069ab183b47f7bd "xelatex"
+  "MAT304.aux" 1669916262 14217 de2a115b74c3c298b069ab183b47f7bd "xelatex"
   "MAT304.tex" 1669903388 25405 ad49eef003afb2685ca6f23d5b0a3f6a ""
-  "MAT307.aux" 1669903425 8749 bd590c9bab228520cc19ba7138c9eec6 "xelatex"
+  "MAT307.aux" 1669916264 8749 bd590c9bab228520cc19ba7138c9eec6 "xelatex"
   "MAT307.tex" 1669803147 17380 df833ceab21009e15d41ab86b4c9fff4 ""
-  "MEC301.aux" 1669903425 6628 5e66ed7989fab7a03f083ab1bd49c17e "xelatex"
+  "MEC301.aux" 1669916265 6628 5e66ed7989fab7a03f083ab1bd49c17e "xelatex"
   "MEC301.tex" 1669803028 5105 02a9e8ca0339e967606d5ea847de8eb3 ""
-  "PHY301.aux" 1669903425 1609 db8daacb3462c7055ac3e98bbd81a07f "xelatex"
+  "PHY301.aux" 1669916265 1609 db8daacb3462c7055ac3e98bbd81a07f "xelatex"
   "PHY301.tex" 1669131441 62 88fca3a215b849a996b4655528b35b65 ""
-  "PHY302.aux" 1669903426 6759 74e3d194384d177f52a0d1929e541b02 "xelatex"
+  "PHY302.aux" 1669916267 6759 74e3d194384d177f52a0d1929e541b02 "xelatex"
   "PHY302.tex" 1669803223 6342 82aa49b150019826423d7c56acd01419 ""
   "c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex" 1669898250 2248 c932186569e4fdf2fba1c270ef391719 ""
-  "main.aux" 1669903426 1532 2d2eb7d49d64e24c17c5dc1aeb66461d "xelatex"
-  "main.out" 1669903426 20870 b3a93c7c85ba3d63c0d385607ce63666 "xelatex"
+  "main.aux" 1669916267 1532 2d2eb7d49d64e24c17c5dc1aeb66461d "xelatex"
+  "main.out" 1669916267 20870 b3a93c7c85ba3d63c0d385607ce63666 "xelatex"
   "main.tex" 1669898250 2248 c932186569e4fdf2fba1c270ef391719 ""
-  "main.toc" 1669903426 10044 0d8c847917a5f74cc977102b1b3f118b "xelatex"
+  "main.toc" 1669916267 10044 0d8c847917a5f74cc977102b1b3f118b "xelatex"
   (generated)
   "MAT304.aux"
   "MAT307.aux"
