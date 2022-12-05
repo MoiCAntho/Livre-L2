@@ -270,7 +270,7 @@ Afin de pouvoir continuer sereinement, nous allons introduire les multiplicités
 Soit $A\in\mathbb{M}^{n\times n}$, la trace de $A$ est égale à la somme des valeurs propres multipliées avec leur multiplicité propre.
 $$\text{Tr}(A)=\sum_{i=1}^n \lambda_i\times a_i$$
 \end{prop}
-
+Cette propriété permet une première vérification de la validité des éléments propres.
 \begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : Détermination des éléments propres}
 \begin{enumerate}
     \item Déterminer le polynôme caractéristique
@@ -349,18 +349,13 @@ Une propriété qui viens directement a l'esprit est que les matrices $A$ et $D$
 Tout l'enjeu sera donc de déterminer la matrice de passage $P$.\\
 Néanmoins, il peut être intéressant de savoir si une matrice est diagonalisable. 
 \begin{thm}[Théorème: Critère de diagonalisation]
-Soit $A\in\mathbb{M}^{n\times n}(\mathbb{R})$.\\
-La matrice $A$ est diagonalisable $\Leftrightarrow$
-\begin{enumerate}
-    \item toutes les racines $\lambda_1,\hdots,\lambda_k$ de $P_A(\lambda)$ sont contenues dans $\mathbb{R}$.
-    \item $\forall i=1,\hdots,k$ on a $\text{dim}(E_{\lambda_i})=\text{multiplicité algébrique de }\lambda_i$
-\end{enumerate}
-
+Soit $A\in\mathbb{M}^{n\times n}(\mathbb{R})$.
+$\text{La matrice}\ A\ \text{est diagonalisable}\ \Leftrightarrow\forall i=1,\hdots,k\ \text{on a}\ \text{dim}(E_{\lambda_i})=\text{multiplicité algébrique de}\ \lambda_i$
 \end{thm}
 \begin{thm}[Corollaire]
 Si $P_A(\lambda)$ admet $n$ racines réelles distinctes $\Leftrightarrow$ $A$ est diagonalisable
 \end{thm}
-Une fois le critère de diagonalisation ou son corollaire vérifié on peut déduire la matrice diagonale $D$ ainsi que le la matrice de passage $P$
+Une fois le critère de diagonalisation ou son corollaire vérifié on peut déduire la matrice diagonale $D$ ainsi que le la matrice de passage $P$.
 \begin{prop}
 Soit la matrice $A\in\mathbb{M}^{n\times n}$ et ses valeurs propres $\lambda_1,\hdots, \lambda_k$ et leurs multiplicités $a_1,\hdots,a_k$ associées.
 La matrice diagonale $D$ est donné par :\\
@@ -380,29 +375,51 @@ où les valeurs propres $\lambda_i$ se répète autant fois que la valeur de leu
 \end{prop}
 Nous avons la matrice diagonale, maintenant il nous faut trouver la matrice de passage $P$.
 \begin{prop}
-
+Soit la matrice $A\in\mathbb{M}^{n\times n}$ et ses vecteurs propres $x_1,\hdots,x_n$.
+La matrice de passage entre la base canonique $\mathscr{B}_c$ et la base où la matrice diagonale se trouve $\mathscr{B}_D$, est la matrice composée de tous les vecteurs propres de $A$.
+$$P_{\mathscr{B}_c,\mathscr{B}_D}=\begin{pmatrix}x_1\ |& \hdots\ | & x_n\end{pmatrix}$$
 \end{prop}
 
-L'ordre des valeurs propres n'influe pas sur le résultat, mais bien faire attention a garder l'ordre choisi sinon les calculs seront faux.
+L'ordre des valeurs propres n'influe pas sur le résultat.\\
+Il est néanmoins nécessaire de bien faire attention a garder l'ordre choisi sinon les calculs s'en trouveront erroné.
 \begin{meth}[Diagonalisation d'une matrice]
 \begin{enumerate}
     \item Déterminer le polynôme caractéristique
-    \item Trouver les valeurs propres de $A$.\\
-    $\rightarrow$ Si $\lambda_i\in\mathbb{R}$ alors $A$ est diagonalisable sinon elle ne l'est pas, on peut s'arrêter.
+    \item Trouver les valeurs propres de $A$.
     \item Factoriser le polynôme caractéristique.
     \item Rechercher les sous espaces propres et leurs dimensions (multiplicité géométrique)
+    \item Vérifier le critère de diagonalisation ou son corollaire.
     \item Trouver les bases $\mathscr{B}_i$ de tous les sous espaces propres.
-    \item Déduire la base $\mathscr{B}$ à partir des bases $\mathscr{B}_i$,
-    ainsi que la matrice de passage a cette base.\\
-    $\mathscr{B} =\bigcup_{i}^{k}\mathscr{B}_i$
+    \item Déduire la matrice $P$ et $P^{-1}$
 \end{enumerate}
 \end{meth}
+La diagonalisation est une notion qui nous aide à déterminer des extremums de fonctions (\textit{Cf.Chapitre 8 : Extremums en plusieurs variables}), permet d'analyser des relations de récurrences ou encore permet de résoudre des systèmes différentiels linéaires (\textit{Cf.Mat-307,Partie 2,Chapitre 2 : Systèmes différentiels}). 
 \begin{ex}
-rx
+On considère la suite de Fibonnacci définie de manière récurrente comme il suis : 
+$$u_{t+1}=u_{t}+u_{t-1}\ \text{avec } u_0=u_1=1$$
+On cherche a exprimée le terme générale de la suite (forme explicite).\\
+Pour ce faire ...
 \end{ex}
 \section{Matrices symétriques et formes quadratiques}
+\subsection{Éléments propres et diagonalisation d'une matrice symétrique}
+On rappel la définition d'une matrice symétrique et d'une matrice orthogonale.
+\begin{defi}
+Soit $A\in\mathbb{M}^{n\times n}(\mathbb{R})$.\\
+$$A\text{ est symétrique }\Leftrightarrow\ A=A^{\text{T}}$$
+$$A\text{ est orthogonale }\Leftrightarrow\ AA^{\text{T}}=I_n\ \Leftrightarrow\ A^{-1}=A^{\text{T}}$$
+\end{defi}
+\begin{ex}
+On considère $A=$ et $B=$
+\end{ex}
+\begin{thm}[Théorème des axes principaux]
+Toute matrice symétrique $A$ peut être diagonalisée à l'aide d'une matrice orthogonale : il existe $\Gamma\in\mathbb{M}^{n\times n}(\mathbb{R})$ orthogonale et une matrice diagonale réelle $\Lambda$ telles que :
+$$A=\Gamma\Lambda\Gamma^{-1}=\Gamma\Lambda\Gamma^{T}$$
+\end{thm}
 \begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle ,ombre=true,arrondi=0.1]{Critère de Silvester}
 Une matrice $A$ est semi-définie (définie) positive si et seulement si tous ses mineurs principales sont positifs, c'est à  dire :
 $$a_{11}\ge 0, \begin{vmatrix} a_{11}&a_{12}\\ a_{21} & a_{22}\end{vmatrix}\ge 0,\begin{vmatrix}a_{11} & a_{12} & a_{13}\\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33}\end{vmatrix}\ge 0, ...$$
+Une matrice $A$ est semi-définie (définie) négative si et seulement si les signes des mineurs principaux de $A$ alternent :
+$$a_{11}\leq 0, \begin{vmatrix} a_{11}&a_{12}\\ a_{21} & a_{22}\end{vmatrix}\leq 0,\begin{vmatrix}a_{11} & a_{12} & a_{13}\\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33}\end{vmatrix}\leq 0, ...$$
+Avec les $\leq$ ou $\ge$ sont respectivement remplacés pas $<$ et $>$ dans le cas des matrices définies
 \end{bclogo}
 \chapter{Extremums en plusieurs variables}

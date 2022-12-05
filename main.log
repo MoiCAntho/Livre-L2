@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  2 DEC 2022 07:08
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  5 DEC 2022 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,7 +1091,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ] [2
 
 ] (main.toc [3]
-Overfull \hbox (3.74901pt too wide) in paragraph at lines 35--35
+Overfull \hbox (3.74901pt too wide) in paragraph at lines 36--36
 [][]\TU/lmr/bx/n/14.4 II Mat-307 : Courbes paramétrées et équations différentielles pour 
  []
 
@@ -1915,38 +1915,45 @@ File: bc-cle.mps Graphic file (type mps)
 Package mdframed Info: mdframed works in twoside mode on input line 351.
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 360.
+Package mdframed Info: mdframed works in twoside mode on input line 355.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 364.
+Package mdframed Info: mdframed works in twoside mode on input line 359.
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--367
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
 
  []
 
-
-Package mdframed Warning: You got a bad break
-(mdframed)                because the last box will be empty
-(mdframed)                you have to change it manually
-(mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 380.
-
-[33]
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 382.
+Package mdframed Info: mdframed works in twoside mode on input line 377.
+[33]
 File: bc-lampe.mps Graphic file (type mps)
 <bc-lampe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 387.
+Package mdframed Info: mdframed works in twoside mode on input line 385.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 400.
+Package mdframed Info: mdframed works in twoside mode on input line 397.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 406.
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+Package mdframed Info: Not enough space on this page on input line 410.
+[34]
+Package mdframed Info: Not enough space on this page on input line 410.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 411.
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 404.
-Package mdframed Info: Not enough space on this page on input line 407.
- [34]
-Package mdframed Info: Not enough space on this page on input line 407.
+Package mdframed Info: mdframed works in twoside mode on input line 414.
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 418.
  [35] [36
 
 ]
@@ -2265,15 +2272,15 @@ Chapitre 5.
 
 ] [91] [92] (main.aux (MAT304.aux) (MAT307.aux) (MEC301.aux) (PHY301.aux) (PHY302.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 68FCF7764E865B5A1591187C7A468712;20297.
+(rerunfilecheck)             Checksum: 11B6687D882362627EF3C093E812AF8C;20691.
  ) 
 Here is how much of TeX's memory you used:
- 33209 strings out of 410921
- 651001 string characters out of 2822672
- 1232223 words of memory out of 3000000
- 53412 multiletter control sequences out of 15000+600000
+ 33212 strings out of 410921
+ 651056 string characters out of 2822672
+ 1232281 words of memory out of 3000000
+ 53415 multiletter control sequences out of 15000+600000
  483090 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,21n,96p,703b,1087s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (92 pages, 2944300 bytes).
+Output written on main.xdv (92 pages, 3000048 bytes).
