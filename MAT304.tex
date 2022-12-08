@@ -347,7 +347,7 @@ La matrice $A\in\mathbb{M}^{n\times n}$ est diagonalisable, s'il existe une matr
 \end{bclogo}
 Une propriété qui viens directement a l'esprit est que les matrices $A$ et $D$ sont semblables (par définition).\\
 Tout l'enjeu sera donc de déterminer la matrice de passage $P$.\\
-Néanmoins, il peut être intéressant de savoir si une matrice est diagonalisable. 
+Par ailleurs, il peut être intéressant de savoir si une matrice est diagonalisable. 
 \begin{thm}[Théorème: Critère de diagonalisation]
 Soit $A\in\mathbb{M}^{n\times n}(\mathbb{R})$.
 $\text{La matrice}\ A\ \text{est diagonalisable}\ \Leftrightarrow\forall i=1,\hdots,k\ \text{on a}\ \text{dim}(E_{\lambda_i})=\text{multiplicité algébrique de}\ \lambda_i$
@@ -388,32 +388,87 @@ Il est néanmoins nécessaire de bien faire attention a garder l'ordre choisi si
     \item Trouver les valeurs propres de $A$.
     \item Factoriser le polynôme caractéristique.
     \item Rechercher les sous espaces propres et leurs dimensions (multiplicité géométrique)
-    \item Vérifier le critère de diagonalisation ou son corollaire.
-    \item Trouver les bases $\mathscr{B}_i$ de tous les sous espaces propres.
     \item Déduire la matrice $P$ et $P^{-1}$
 \end{enumerate}
 \end{meth}
-La diagonalisation est une notion qui nous aide à déterminer des extremums de fonctions (\textit{Cf.Chapitre 8 : Extremums en plusieurs variables}), permet d'analyser des relations de récurrences ou encore permet de résoudre des systèmes différentiels linéaires (\textit{Cf.Mat-307,Partie 2,Chapitre 2 : Systèmes différentiels}). 
 \begin{ex}
-On considère la suite de Fibonnacci définie de manière récurrente comme il suis : 
-$$u_{t+1}=u_{t}+u_{t-1}\ \text{avec } u_0=u_1=1$$
-On cherche a exprimée le terme générale de la suite (forme explicite).\\
-Pour ce faire ...
+frv
+\end{ex}
+La diagonalisation est une notion qui nous aide a déterminer des extremums de fonctions (\textit{Cf.Chapitre 8 : Extremums en plusieurs variables}), permet d'analyser des relations de récurrences ou encore permet de résoudre des systèmes différentiels linéaires (\textit{Cf.Mat-307,Partie 2,Chapitre 2 : Systèmes différentiels}).
+\begin{meth}[]
+\begin{enumerate}
+    \item Puissance d'une matrice :
+    \begin{enumerate}
+        \item Diagonaliser la matrice $A$
+        \item Calculer la puissance de la matrice diagonale $D$ $$D^n=\begin{pmatrix}\lambda_1^n&\hdots&0\\\vdots&\ddots&\vdots\\0&\hdots&\lambda_k^n\end{pmatrix}$$
+        \item Utiliser les matrices $P$ et $P^{-1}$ pour repasser dans la base canonique : $$A=PDP^{-1}$$
+    \end{enumerate}
+    \item Étude d'une suite :
+\end{enumerate}
+\end{meth}
+\begin{ex}
+\begin{enumerate}
+    \item Étude d'une suite :\\
+    On considère la suite de Fibonnacci définie de manière récurrente comme il suis : 
+$$u_{n+1}=u_{n}+u_{n-1}\ \text{avec}\ u_0=u_1=1$$
+On cherche a exprimer le terme générale de la suite (forme explicite).\\
+Pour ce faire on pose $\begin{pmatrix}u_{n+1}\\u_n\end{pmatrix}$.
+$$\begin{cases}u_{n+1}=u_n+u_{n-1}\\
+u_n = 
+\end{cases}$$ Bla bla...\\
+On a donc : $x_n=Ax_{n-1}\ \text{avec}\ A=\begin{pmatrix}1&1\\1&0\end{pmatrix},\ x_0=\begin{pmatrix}1\\1\end{pmatrix}$.\\
+Calculer le n-ième terme de la suite $x_n=Ax_{n-1}$ revient à calculer $x^n=Ax$ ???
+On diagonalise la matrice $A$ :\\
+On commence par rechercher les éléments propres de la matrice.
+On cherche le polynôme caractéristique :
+$$P_A(\lambda)=|A-\lambda I_2|=\begin{vmatrix}1-\lambda&1\\1&-\lambda\end{vmatrix}=-\lambda(1-\lambda)-1=\lambda^2-\lambda-1$$
+On résoud $P_A(\lambda)=0$, on obtient les valeurs propres $\lambda_1=\frac{1+\sqrt{5}}{2}$ et $\lambda_2=\frac{1-\sqrt{5}}{2}$.\\
+On déduit la matrice diagonale :
+$$D=\begin{pmatrix}\frac{1+\sqrt{5}}{2}&0\\0&\frac{1-\sqrt{5}}{2}\end{pmatrix}$$
+    \item Puissance d'une matrice :\\
+On se donne la matrice $A=\begin{pmatrix}\end{pmatrix}$.
+On cherche a calculer $A^3$.\\
+On commence par diagonaliser la matrice.\\
+\end{enumerate}
 \end{ex}
 \section{Matrices symétriques et formes quadratiques}
 \subsection{Éléments propres et diagonalisation d'une matrice symétrique}
 On rappel la définition d'une matrice symétrique et d'une matrice orthogonale.
 \begin{defi}
-Soit $A\in\mathbb{M}^{n\times n}(\mathbb{R})$.\\
+Soit $A\in\mathbb{M}^{n\times n}(\mathbb{R})$.\
 $$A\text{ est symétrique }\Leftrightarrow\ A=A^{\text{T}}$$
 $$A\text{ est orthogonale }\Leftrightarrow\ AA^{\text{T}}=I_n\ \Leftrightarrow\ A^{-1}=A^{\text{T}}$$
 \end{defi}
 \begin{ex}
-On considère $A=$ et $B=$
+On considère les matrices $A=\begin{pmatrix}1&2&3\\2&4&5\\3&5&6\end{pmatrix}$ et $B=\begin{pmatrix}0&0&1\\1&0&0\\0&1&0\end{pmatrix}$.\\
+La matrice $A$ est une matrice symétrique car $A=A^{\text{T}}$.\\
+La matrice $B$ est une matrice orthogonale car :
+$$BB^{\text{T}}=\begin{pmatrix}0&0&1\\1&0&0\\0&1&0\end{pmatrix}\begin{pmatrix}0&1&0\\0&0&1\\1&0&0\end{pmatrix}=\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}=I_3$$
 \end{ex}
 \begin{thm}[Théorème des axes principaux]
 Toute matrice symétrique $A$ peut être diagonalisée à l'aide d'une matrice orthogonale : il existe $\Gamma\in\mathbb{M}^{n\times n}(\mathbb{R})$ orthogonale et une matrice diagonale réelle $\Lambda$ telles que :
 $$A=\Gamma\Lambda\Gamma^{-1}=\Gamma\Lambda\Gamma^{T}$$
+\end{thm}
+\begin{ex}
+On se donne la matrice $A=\begin{pmatrix}1&2&0\\2&4&0\\0&0&5\end{pmatrix}$.
+\end{ex}
+\subsection{Formes quadratiques}
+\begin{defi}
+Soit $q\ :\ \mathbb{R}^n\to\mathbb{R},\ q(x)=\sum_{i=1}^n\sum_{j=1}^n a_{ij}x_i x_j$.\\
+On dit que $q$ est une forme quadratique sur $\mathbb{R}^n$
+\end{defi}
+\begin{defi}
+On dit que la forme $q(x)$ est :
+\begin{itemize}
+    \item semi-définie positive si $q(x)\ge 0\ \forall x\in\mathbb{R}^n$.
+    \item semi-définie négative si $q(x)\leq 0\ \forall x\in\mathbb{R}^n$.
+    \item définie positive si $q(x)> 0\ \forall x\in\mathbb{R}^n$.
+    \item définie négative si $q(x)< 0\ \forall x\in\mathbb{R}^n$.
+    \item non définie si $q(x)$ change de signe.
+\end{itemize}
+\end{defi}
+\begin{thm}[Proposition]
+La forme quadratique $q$ est semi-définie (définie) positive si et seulement si toutes les valeurs propres de la matrice $A$ de la forme sont positives.
 \end{thm}
 \begin{bclogo}[couleur=green!30,couleurBord=green,logo=\bccle ,ombre=true,arrondi=0.1]{Critère de Silvester}
 Une matrice $A$ est semi-définie (définie) positive si et seulement si tous ses mineurs principales sont positifs, c'est à  dire :
@@ -422,4 +477,7 @@ Une matrice $A$ est semi-définie (définie) négative si et seulement si les si
 $$a_{11}\leq 0, \begin{vmatrix} a_{11}&a_{12}\\ a_{21} & a_{22}\end{vmatrix}\leq 0,\begin{vmatrix}a_{11} & a_{12} & a_{13}\\ a_{21} & a_{22} & a_{23}\\ a_{31} & a_{32} & a_{33}\end{vmatrix}\leq 0, ...$$
 Avec les $\leq$ ou $\ge$ sont respectivement remplacés pas $<$ et $>$ dans le cas des matrices définies
 \end{bclogo}
+\begin{ex}
+fnefbo
+\end{ex}
 \chapter{Extremums en plusieurs variables}
