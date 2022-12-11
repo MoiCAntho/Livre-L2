@@ -1,0 +1,45 @@
+\chapter{Dérivation en plusieurs variables}
+\section{Définition et premières propriétés}
+ En dimension 1, la dérivée ne peut être approchée par uniquement 2 directions (par la gauche et par la droite).
+ A partir de la dimension 2, il y a infinité de directions par lesquelles approchée la dérivée.\\
+ \newline
+ Schéma\\
+On peut commencer par dérivée selon les vecteurs de bases de $\mathbb{R}^n$ ( les vecteurs $\overrightarrow{u_n}$), les vecteurs
+\begin{defi}
+    La dérivée partielle de $f:\mathbb{R}^n\to\mathbb{R}$ par rapport à $x_i$, $1\ge i\ge n$, en $\overrightarrow{a}\in\mathscr{D}_f$, noté $\frac{\partial f(\overrightarrow{a})}{\partial x_i}$ ou $f^{\prime}_{x_i}(\overrightarrow{a})$ est la valeur de la limite suivante quand elle existe :
+    $$\frac{\partial f(\overrightarrow{a})}{\partial x_i}=\lim_{t\to 0}\frac{f(a_1,...,a_i+t,...,a_n)-f(a_1,...,a_n)}{t}$$
+\end{defi}
+Dans le cas d'une fonction défini comme $f:\mathbb{R}^2\to\mathbb{R}$, on a :\\
+$$\frac{\partial f(x,y)}{\partial x} = \lim_{t\to 0}\frac{f(x+t,y)-f(x,y)}{t}$$
+$$\frac{\partial f(x,y)}{\partial y} = \lim_{s\to 0}\frac{f(x+s,y)-f(x,y)}{s}$$
+De manière pratique, on choisit la variable par rapport à laquelle on dérive l'expression, on considère toutes les autres constantes et on dérive "normalement".
+\begin{ex}
+\begin{enumerate}
+    \item Soit $f(\overrightarrow{x})=3x_1^3x_3+2x_1x_2^2-5x_3^4$, on a :
+    $$\frac{\partial f(\overrightarrow{x})}{\partial x_1} = 9x_1^2x_3+2x_2^2 $$
+    $$\frac{\partial f(\overrightarrow{x})}{\partial x_2} = 4x_1x_2$$
+    $$\frac{\partial f(\overrightarrow{x})}{\partial x_3} = 3x_1^3-20x_3^3$$
+    \item Soit $f(x,y)=e^{xy^2}$, on a :
+    $$\frac{\partial f(x,y)}{\partial x} = y^2e^{xy^2}$$
+    $$\frac{\partial f(x,y)}{\partial y} = 2xye^{xy^2}$$
+\end{enumerate}
+\end{ex}
+Il possible de dérivée selon une direction quelconque, pour cela on définit la dérivée directionnelle.
+\begin{defi}
+    Soient $f:\mathbb{R}^n\to\mathbb{R}$, $\overrightarrow{a}\in\mathscr{D}_f$ et $\overrightarrow{h}\in\mathbb{R}^n$.\\
+    La dérivée directionnelle de $f$ en $\overrightarrow{a}$ suivant la direction $\overrightarrow{h}$ est la quantité défini par la limite suivante si elle existe:
+    $$\frac{\partial f}{\partial\overrightarrow{h}}(\overrightarrow{a})=\lim_{\epsilon\to 0}\frac{f(\overrightarrow{a}+\epsilon\overrightarrow{h})-f(\overrightarrow{a})}{\epsilon}$$ 
+    \newline
+\end{defi}
+\subsection{Gradient et matrice jacobienne}
+On définit pour les fonction
+\begin{defi}
+Soit un champ de vecteur $f:\mathbb{R}^n\to\mathbb{R}^p$, on considère les dérivées partielles selon chacune des variables.\\
+Selon la valeur de $p$, on créé deux objets :
+\begin{itemize}
+    \item Si  p=1, on définit le gradient de la fonction scalaire $f$ en $\overrightarrow{a}$ : $$\overrightarrow{\text{grad}}f(\overrightarrow{a})=\overrightarrow{\nabla} f(\overrightarrow{a})=\begin{pmatrix}\frac{\partial f}{\partial x_1}(\overrightarrow{a})\\\vdots\\\frac{\partial f}{\partial x_n}(\overrightarrow{a})\end{pmatrix}$$
+    \item Si $p>1$, on défini la matrice jacobienne $J_f(\overrightarrow{a})$ (de dimension $n\times p$) de la fonction $f$ en $\overrightarrow{a}$ : $$J_f(\overrightarrow{a})=\begin{pmatrix}\frac{\partial f_1}{\partial x_1}(\overrightarrow{a})&\hdots&\frac{\partial f_1}{\partial x_n}(\overrightarrow{a})\\ \vdots & \ddots & \vdots\\ \frac{\partial f_p}{\partial x_1}(\overrightarrow{a}) & \hdots & \frac{\partial f_p}{\partial x_n}(\overrightarrow{a})\end{pmatrix}$$
+\end{itemize}
+\end{defi}
+\section{Différentielle}
+\section{Dérivées d'ordres supérieurs}

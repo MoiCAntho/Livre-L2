@@ -1,7 +1,7 @@
 \babel@toc {french}{}\relax 
 \contentsline {part}{I\hspace {1em}Mat-304 : Calcul matriciel et fonctions de plusieurs variables}{7}{part.1}%
 \contentsline {chapter}{\numberline {1}Repérage dans $\mathbb {R}^3$}{9}{chapter.1.1}%
-\contentsline {chapter}{\numberline {2}Fonctions de plusieurs variables}{11}{chapter.1.2}%
+\contentsline {chapter}{\numberline {2}Repérage dans $\mathbb {R}^3$}{11}{chapter.1.2}%
 \contentsline {chapter}{\numberline {3}Dérivation en plusieurs variables}{13}{chapter.1.3}%
 \contentsline {section}{\numberline {3.1}Définition et premières propriétés}{13}{section.1.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Gradient et matrice jacobienne}{14}{subsection.1.3.1.1}%
@@ -60,25 +60,19 @@
 \contentsline {chapter}{\numberline {1}Généralités}{61}{chapter.4.1}%
 \contentsline {chapter}{\numberline {2}Méthodes de résolutions explicites}{63}{chapter.4.2}%
 \contentsline {section}{\numberline {2.1}Équations différentielles linéaires à coefficients constants}{63}{section.4.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Équations d'ordre 1}{63}{subsection.4.2.1.1}%
-\contentsline {subsubsection}{Équation homogène associée}{63}{section*.5}%
-\contentsline {subsubsection}{Solutions particulières}{64}{section*.6}%
-\contentsline {subsection}{\numberline {2.1.2}Équations d'ordre 2}{64}{subsection.4.2.1.2}%
-\contentsline {subsubsection}{Équation homogène associée}{64}{section*.7}%
-\contentsline {subsubsection}{Solutions particulières}{64}{section*.8}%
-\contentsline {subsection}{\numberline {2.1.3}Équations d'ordre $n$}{64}{subsection.4.2.1.3}%
-\contentsline {section}{\numberline {2.2}Équations à variables séparables}{64}{section.4.2.2}%
-\contentsline {section}{\numberline {2.3}Systèmes différentielles linéaires}{66}{section.4.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Résolution par diagonalisation}{66}{subsection.4.2.3.1}%
-\contentsline {subsubsection}{Diagonalisation dans $\mathbb {R}$}{66}{section*.9}%
-\contentsline {section}{\numberline {2.4}Utilisation de constantes du mouvement}{73}{section.4.2.4}%
-\contentsline {section}{\numberline {2.5}Utilisation des formes différentielles}{73}{section.4.2.5}%
-\contentsline {section}{\numberline {2.6}Systèmes différentiels linéaires d'ordre 1}{74}{section.4.2.6}%
-\contentsline {subsubsection}{Diagonalisation dans $\mathbb {C}$}{74}{section*.10}%
-\contentsline {subsection}{\numberline {2.6.1}Résolution par triangulation}{74}{subsection.4.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Comportement des solutions}{74}{subsection.4.2.6.2}%
-\contentsline {subsubsection}{Comportement en fonction des valeurs propres}{74}{section*.11}%
-\contentsline {subsubsection}{Comportement asymptotique}{74}{section*.12}%
+\contentsline {section}{\numberline {2.2}Équations à variables séparables}{63}{section.4.2.2}%
+\contentsline {section}{\numberline {2.3}Systèmes différentielles linéaires}{65}{section.4.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Résolution par diagonalisation}{65}{subsection.4.2.3.1}%
+\contentsline {subsubsection}{Diagonalisation dans $\mathbb {R}$}{65}{section*.5}%
+\contentsline {section}{\numberline {2.4}Intégrales premières ou constantes du mouvement}{71}{section.4.2.4}%
+\contentsline {section}{\numberline {2.5}Utilisation des formes différentielles}{72}{section.4.2.5}%
+\contentsline {section}{\numberline {2.6}Autres méthodes}{72}{section.4.2.6}%
+\contentsline {section}{\numberline {2.7}Systèmes différentiels linéaires d'ordre 1}{74}{section.4.2.7}%
+\contentsline {subsubsection}{Diagonalisation dans $\mathbb {C}$}{74}{section*.6}%
+\contentsline {subsection}{\numberline {2.7.1}Résolution par triangulation}{74}{subsection.4.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Comportement des solutions}{74}{subsection.4.2.7.2}%
+\contentsline {subsubsection}{Comportement en fonction des valeurs propres}{74}{section*.7}%
+\contentsline {subsubsection}{Comportement asymptotique}{74}{section*.8}%
 \contentsline {chapter}{\numberline {3}Introduction au calcul variationnel}{75}{chapter.4.3}%
 \contentsline {part}{V\hspace {1em}Mec-301 : Mécanique du solide indéformable}{77}{part.5}%
 \contentsline {chapter}{\numberline {1}Torseurs}{79}{chapter.5.1}%
@@ -113,8 +107,8 @@
 \contentsline {section}{\numberline {1.1}Description d'un système thermodynamique}{95}{section.9.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Systèmes thermodynamiques}{95}{subsection.9.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Grandeurs thermodynamiques et variables d'états}{96}{subsection.9.1.1.2}%
-\contentsline {subsubsection}{Pression}{96}{section*.13}%
-\contentsline {subsubsection}{Température}{96}{section*.14}%
+\contentsline {subsubsection}{Pression}{96}{section*.9}%
+\contentsline {subsubsection}{Température}{96}{section*.10}%
 \contentsline {subsection}{\numberline {1.1.3}Équations d'états}{96}{subsection.9.1.1.3}%
 \contentsline {subsection}{\numberline {1.1.4}Coefficients thermoélastiques}{96}{subsection.9.1.1.4}%
 \contentsline {section}{\numberline {1.2}Transformations}{97}{section.9.1.2}%

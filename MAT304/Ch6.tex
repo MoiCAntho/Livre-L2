@@ -1,0 +1,62 @@
+\chapter{Calcul matriciel}
+\begin{defi}
+Une matrice $n\times m$ à  coefficients réels est un tableau de nombres réels de $n$ lignes et $m$ colonnes.\\
+On note $a_{ij}$ le coefficient à la i-ème  et à la j-ème colonne.\\
+On représente une matrice de la manière suivante :
+$$A = \begin{pmatrix}a_{11} & a_{12} & \hdots & a_{1m}\\a_{21} & a_{22} & \hdots & a_{2m}\\ \vdots & \vdots & \ddots & \vdots\\ a_{n1} & a_{n2} & \hdots & a_{nm} \end{pmatrix}$$
+\newline
+Une matrice $n\times m$ à valeurs réelles appartient à l'ensemble des matrices $n\times m$, noté $\mathbb{M}^{n\times m}(\mathbb{R})$.
+\end{defi}
+Toute application linéaire ou système d'équation linéaire peut être écrit sous forme matricielle.
+\begin{ex}
+ex de base
+On considère l'application
+\end{ex}
+\section{Calcul matriciel}
+On commence par définir l'addition de deux matrices.
+\begin{defi}
+Soient deux matrices $A$ et $B$ de dimension $n\times m$.\\
+L'addition de ces deux matrices est donnée par :
+$$\begin{pmatrix}a_{11} & a_{12} & \hdots & a_{1m}\\a_{21} & a_{22} & \hdots & a_{2m}\\ \vdots & \vdots & \ddots & \vdots\\ a_{n1} & a_{n2} & \hdots & a_{nm} \end{pmatrix}+\begin{pmatrix}b_{11} & b_{12} & \hdots & b_{1m}\\b_{21} & b_{22} & \hdots & b_{2m}\\ \vdots & \vdots & \ddots & \vdots\\ b_{n1} & b_{n2} & \hdots & b_{nm} \end{pmatrix}=\begin{pmatrix}a_{11}+b_{11} & a_{12}+b_{12} & \hdots & a_{1m}+b_{1m}\\a_{21}+b_{21} & a_{22}+b_{22} & \hdots & a_{2m}+b_{2m}\\ \vdots & \vdots & \ddots & \vdots\\ a_{n1}+b_{n1} & a_{n2}+b_{n2} & \hdots & a_{nm}+b_{nm} \end{pmatrix}$$
+\end{defi}
+\begin{defi}
+Soient deux matrices $A$ de dimension $n\times m$ et $B$ de dimension $m\times p$.\\
+La multiplication de ces deux matrices nous donnera une matrice $C$ de dimension $n\times p$.\\
+Le calcul des coefficients de la matrice $C$ est donné par la formule :
+$$c_{ij}=\sum_{k=1}^m a_{ik}\times b_{kj}=a_{i1}b_{1j}+a_{i2}b_{2j}+\hdots+a_{in}b_{nj}$$
+\end{defi}
+Attention, la multiplication matricielle n'est pas commutative
+\begin{ex}
+On considère les matrices $A=$ et $B=$
+\end{ex}
+\begin{defi}
+Soit une matrice $A$ de dimension $n\times m$.\\
+L'opération de transposition de cette matrice nous renverra la matrice transposée de $A$, $B$ de dimension $m\times n$.\\
+Cet opération est défini comme il suit :
+$$A^\text{T}$$
+\end{defi}
+\begin{defi}
+Soit une matrice $A$ de dimension $n\times m$.\\
+On appelle trace de la matrice $A$ la somme de tous ses termes diagonaux.
+$$\text{Tr}(A)=\sum_{i=1}^n a_{ii}$$
+\end{defi}
+\begin{prop}
+Soient $A$ et $B$ de matrice et $\alpha\in\mathbb{R}$.\\
+\begin{itemize}
+    \item $\text{Tr}(A+B)=\text{Tr}(A)+\text{Tr}(B)$
+    \item $\text{Tr}(\alpha A)=\alpha\text{Tr}(A)$
+    \item $\text{Tr}(A^\text{T})=\text{Tr}(A)$
+    \item Si $A$ et $B$ sont multipliable : $\text{Tr}(AB)=\text{Tr}(BA)$
+    \item Si $A$ et $B$ sont semblables : $\text{Tr}(A)=\text{Tr}(B)$
+\end{itemize}
+\end{prop}
+\subsection{Multiplication matricielle}
+\subsection{Transposition matricielle}
+\subsection{Propriétés et caractéristiques de matrices}
+\section{Matrices particulières}
+\subsection{Matrice carrée et rectangulaire}
+\subsection{Matrice élémentaire et algorithme de Gaus-Jordan}
+\subsection{Matrices de passage}
+\subsection{Matrices triangulaires}
+\section{Déterminants et inversion de matrices}
+\subsection{Comatrice et matrice adjointe}

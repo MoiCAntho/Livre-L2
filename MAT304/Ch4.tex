@@ -1,0 +1,58 @@
+\chapter{Opérateurs différentielles}
+Attention, l'expression des opérateurs changent selon le système de coordonnées.
+\section{Le gradient $\protect\overrightarrow{\nabla}$}
+Nous avons déjà définit le gradient d'une fonction évalué en un point, on va maintenant définir l'opérateur gradient.
+\begin{defi}
+On appelle gradient, l'opérateur définit comme il suit :
+$$\overrightarrow{\nabla}=\begin{pmatrix}\frac{\partial}{\partial x_1}\\\vdots\\\frac{\partial}{\partial x_n}\end{pmatrix}$$
+\newline
+Le gradient d'une fonction scalaire $f:\mathbb{R}^n\to\mathbb{R}$ est donc :
+$$\overrightarrow{\nabla}f=\begin{pmatrix}\frac{\partial}{\partial x_1}\\\vdots\\\frac{\partial}{\partial x_n}\end{pmatrix}\times f=\begin{pmatrix}\frac{\partial f}{\partial x_1}\\\vdots\\\frac{\partial f}{\partial x_n}\end{pmatrix}=\overrightarrow{grad(\overrightarrow{f})}$$
+\end{defi}
+\begin{prop}
+Soit un champ scalaire $\overrightarrow{f}$ dans l'espace $\mathbb{R}^3$, nous avons pour expression du gradient :
+\begin{itemize}
+    \item En coordonnées cartésiennes (par définition) : $$\overrightarrow{\nabla}f=\frac{\partial f}{\partial x}\overrightarrow{u_x}+\frac{\partial f}{\partial y}\overrightarrow{u_y}+\frac{\partial f}{\partial z}\overrightarrow{u_z}$$
+    \item En coordonnées cylindriques : $$\overrightarrow{\nabla}f=\frac{1}{r}\frac{\partial f}{\partial r}\overrightarrow{u_r}+\frac{\partial f}{\partial \theta}\overrightarrow{u_\theta}+\frac{\partial f}{\partial z}\overrightarrow{u_z}$$
+    \item En coordonnées sphériques : $$\overrightarrow{\nabla}f=\frac{\partial r}{\partial x}\overrightarrow{u_r}+\frac{1}{r}\frac{\partial f}{\partial \theta}\overrightarrow{u_\theta}+\frac{1}{r\sin{\theta}}\frac{\partial f}{\partial \phi}\overrightarrow{u_\phi}$$
+\end{itemize}
+\end{prop}
+\begin{demo}
+soit
+\end{demo}
+\section{La divergence $div$}
+\begin{defi}
+Soit un champ de vecteurs $\overrightarrow{f}:\mathbb{R}^n\mapsto\mathbb{R}^n$ de classe $\mathscr{C}^1$ sur $\mathscr{D}_f$.\\
+La divergence de $\overrightarrow{f}$ est donné par :
+$$div(\overrightarrow{f})=\overrightarrow{\nabla}.\overrightarrow{f}=\sum_{i=1}^n \frac{\partial f_i}{\partial x_i}$$
+\end{defi}
+\begin{rmq}
+La divergence est également égale à la trace de la matrice jacobienne.
+$$div(\overrightarrow{f})=\text{Tr}(J_f)$$
+\end{rmq}
+\begin{prop}
+Soit un champ scalaire $\overrightarrow{f}$ dans l'espace $\mathbb{R}^3$, nous avons pour expression de la divergence :
+\begin{itemize}
+    \item En coordonnées cartésiennes (par définition) : $$div(\overrightarrow{f})=\frac{\partial f_x}{\partial x}+\frac{\partial f_y}{\partial y}+\frac{\partial f_z}{\partial z}$$
+    \item En coordonnées cylindriques : $$div(\overrightarrow{f})=\frac{1}{r}\frac{\partial (r f_r)}{\partial r}+\frac{1}{r}\frac{\partial f_{\theta}}{\partial \theta}+\frac{\partial f_z}{\partial z}$$
+    \item En coordonnées sphériques : $$\overrightarrow{\nabla}f=\frac{\partial r}{\partial x}\overrightarrow{u_r}+\frac{1}{r}\frac{\partial f}{\partial \theta}\overrightarrow{u_\theta}+\frac{1}{r\sin{\theta}}\frac{\partial f}{\partial \phi}\overrightarrow{u_\phi}$$
+\end{itemize}
+\end{prop}
+\begin{thm}[Théorème de Green-Ostrogradski]
+
+\end{thm}
+\section{Le rotationnel $rot$}
+\begin{defi}
+Soit un champ de vecteurs $\overrightarrow{f}:\mathbb{R}^3\mapsto\mathbb{R}^3$ de classe $\mathscr{C}^1$ sur $\mathscr{D}_f$, de coordonnées\\ $f=(f_1,f_2,f_3)$.\\
+Le rotationnel de $\overrightarrow{f}$ de ce champ est défini par :
+
+$$rot(\overrightarrow{f})=\overrightarrow{\nabla}\land\overrightarrow{f}=\begin{pmatrix}\frac{\partial}{\partial x}\\\frac{\partial}{\partial y}\\\frac{\partial}{\partial z}\end{pmatrix}\land\begin{pmatrix}f_1\\f_2\\f_3\end{pmatrix}=\begin{pmatrix}\frac{\partial f_3}{\partial y}-\frac{\partial f_2}{\partial z}\\\frac{\partial f_1}{\partial z}-\frac{\partial f_3}{\partial x}\\\frac{\partial f_2}{\partial x}-\frac{\partial f_1}{\partial y}\end{pmatrix}$$
+\end{defi}
+
+\section{Le laplacien $\Delta$}
+\begin{defi}
+Soit une champ scalaire $f:\mathbb{R}^n\mapsto\mathbb{R}$ de classe $\mathscr{C}^2$ sur $\mathscr{D}_f$.
+Le laplacien, noté $\Delta$ $\nabla^2$, est donné par :
+$$\Delta \overrightarrow{f}=\nabla . \overrightarrow{\nabla} f = div(\overrightarrow{grad}f)=\sum_{i=1}^n \frac{\partial^2 f}{\partial {x_i}^2}$$
+\end{defi}
+\section{Équations aux dérivées partielles}
