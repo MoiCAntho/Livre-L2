@@ -290,10 +290,14 @@ $$\begin{array}{ccccc}
 
 
 
-\part{Équations différentielles}
-\chapter{Équations différentielles}
-\chapter{Systèmes différentiels}
+\part{Équations et systèmes différentielles}
+\chapter{Généralités}
 
+\begin{defi}
+Une équation différentielle est une équation reliant une fonction et ses dérivées successives.\\
+L'inconnue est donc une fonction.\\
+On peut l'écrire de façon très générale sous la forme $F(x,y,y^{\prime},y^{\prime\prime},\hdots,y^{(n)})=0$ où $y(x)$ est la fonction inconnue.
+\end{defi}
 \begin{defi}
 On appelle système différentiel un ensemble d'équations différentielles, qui ne peuvent être résolues indépendamment les unes des autres.\\
 Il se présente sous la forme :
@@ -302,35 +306,109 @@ a_n y_1^{(n)}+a_{n-1}y_1^{(n-1)}(t)+\hdots+a_2 y_1^{\prime\prime}(t)+a_1 y_1^{\p
 \vdots \\
 c_n y_k^{(n)} + c_{n-1}y_k^{(n-1)}(t)+\hdots+c_2 y_k^{\prime\prime}(t)+c_1 y_k^{\prime}(t)+c_0y_k(t) = b_k(t)
 \end{cases}$$
-où les $y_k$ sont les fonctions inconnues, $a_n$ et $c_n$ des coefficients et $b_k(t)$ représente les second membres des équations
+où les $y_k$ sont les fonctions inconnues, $a_n$ et $c_n$ des coefficients et $b_k(t)$ représente les second membres des équations.
 \end{defi}
-Il est nécessaire pour la résolution des systèmes de les "convertir" en problèmes de Cauchy.
-\begin{prop}
-On peut réécrire une système différentiel sous une forme matriciel.
+
+
+\chapter{Méthodes de résolutions explicites}
+Nous allons dans ce chapitre explorer les différentes méthodes de résolution (selon le type d'équation) qui permettent de résoudre une équation différentielle ou un système différentielle de manière exacte.
+\section{Équations différentielles linéaires à coefficients constants}
+\begin{meth}[Résolution d'une équation différentielle linéaire a coefficients constants]
+La résolution de telles équations se déroule en 2 étapes :
+\begin{enumerate}
+    \item Détermination la solution de l'équation homogène associée
+    \item Recherche de la solution particulière :
+    \begin{itemize}
+        \item Par la variation de la constante
+        \item Par le raisonnement analogie
+    \end{itemize}
+    \item Déduction de la solution générale par le principe de superposition.
+\end{enumerate}
+\end{meth}
+\subsection{Équations d'ordre 1}
+\subsubsection{Équation homogène associée}
+\begin{thm}[Théorème]
+Les solutions de $(E_0)$ sur $I$ sont les fonctions $y_0(t)=Ce^{-A(t)}$, $C\in\mathbb{R}$ et $A(x)$ est une primitive de $a(x)$
+\end{thm}
+\begin{demo}
+Soit l'équation homogène $y_0^{\prime}(t)+a(t)y_0(t)=0$.\\
+On pose :
+\begin{align*}
+    \Leftrightarrow & y_0^{\prime}(t)+a(t)y_0(t)=0\\
+    \Leftrightarrow & y_0^{\prime}(t)=-a(t)y_0(t)\\
+    \Leftrightarrow & \frac{y_0^{\prime}(t)}{y_0(t)}=-a(t)\\
+    \Leftrightarrow & \int\frac{y_0^{\prime}(t)}{y_0(t)}\ dt = -\int a(t)\ dt
+\end{align*}
+On reconnaît assez facilement que le premier membre admet pour primitive $\ln\lvert y_0\rvert$, on pose $A(t)$ la primitive de $a(t)$
+$$\Leftrightarrow\ln\lvert y_0\rvert=-A(t)+k$$
+Or nous nous intéressons à la fonction $y_0$ et non à son logarithme, nous passons donc les deux membres à l'exponentielle.
+$$\lvert y_0(t)\rvert=e^{-A(t)}e^{k}$$
+La fonction exponentielle étant, par définition, toujours positive, la disjonction de cas n'est pas nécessaire.
+Nous pouvons donc enlever la valeur absolue, sans poser d'hypothèse quant au signe le fonction se trouvant à l'intérieur. On pose également une nouvelle constante telle que $C=e^k$,on a donc :
+$$y_0(t)=Ce^{-A(t)}$$
+Les solutions de ce type d'équations est donc bien : $y_0(t)=Ce^{-A(t)}$
+\end{demo}
+\subsubsection{Solutions particulières}
 \begin{itemize}
-    \item Pour un système d'ordre  1 : $$Y^{\prime}=AY+b(t)$$
-    \item Pour un système d'ordre n :$$Y^{(n)}=AY+b(t)$$
-    où $Y$ est le vecteur contenant toutes les dérivées d'ordre inférieur à $n$ :
-    $$Y=\begin{pmatrix}y_1^{\prime}\\\vdots\\y_k^{\prime}\\\vdots\\y_1^{(n)}\\\vdots\\y_k^{(n)}\end{pmatrix}$$
+    \item Méthode de variation de la constante :
+    \item 
 \end{itemize}
-\end{prop}
+\subsection{Équations d'ordre 2}
+\subsubsection{Équation homogène associée}
+\subsubsection{Solutions particulières}
+\subsection{Équations d'ordre $n$}
+\section{Équations à variables séparables}
+\begin{defi}
+On dit qu'une équation différentielle est à variable séparées si l'on peut factoriser $f(y,t)$ en termes ne dépendant que de $y$ ou que de $t$.
+$$y^{\prime}=f(y,t)=g(t)h(y)$$
+\end{defi}
 \begin{ex}
-On considère le système :\\
-\begin{center}
-    $\begin{cases}\dot x = x-y+e^t\\\dot y = 2x+4y\end{cases}$ Ici :  $Y=\begin{pmatrix} x \\ y\end{pmatrix}$ , $A=\begin{pmatrix}1&-1\\2&4\end{pmatrix}$ et $b(t)=\begin{pmatrix}e^t\\0\end{pmatrix}$.
-\end{center}.
-On peut donc écrire : $\dot Y = \begin{pmatrix}1&-1\\2&4\end{pmatrix}Y+\begin{pmatrix}e^t\\0\end{pmatrix}$\\
-Soit le système :\\
-\begin{center}
-    $\begin{cases}x^{\prime\prime}=-2\omega^2x+\omega^2y\\y^{\prime\prime}=\omega^2x-2\omega^2y\end{cases}$
-\end{center}
-On pose donc le vecteur $Y$ contenant toutes les dérivées d'ordres inférieurs à $2$.\\
-On a donc $Y=(x,y,x^{\prime},y^{\prime})$.
-Puis on fait sorte de retrouver le même système par multiplication. On obtient :
-$$A=\begin{pmatrix}0&0&1&0\\0&0&0&1\\-2\omega^2&\omega^2&0&0\\\omega^2&-2\omega^2&0&0\end{pmatrix}$$
-Donc on peut écrire : $Y^{\prime}=\begin{pmatrix}x^{\prime}\\y^{\prime}\\x^{\prime\prime}\\y^{\prime\prime}\end{pmatrix}=\begin{pmatrix}0&0&1&0\\0&0&0&1\\-2\omega^2&\omega^2&0&0\\\omega^2&-2\omega^2&0&0\end{pmatrix}\begin{pmatrix}x\\y\\x^{\prime}\\y^{\prime}\end{pmatrix}$
+\begin{itemize}
+    \item Soit $y^{\prime}(t)=t^2y(t)$ \\
+    On peut factoriser par $g(t)=t^2$ et $h(y)=y$, on a donc bien $f(y,t)=g(t)h(y)$. L'équation est a variables séparables.
+    \\
+    \item Soit $y^{\prime}(t)y^2(t)=e^t$\\
+    On peut la réécrire : $y^{\prime}(t)=\frac{e^t}{y^2(t)}$\\
+    On peut factoriser par $g(t)=e^t$ et $h(y)=\frac{1}{y^2}$. L'équation est à variables séparables.\\
+    \item L'équation $y^{\prime}(t)+y(t)-t^2=0$ n'est pas à variables séparables car l'on ne peut pas factoriser cette dernière.
+\end{itemize}
 \end{ex}
-\section{Systèmes différentiels linéaires d'ordre 1}
+\begin{meth}[Résolution d'une équation différentielle à variables séparées]
+\begin{enumerate}
+    \item On vérifie, par l'intermédiaire de la définition, si l'équation est à variables séparables.
+    \item On pose $\frac{y^{\prime}}{h(y)}=g(t)$.
+    \item On intègre la quantité précédemment déterminer $\int \frac{y^{\prime}}{h(y)dt}=\int g(t)dt$.
+    \item On effectue le changement de variable $u=y$ donc $du=y^{\prime}dt$, on obtient :\\ $\int\frac{du}{h(u)}=\int g(t) dt$.
+    \item On obtient : $H(u)=G(t)+C$ où $H$ et $F$ sont respectivement les primitives de $f$ et $\frac{1}{g}$ et $C$ une constante.
+    \item On cherche $H^{-1}$ la fonction réciproque $H$.
+    \item On effectue $y(t)=u=H^{-1}(F(t)+C)$
+\end{enumerate}
+\end{meth}
+\begin{ex}
+\begin{itemize}
+    \item Soit l'équation $(e^t+1)y^{\prime}+e^ty^2=0$.\\
+    On souhaite savoir si l'équation est à variables séparables.\\
+    On peut réécrire : $y^{\prime}=\frac{e^t}{e^t+1}y^2$ avec $g(t)=\frac{e^t}{e^t+1}$ et $h(y)=y^2$.\\
+    L'équation est à variables séparables.\\
+    On pose donc :\\
+    $$\int\frac{y^{\prime}}{h(y)}\ dt=\int g(t)\ dt$$
+    $$\Leftrightarrow\int\frac{y^{\prime}}{y^2}\ dt=\int \frac{-e^t}{e^t+1}\ dt$$
+    $$\Leftrightarrow-\int -\frac{y^{\prime}}{y^2}\ dt=\int \frac{-e^t}{e^t+1}\ dt$$
+    $$\Leftrightarrow-\frac{1}{y}+C_1= \ln(e^t+1) +C_2$$
+    $$\Leftrightarrow y=\frac{1}{\ln(e^t+1)+C}\ \text{avec}\ C=C_2-C_1$$
+    La solution de l'équation est donc : $y(t)=\frac{1}{\ln(e^t+1)+C}$
+    \item Soit l'équation $y^{\prime}=e^ty^2(t)$.\\
+    On voit facilement que l'équation est à variables séparables.\\
+    On pose :
+    \begin{align*}
+        & \frac{y^{\prime}(t)}{y^2(t)}=e^t\\
+        \Leftrightarrow & \int\frac{y^{\prime}(t)}{y^2(t)}=\int e^t\ dt\\
+        \Leftrightarrow & \int\frac{du}{u^2}=\int e^t\ dt\ \text{avec } u=y\Rightarrow du=y^{\prime}(t)dt\\
+        \Leftrightarrow & \frac{-1}{u}=e^t+C\\
+    \end{align*}
+\end{itemize}
+\end{ex}
+\section{Systèmes différentielles linéaires}
 \subsection{Résolution par diagonalisation}
 \subsubsection{Diagonalisation dans $\mathbb{R}$}
 Dans un premier temps nous allons nous intéresser à la résolution des systèmes différentiels linéaire d'ordre 1 homogène.
@@ -338,13 +416,13 @@ Dans un premier temps nous allons nous intéresser à la résolution des systèm
 Soit un système différentiel linéaire d'ordre 1 et sa représentation matriciel.
 $$
 \begin{cases}
-y_1^{\prime}+a_1 y_1 = b(t)\\
+y_1^{\prime}=a_1 y_1 + b(t)\\
 \vdots\\
-y_{n}^{\prime}+c_1 y_n = b_n(t)
-\end{cases}\Leftrightarrow\ Y^{\prime}=AY+B$$
-On considère la matrice diagonale $D$ (obtenue après diagonalisation de $A$) et ses valeurs propres $\lambda_1,\hdots,\lambda_n$.\\
+y_{n}^{\prime}=c_1 y_n + b_n(t)
+\end{cases}\Leftrightarrow\ Y^{\prime}(t)=AY(t)+B(t)$$
+On considère la matrice diagonale $D$ (obtenue après diagonalisation de $A$), ses valeurs propres $\lambda_1,\hdots,\lambda_n$ ainsi que ses vecteurs propres $v_1,...,v_n$.\\
 Une solution homogène du système ($B=0$) est de la forme :
-$$Y(t)=\alpha_1 e^{\lambda_1 t} +\alpha_2 e^{\lambda_2}t+\hdots+\alpha_n e^{\lambda_n t}$$
+$$Y(t)=\alpha_1 e^{\lambda_1 t}v_1 +\alpha_2 e^{\lambda_2 t}v_2+\hdots+\alpha_n e^{\lambda_n t}v_n$$
 \end{thm}
 \begin{demo}
 Soit un système différentiel linéaire d'ordre 1 et sa représentation matriciel :
@@ -378,7 +456,7 @@ $$\begin{cases}
 -y^{\prime}+4x-3y = 0
 \end{cases}$$
 avec les conditions $x(0)=a$ et $y(0)=b$.\\
-On commence par convertir les équations en problèmes de Cauchy :
+On commence par isoler la dérivée la plus haute.
 $$\begin{cases}
 x^{\prime}=x+3y\\
 y^{\prime}=4x-3y
@@ -409,8 +487,8 @@ $$x(0)=C_1 e^{-5\times0}=a \Rightarrow C_1=a$$
 $$y(0)=C_2 e^{3\times 0}=b \Rightarrow C_2=b$$
 Les solutions du système sont données par :
 $$\begin{cases}
-x(t)=ae^{-5\times t}\\
-y(t)=be^{3\times t}
+x(t)=ae^{-5t}\\
+y(t)=be^{3t}
 \end{cases}$$
 \end{ex}
 On s'intéresse désormais aux solutions particulières de tels systèmes.
@@ -418,13 +496,30 @@ On s'intéresse désormais aux solutions particulières de tels systèmes.
 Soit un système différentiel linéaire d'ordre 1 et sa représentation matriciel.
 $$
 \begin{cases}
-y_1^{\prime}+a_1 y_1 = b(t)\\
+y_1^{\prime}=a_1 y_1 +\hdots+a_n y_n + b\\
 \vdots\\
-y_{n}^{\prime}+c_1 y_n = b_n(t)
+y_{n}^{\prime}=c_1 y_1 +\hdots+c_n y_n + b_n
 \end{cases}\Leftrightarrow\ Y^{\prime}=AY+B$$
+On pose $Y=PV$ où $P$ est la matrice de passage entre la base canonique et la base où se trouve la matrice diagonale.\\
+Les solutions particulières d'un tel système sont données comme il suit :
+$$V^{\prime}=DV+\underbrace{P^{-1}B}_{C}\ \Leftrightarrow\ 
+\begin{cases}
+v_1^{\prime}=\lambda_1 v+c_1\\
+\vdots\\
+v_{n}^{\prime}=\lambda_n +c_n
+\end{cases}$$
+Pour revenir sur la variable $y$ il suffit d'appliquer la matrice $P^{-1}$ sur le système défini par la variable $v$.
 \end{thm}
 \begin{demo}
-
+Soit le système sous forme matricielle, $Y^{\prime}=AY+B$.\\
+On considère le vecteur $V$ tel que $Y=PV$
+\begin{align*}
+    \Leftrightarrow & Y^{\prime}=AY+B\\
+    \Leftrightarrow & (PV)^{\prime}=APV+B\\
+    \Leftrightarrow & PV^{\prime}=APV+B\\
+    \Leftrightarrow & V^{\prime}=\underbrace{P^{-1}AP}_{D}V+P^{-1}B\\
+    \Leftrightarrow & V^{\prime}=DV+P^{-1}B
+\end{align*}
 \end{demo}
 \begin{ex}
 On considère le système différentiel :
@@ -432,13 +527,13 @@ $$\begin{cases}
 -z_1^{\prime}+z_1-z_2=e^{t}\\
 -z_2^{\prime}+2z_1+4z_2=0
 \end{cases}$$
-On convertit le système en un problème de Cauchy :
+On isole la plus haute dérivée :
 $$\begin{cases}
-z_1^{\prime}=z_1-z_2-e^{t}\\
+z_1^{\prime}=z_1-z_2+e^{t}\\
 z_2^{\prime}=2z_1+4z_2
 \end{cases}$$
 On réécrit le système sous sa forme matricielle, pour ce faire on pose $Y=\begin{pmatrix}z_1\\z_2\end{pmatrix}$. On a donc :
-$$Y^{\prime}=\begin{pmatrix}1&-1\\2&4\end{pmatrix}Y+\begin{pmatrix}-e^t\\0\end{pmatrix}$$
+$$Y^{\prime}=\begin{pmatrix}1&-1\\2&4\end{pmatrix}Y+\begin{pmatrix}e^t\\0\end{pmatrix}$$
 On essaie de diagonaliser la matrice $A$.\\
 On commence donc par rechercher les éléments propres.\\
 Ici $P_A(\lambda)=(1-\lambda)(4-\lambda)-4$ et sa résolution nous donne $\lambda_1=3$ et $\lambda_2=2$.\\
@@ -447,8 +542,143 @@ $$E_{\lambda_1}=\text{vect}\begin{pmatrix}\begin{pmatrix}1\\-2\end{pmatrix}\end{
 $$E_{\lambda_2}=\text{vect}\begin{pmatrix}\begin{pmatrix}1\\-1\end{pmatrix}\end{pmatrix}$$
 La matrice est diagonalisable. On déduit donc :\\
 $$D=\begin{pmatrix}3&0\\0&2\end{pmatrix}\ \text{et}\ P=\begin{pmatrix}1&1\\-2&-1\end{pmatrix}$$
-
+On en profite pour déterminer la matrice de passage inverse :
+\begin{align*}
+    \Leftrightarrow & \begin{pmatrix}[cc|cc]
+   1 & 1 & 1 & 0 \\  
+   -2 & -1 & 0 & 1
+ \end{pmatrix}\\
+ \Leftrightarrow & \begin{pmatrix}[cc|cc]1 & 1 & 1 & 0\\
+ 0&1&2&1\end{pmatrix}\\
+ \Leftrightarrow & \begin{pmatrix}[cc|cc]1&0&-1&-1\\0&1&2&1\end{pmatrix}
+\end{align*}
+On déduit que $P^{-1}=\begin{pmatrix}-1&-1\\2&1\end{pmatrix}$.\\
+On défini $V$ tel que $Y=PV$, on a donc $V'=DV+P^{-1}B$.\\
+\begin{align*}
+    \Leftrightarrow & V^{\prime}=DV+P^{-1}B \\
+    \Leftrightarrow & V^{\prime}=\begin{pmatrix}3&0\\0&2\end{pmatrix}\times V +\begin{pmatrix}-1&-1\\2&1\end{pmatrix}\begin{pmatrix}-e^t\\0\end{pmatrix}\\
+    \Leftrightarrow & V^{\prime}=\begin{pmatrix}3&0\\0&2\end{pmatrix}\times V +\begin{pmatrix}e^t\\-2e^t\end{pmatrix}\\
+    \Leftrightarrow & \begin{cases}
+    v_1^{\prime}=3v_1+e^t\\
+    v_2^{\prime}=2v_2-2e^t
+    \end{cases}
+\end{align*}
+On résout donc les deux équations indépendamment.
+\begin{enumerate}
+    \item Recherche de la solution générale de l'équation $v_1^{\prime}=3v_1+e^t\ (E)$.
+    \begin{enumerate}
+        \item Résolution de l'équation homogène $v_{1h}$ :\\
+        On détermine l'équation homogène associée $(E_0)$ : $v_1^{\prime}=3v_1$.\\
+        Par l'un des théorèmes précédent, on sait que les solutions de cette équation sont de la forme :
+        $$v_{1h}(t)=C_1e^{3t}$$
+        La fonction $v_{1h}=C_1e^{3t}$ est solution générale de l'équation $(E)$
+        \item Recherche d'une solution particulière $v_{1p}$:\\
+        On utilise la méthode de variation de la constante.
+        Pour ce faire on pose $C_1=k(t)$, on a donc :
+        $$v_1(t)=k(t)e^{3t}$$
+        $$v_1^{\prime}=k^{\prime}(t)e^{3t}+3k(t)e^{3t}$$
+        On peut réécrire $(E)$ de la manière suivante :
+        \begin{align*}
+            \Leftrightarrow & k^{\prime}(t)e^{3t}+3k(t)e^{3t}=3k(t)e^{3t}+e^t\\
+            \Leftrightarrow & k^{\prime}(t)=e^{-2t}\\
+            \Leftrightarrow & k(t) = \int e^{-2t}\ dt\\
+            \Leftrightarrow & k(t) = \frac{1}{-2}\int e^{-2t}\\
+            \Leftrightarrow & k(t) = \frac{1}{-2}e^{-2t}
+        \end{align*}
+        On injecte la fonction $k(t)$ dans la solution homogène :\\
+        $$v_{1p}=\frac{e^{-t}}{-2}e^{3t}=\frac{e^t}{-2}$$
+        La fonction $v_{1p}(t)$ est une solution particulière de l'équation $(E)$.
+        \item Déduction de la solution générale de $(E)$ :
+        Par le principe de superposition, on déduit la solution générale de l'équation :
+        $$v_1(t)=v_{1h}+v_{1p}$$
+        $$v_1(t)=C_1e^{3t}-\frac{e^t}{2}$$
+    \end{enumerate}
+    \item Recherche de la solution générale $v_2^{\prime}=2v_2-2e^t$ :\\
+    \begin{enumerate}
+        \item Résolution de l'équation homogène associée $(E_0)$ :\\
+        Par le même raisonnement que précédemment, on trouve que :
+        $$v_{1h}(t)=C_2e^{2t}$$
+        \item Recherche d'une solution particulière :\\
+        On réutilise la méthode de variation de la constante.
+        On pose $C_2=k(t)$, alors :
+        $$v_2=k(t)e^{2t}$$
+        $$v_2^{\prime}=k^{\prime}(t)e^{2t}+2k(t)e^{2t}$$
+        On a donc :
+        \begin{align*}
+            \Leftrightarrow & k^{\prime}(t)e^{2t}+2k(t)e^{2t}=2k(t)e^{2t}-2e^t\\
+            \Leftrightarrow & k^{\prime}(t)=-2e^{-t}\\
+            \Leftrightarrow & k(t) = \int -2e^{-t}\ dt\\
+            \Leftrightarrow & k(t) = -2\int e^{-t}\\
+            \Leftrightarrow & k(t) = 2e^{-t}
+        \end{align*}
+        On injecte la fonction $k(t)$ dans la solution homogène :
+        $$v_{1p}=2e^{-t}e^{2t}=2e^{t}$$
+        La fonction $v_{1p}$ est solution particulière de l'équation $(E)$.
+        \item Déduction de la solution générale :
+        Par le principe de superposition, on a :
+        $$v_2(t)=C_2e^{2t}+2e^t$$
+    \end{enumerate}
+\end{enumerate}
+On peut alors réécrire le système précédent comme :
+$$\begin{cases}
+v_1(t)=C_1e^{3t}-\frac{e^t}{2}\\
+v_2(t)=C_2e^{2t}+2e^t
+\end{cases}$$
+Par la définition du vecteur $V$ on peut écrire :
+\begin{align*}
+    \Leftrightarrow & Y=PV\\
+    \Leftrightarrow & Y=\begin{pmatrix}1&1\\-2&-1\end{pmatrix}\begin{pmatrix}v_1\\v_2\end{pmatrix}\\
+    \Leftrightarrow & Y=\begin{pmatrix}v_1 +v_2\\-2v_1-v_2\end{pmatrix}\\
+    \Leftrightarrow & Y=\begin{pmatrix}C_1e^{3t}-\frac{e^t}{2}+C_2e^{2t}+2e^t\\-2C_1e^{3t}+e^t-C_2e^{2t}-2e^t\end{pmatrix}
+\end{align*}
+Le système a donc pour solutions :
+$$\begin{cases}
+z_1(t)=C_1e^{3t}-\frac{e^t}{2}+C_2e^{2t}+2e^t\\
+z_2(t)=-2C_1e^{3t}+e^t-C_2e^{2t}-2e^t
+\end{cases}$$
 \end{ex}
+\section{Utilisation de constantes du mouvement}
+\section{Utilisation des formes différentielles}
+
+
+
+
+
+
+
+
+
+
+
+
+Il est nécessaire pour la résolution des systèmes de les "convertir" en problèmes de Cauchy.
+\begin{prop}
+On peut réécrire une système différentiel sous une forme matriciel.
+\begin{itemize}
+    \item Pour un système d'ordre  1 : $$Y^{\prime}=AY+B$$
+    \item Pour un système d'ordre n :$$Y^{(n)}=AY+B$$
+    où $Y$ est le vecteur contenant toutes les dérivées d'ordre inférieur à $n$ :
+    $$Y=\begin{pmatrix}y_1^{\prime}\\\vdots\\y_k^{\prime}\\\vdots\\y_1^{(n)}\\\vdots\\y_k^{(n)}\end{pmatrix}$$
+\end{itemize}
+\end{prop}
+\begin{ex}
+On considère le système :\\
+\begin{center}
+    $\begin{cases}\dot x = x-y+e^t\\\dot y = 2x+4y\end{cases}$ Ici :  $Y=\begin{pmatrix} x \\ y\end{pmatrix}$ , $A=\begin{pmatrix}1&-1\\2&4\end{pmatrix}$ et $b(t)=\begin{pmatrix}e^t\\0\end{pmatrix}$.
+\end{center}.
+On peut donc écrire : $\dot Y = \begin{pmatrix}1&-1\\2&4\end{pmatrix}Y+\begin{pmatrix}e^t\\0\end{pmatrix}$\\
+Soit le système :\\
+\begin{center}
+    $\begin{cases}x^{\prime\prime}=-2\omega^2x+\omega^2y\\y^{\prime\prime}=\omega^2x-2\omega^2y\end{cases}$
+\end{center}
+On pose donc le vecteur $Y$ contenant toutes les dérivées d'ordres inférieurs à $2$.\\
+On a donc $Y=(x,y,x^{\prime},y^{\prime})$.
+Puis on fait sorte de retrouver le même système par multiplication. On obtient :
+$$A=\begin{pmatrix}0&0&1&0\\0&0&0&1\\-2\omega^2&\omega^2&0&0\\\omega^2&-2\omega^2&0&0\end{pmatrix}$$
+Donc on peut écrire : $Y^{\prime}=\begin{pmatrix}x^{\prime}\\y^{\prime}\\x^{\prime\prime}\\y^{\prime\prime}\end{pmatrix}=\begin{pmatrix}0&0&1&0\\0&0&0&1\\-2\omega^2&\omega^2&0&0\\\omega^2&-2\omega^2&0&0\end{pmatrix}\begin{pmatrix}x\\y\\x^{\prime}\\y^{\prime}\end{pmatrix}$
+\end{ex}
+\section{Systèmes différentiels linéaires d'ordre 1}
+
 \subsubsection{Diagonalisation dans $\mathbb{C}$}
 \subsection{Résolution par triangulation}
 \subsection{Comportement des solutions}
