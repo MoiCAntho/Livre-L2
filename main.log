@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  11 DEC 2022 18:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  20 DEC 2022 09:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1001,33 +1001,33 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mult@nat@firstbox=\box128
 \colbreak@box=\box129
 \mc@col@check@num=\count413
-) (main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (PHY301.aux) (PHY302.aux))
+) (main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (MEC301/Ch2.aux) (MEC301/Ch3.aux) (MEC301/Ch4.aux) (MEC301/Ch5.aux) (PHY301/Ch52.aux) (PHY301/Ch53.aux) (PHY301/Ch54.aux) (PHY301/Ch55.aux) (PHY302.aux) (Annexes.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 45.
  (C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1063,9 +1063,9 @@ LaTeX Font Info:    ... okay on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \degres on input line 44.
-LaTeX Info: Redefining \up on input line 44.
-Package hyperref Info: Link coloring OFF on input line 44.
+LaTeX Info: Redefining \degres on input line 45.
+LaTeX Info: Redefining \up on input line 45.
+Package hyperref Info: Link coloring OFF on input line 45.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1073,16 +1073,16 @@ Package hyperref Info: Link coloring OFF on input line 44.
  (C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-french.trsl
 File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 44.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 47.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48.
  (C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
@@ -1095,10 +1095,7 @@ Overfull \hbox (3.74901pt too wide) in paragraph at lines 37--37
 [][]\TU/lmr/bx/n/14.4 II Mat-307 : Courbes paramétrées et équations différentielles pour 
  []
 
-[4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5])
+[4] [5])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -1134,18 +1131,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ]
 Chapitre 2.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
 ) [11]
 \openout2 = `MAT304/Ch3.aux'.
 
@@ -2106,15 +2091,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 85.
 [47]
-Package mdframed Info: Not enough space on this page on input line 101.
+Package mdframed Info: mdframed works in twoside mode on input line 85.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 108.
+ [48]
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
- [48]
 Package mdframed Info: mdframed works in twoside mode on input line 118.
 
 Underfull \hbox (badness 10000) in paragraph at lines 126--132
@@ -2143,57 +2127,520 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--163
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 175.
-File: bc-crayon.mps Graphic file (type mps)
-<bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 191.
-Package mdframed Info: Not enough space on this page on input line 193.
- [50]
-Package mdframed Info: Not enough space on this page on input line 193.
+
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 187.
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 187.
+[50]
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last split box is empty
+(mdframed)                You have to change the settings on input line 187.
+
 File: bc-lampe.mps Graphic file (type mps)
 <bc-lampe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 200.
+Package mdframed Info: mdframed works in twoside mode on input line 197.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 210.
- [51]
+Package mdframed Info: mdframed works in twoside mode on input line 207.
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
+
+ []
+
+
+Overfull \hbox (24.02231pt too wide) detected at line 287
+[]
+ []
+
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 315.
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 315.
+[51] [52] [53]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 315.
+ [54]
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 238.
+Package mdframed Info: mdframed works in twoside mode on input line 318.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 326.
+ [55]
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 249.
- [52]
+Package mdframed Info: mdframed works in twoside mode on input line 329.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 261.
+Package mdframed Info: mdframed works in twoside mode on input line 341.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 278.
-) [53]
+Package mdframed Info: mdframed works in twoside mode on input line 358.
+
+Overfull \vbox (3.05103pt too high) detected at line 364
+ []
+
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 364.
+
+Overfull \vbox (4.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (5.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (6.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (7.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (8.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (9.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (10.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (11.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (12.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (13.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (14.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (15.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (16.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (17.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (18.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (19.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (20.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (21.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (22.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (23.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (24.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (25.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (26.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (27.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (28.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (29.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (30.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (31.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (32.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (33.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (34.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (35.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (36.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (37.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (38.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (39.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (40.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (41.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (42.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (43.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (44.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (45.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (46.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (47.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (48.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (49.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (50.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (51.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (52.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (53.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (54.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (55.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (56.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (57.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (58.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (59.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (60.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (61.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (62.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (63.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (64.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (65.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (66.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (67.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (68.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (69.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (70.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (71.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (72.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (73.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (74.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (75.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (76.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (77.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (78.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (79.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (80.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (81.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (82.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (83.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (84.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (85.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (86.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (87.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (88.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (89.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (90.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (91.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (92.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (93.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (94.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (95.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (96.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (97.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (98.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (99.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (100.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (101.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (102.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (103.05103pt too high) detected at line 364
+ []
+
+
+Overfull \vbox (104.05103pt too high) detected at line 364
+ []
+
+
+Package mdframed Warning: correct box splittet fails
+ It seems you are using a non splittable contents
+(mdframed)                 on input line 364.
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 364.
+[56]) [57]
 \openout2 = `MAT307/Ch2.aux'.
 
- (MAT307/Ch2.tex [54
+ (MAT307/Ch2.tex [58
 
 
 
 
 ]
 Chapitre 2.
-) [55]
+) [59]
 \openout2 = `MAT307/Ch3.aux'.
 
- (MAT307/Ch3.tex [56
+ (MAT307/Ch3.tex [60
 
 
 
 
 ]
 Chapitre 3.
-) [57] [58
+) [61] [62
 
 
 
-] [59] [60]
+] [63] [64]
 \openout2 = `MAT307/Ch4.aux'.
 
  (MAT307/Ch4.tex
@@ -2204,13 +2651,13 @@ Package mdframed Info: mdframed works in twoside mode on input line 3.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 8.
-) [61
+) [65
 
 
 ]
 \openout2 = `MAT307/Ch5.aux'.
 
- (MAT307/Ch5.tex [62
+ (MAT307/Ch5.tex [66
 
 
 
@@ -2218,240 +2665,368 @@ Package mdframed Info: mdframed works in twoside mode on input line 8.
 ]
 Chapitre 2.
 
-Overfull \hbox (28.22316pt too wide) in paragraph at lines 3--3
-[]\TU/lmr/bx/n/17.28 Équations différentielles linéaires à coefficients constants 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 4.
 
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 4.
+Package mdframed Info: mdframed works in twoside mode on input line 5.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 9.
+Package mdframed Info: mdframed works in twoside mode on input line 14.
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 14.
+Package mdframed Info: mdframed works in twoside mode on input line 18.
 
-Overfull \hbox (33.65428pt too wide) in paragraph at lines 14--15
-[]\TU/lmr/m/n/12 Si le polynôme caractéristique n’admet pour racine uniquement des racines simples $\OML/cmm/m/it/12 r[]; r[]; [] ; r[] \OMS/cmsy/m/n/12 2
+Overfull \hbox (7.01201pt too wide) in paragraph at lines 19--20
+[]\TU/lmr/m/n/12 Si le polynôme caractéristique n’admet pour racine uniquement des racines simples $\OML/cmm/m/it/12 r[]; [] ; r[]$
  []
 
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 21.
+Package mdframed Info: Not enough space on this page on input line 23.
+[67]
+Package mdframed Info: Not enough space on this page on input line 23.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 25.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 37.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 41.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+ []
+
+File: bc-lampe.mps Graphic file (type mps)
+<bc-lampe.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 52.
+[68]
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 63.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
+
+ []
+
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 90.
+[69]
+Package mdframed Info: Not enough space on this page on input line 110.
+File: bc-loupe.mps Graphic file (type mps)
+<bc-loupe.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 111.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 135.
+ [70]
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 136.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 182.
+ [71]
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 184.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 201.
+ [72]
+File: bc-loupe.mps Graphic file (type mps)
+<bc-loupe.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 202.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 213.
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 328.
+[73] [74]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 328.
+ [75]
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 331.
+Package mdframed Info: Not enough space on this page on input line 353.
+ [76]
+Package mdframed Info: Not enough space on this page on input line 353.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 356.
+ [77]
+Package mdframed Info: Not enough space on this page on input line 358.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 362.
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+
+ []
+
+File: bc-outil.mps Graphic file (type mps)
+<bc-outil.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 407.
+[78]
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 416.
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+
+ []
+
+) [79] [80]
+\openout2 = `MAT307/Ch6.aux'.
+
+ (MAT307/Ch6.tex
+Chapitre 3.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 5.
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 8.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+) [81
+
+
+
+
+]) [82
+
+
+
+] [83] [84] (MEC301/MEC301.tex
+\openout2 = `MEC301/Ch2.aux'.
+
+ (MEC301/Ch2.tex
+Chapitre 1.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 9.
+File: bc-outil.mps Graphic file (type mps)
+<bc-outil.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 15.
+File: bc-loupe.mps Graphic file (type mps)
+<bc-loupe.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 20.
+Package mdframed Info: Not enough space on this page on input line 22.
+[85
+
+
+]
+Package mdframed Info: Not enough space on this page on input line 22.
+File: bc-lampe.mps Graphic file (type mps)
+<bc-lampe.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 23.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 30.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 39.
+File: bc-info.mps Graphic file (type mps)
+<bc-info.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 42.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 47.
+ [86]
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 51.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 60.
+File: bc-outil.mps Graphic file (type mps)
+<bc-outil.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 66.
+
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 26.
-
-[63]
-File: bc-crayon.mps Graphic file (type mps)
-<bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 27.
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-
- []
-
-File: bc-lampe.mps Graphic file (type mps)
-<bc-lampe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 38.
-File: bc-crayon.mps Graphic file (type mps)
-<bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 49.
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
-
- []
-
-[64]
-File: bc-cle.mps Graphic file (type mps)
-<bc-cle.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 77.
-File: bc-loupe.mps Graphic file (type mps)
-<bc-loupe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 89.
- [65]
-Package mdframed Info: Not enough space on this page on input line 113.
-File: bc-crayon.mps Graphic file (type mps)
-<bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 114.
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 155.
- [66]
-File: bc-cle.mps Graphic file (type mps)
-<bc-cle.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 157.
-Package mdframed Info: Not enough space on this page on input line 174.
- [67]
-Package mdframed Info: Not enough space on this page on input line 174.
-File: bc-loupe.mps Graphic file (type mps)
-<bc-loupe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 175.
-File: bc-crayon.mps Graphic file (type mps)
-<bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 186.
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
-
- []
+(mdframed)                or something else on input line 75.
 
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 301.
-[68] [69]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 301.
- [70]
-File: bc-book.mps Graphic file (type mps)
-<bc-book.mps>
- [71]
-Package mdframed Info: mdframed works in twoside mode on input line 304.
-File: bc-crayon.mps Graphic file (type mps)
-<bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 310.
+(mdframed)              on input line 75.
+[87]) [88]
+\openout2 = `MEC301/Ch3.aux'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
-
- []
-
-File: bc-outil.mps Graphic file (type mps)
-<bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 352.
-[72]
-File: bc-crayon.mps Graphic file (type mps)
-<bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 361.
-
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--368
-
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73] [74]
-\openout2 = `MAT307/Ch6.aux'.
-
- (MAT307/Ch6.tex
-Chapitre 3.
-) [75
-
-
-
-
-]) [76
-
-
-
-] [77] [78] (MEC301.tex
-Chapitre 1.
-File: bc-book.mps Graphic file (type mps)
-<bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 7.
-File: bc-outil.mps Graphic file (type mps)
-<bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 13.
-File: bc-loupe.mps Graphic file (type mps)
-<bc-loupe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 18.
-File: bc-lampe.mps Graphic file (type mps)
-<bc-lampe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 21.
-[79
-
-]
-Package mdframed Info: Not enough space on this page on input line 24.
-File: bc-book.mps Graphic file (type mps)
-<bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 26.
-File: bc-info.mps Graphic file (type mps)
-<bc-info.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 30.
-File: bc-book.mps Graphic file (type mps)
-<bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 36.
-File: bc-book.mps Graphic file (type mps)
-<bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 42.
- [80]
+ (MEC301/Ch3.tex
 Chapitre 2.
-[81
+) [89
 
-] [82
+
+
+
+]
+\openout2 = `MEC301/Ch4.aux'.
+
+ (MEC301/Ch4.tex [90
+
+
+
 
 ]
 Chapitre 3.
-[83] [84
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 7.
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 17.
+) [91]
+\openout2 = `MEC301/Ch5.aux'.
+
+ (MEC301/Ch5.tex [92
+
+
+
 
 ]
 Chapitre 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--65
+Underfull \hbox (badness 10000) in paragraph at lines 2--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--65
+Underfull \hbox (badness 10000) in paragraph at lines 2--11
 
  []
 
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 67.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+Package mdframed Info: mdframed works in twoside mode on input line 13.
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-[85]
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 92.
-) [86] [87
-
-] [88]
-\openout2 = `PHY301.aux'.
-
- (PHY301.tex [89
-
-
-] [90] [91
-
-] [92]) [93
+Package mdframed Info: mdframed works in twoside mode on input line 39.
+) [94]) [95
 
 
 
-] [94]
+] [96] (PHY301/PHY301.tex
+Chapitre 1.
+File: bc-crayon.mps Graphic file (type mps)
+<bc-crayon.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 10.
+
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 11--39
+[]$[]$ $[]$ 
+ []
+
+[97
+
+] [98
+
+]
+Chapitre 2.
+[99]
+\openout2 = `PHY301/Ch52.aux'.
+
+ (PHY301/Ch52.tex [100
+
+
+]
+Chapitre 3.
+) [101]
+\openout2 = `PHY301/Ch53.aux'.
+
+ (PHY301/Ch53.tex [102
+
+
+
+
+]
+Chapitre 4.
+) [103]
+\openout2 = `PHY301/Ch54.aux'.
+
+ (PHY301/Ch54.tex [104
+
+
+
+
+]
+Chapitre 5.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 3.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 7.
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+) [105]
+\openout2 = `PHY301/Ch55.aux'.
+
+ (PHY301/Ch55.tex [106
+
+
+
+
+]
+Chapitre 6.
+) [107]) [108
+
+
+
+] [109] [110]
 \openout2 = `PHY302.aux'.
 
  (PHY302.tex
@@ -2470,7 +3045,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 16.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 24.
-[95
+[111
 
 
 ]
@@ -2502,7 +3077,7 @@ Package mdframed Warning: You got a bad break
 (mdframed)                by changing the text, the space
 (mdframed)                or something else on input line 57.
 
-[96]
+[112]
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 61.
@@ -2519,41 +3094,46 @@ Underfull \hbox (badness 5091) in paragraph at lines 72--73
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 96.
-[97]
+[113]
 File: bc-info.mps Graphic file (type mps)
 <bc-info.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 111.
- [98]
+ [114]
 Chapitre 2.
-[99
+[115
 
-] [100
+] [116
 
 ]
 Chapitre 3.
-[101] [102
+[117] [118
 
 ]
 Chapitre 4.
-[103] [104
+[119] [120
 
 ]
 Chapitre 5.
-) [105] [106
+) [121] [122
 
 
 
-] [107] [108] (main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (PHY301.aux) (PHY302.aux))
+] [123] [124]
+\openout2 = `Annexes.aux'.
+
+
+No file Annexes.tex.
+(main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (MEC301/Ch2.aux) (MEC301/Ch3.aux) (MEC301/Ch4.aux) (MEC301/Ch5.aux) (PHY301/Ch52.aux) (PHY301/Ch53.aux) (PHY301/Ch54.aux) (PHY301/Ch55.aux) (PHY302.aux) (Annexes.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F424AD174F24C770BA0A9F6F1D4C62B8;23830.
+(rerunfilecheck)             Checksum: A3DEFB46E911390C4AABF684FD3CF16F;26524.
  ) 
 Here is how much of TeX's memory you used:
- 33568 strings out of 410921
- 660875 string characters out of 2822672
- 1249299 words of memory out of 3000000
- 53689 multiletter control sequences out of 15000+600000
- 483090 words of font info for 98 fonts, out of 8000000 for 9000
+ 34697 strings out of 410921
+ 681516 string characters out of 2822672
+ 1304375 words of memory out of 3000000
+ 54754 multiletter control sequences out of 15000+600000
+ 485859 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,21n,99p,713b,1093s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 93i,23n,99p,709b,1229s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (108 pages, 4022084 bytes).
+Output written on main.xdv (124 pages, 4725488 bytes).

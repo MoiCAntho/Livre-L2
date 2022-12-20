@@ -1,25 +1,39 @@
 \chapter{Méthodes de résolutions explicites}
-Nous allons dans ce chapitre explorer les différentes méthodes de résolution (selon le type d'équation) qui permettent de résoudre une équation différentielle ou un système différentielle de manière exacte.
-\section{Équations différentielles linéaires à coefficients constants}
+Nous allons dans ce chapitre explorer les différentes méthodes de résolution (selon le type d'équation) qui permettent de résoudre une équation différentielle ou un système différentielle de manière exacte.\\
+Il est important de comprendre que nous ne connaissons aucune méthode de résolution générale, seulement des méthodes s'appliquant dans certains cas.
+\section{Équations différentielles linéaires d'ordre $n$}
 \begin{defi}
-On qualifie une équation différentielle de linéaires à coefficients constants toute équation de la forme :
-$$a_ny^{(n)}+a_{n-1}y^{(n-1)}+\hdots+a_1y^{\prime}+a_0y+b(t)=0$$
+Une équation différentielle linéaire d'ordre est une équation de la forme :
+$$a_n(t)y^{(n)}+a_{n-1}(t)y^{(n-1)}+\hdots+a_1(t)y^{\prime}+a_0(t)y+b(t)=0$$
+\begin{align*}
+    \text{où } & y \text{ est la fonction inconnue}\\
+    & a_0(t),\hdots,a_n(t) \text{ sont des fonctions indépendantes de }y
+\end{align*}
 \end{defi}
 
 \begin{prop}
 On appelle polynôme caractéristique, le polynôme qui associe a chaque dérivées d'ordre n de l'équation homogène une variable $r$ à la puissance $n$.
 $$a_ny^{(n)}+a_{n-1}y^{(n-1)}+\hdots+a_1y^{\prime}+a_0y+b(t)=0\Leftrightarrow a_nr^{n}+a_{n-1}y^{n-1}+\hdots+a_1r+a_0$$
 \end{prop}
-\begin{thm}
-Si le polynôme caractéristique n'admet pour racine uniquement des racines simples $r_1,r_2,\hdots,r_n\in\mathbb{C}$, l'ensemble des solutions est alors l'espace vectoriel engendré par ${e^{r_1t},\hdots,e^{r_nt}}$.
+\begin{thm}[Théorème]
+Si le polynôme caractéristique n'admet pour racine uniquement des racines simples $r_1,\hdots,r_n$ $\in\mathbb{C}$, l'ensemble des solutions est alors l'espace vectoriel engendré par $\{e^{r_1t},\hdots,e^{r_nt}\}$.
+\end{thm}
+\begin{thm}[Théorème]
+Si le polynôme caractéristique $P(r)$ admet des racines multiples, pour chaque racine $r_k$ de multiplicité $m>1$
 \end{thm}
 
+\begin{ex}
+\begin{itemize}
+    \item Ordre 1 : $y^{\prime}-ty=0$
+    \item Ordre 2 : $y^{\prime\prime}+2y^{\prime}+y=0$
+    \item Ordre 5 : $y^{(5)}+y^{(4)}-4y^{(3)}-16y^{\prime\prime}-20y^{\prime}-12y=0$
+\end{itemize}
+\end{ex}
 
 
 
 
-
-\section{Équations à variables séparables}
+\section{Équations différentielles à variables séparables}
 \begin{defi}
 On dit qu'une équation différentielle est à variable séparées si l'on peut factoriser $f(y,t)$ en termes ne dépendant que de $y$ ou que de $t$.
 $$y^{\prime}=f(y,t)=g(t)h(y)$$
@@ -72,7 +86,6 @@ $$y^{\prime}=f(y,t)=g(t)h(y)$$
 \end{ex}
 \section{Systèmes différentielles linéaires}
 \subsection{Résolution par diagonalisation}
-\subsubsection{Diagonalisation dans $\mathbb{R}$}
 Dans un premier temps nous allons nous intéresser à la résolution des systèmes différentiels linéaire d'ordre 1 homogène.
 \begin{thm}[Théorème]
 Soit un système différentiel linéaire d'ordre 1 et sa représentation matriciel.
@@ -82,9 +95,18 @@ y_1^{\prime}=a_1 y_1 + b(t)\\
 \vdots\\
 y_{n}^{\prime}=c_1 y_n + b_n(t)
 \end{cases}\Leftrightarrow\ Y^{\prime}(t)=AY(t)+B(t)$$
-On considère la matrice diagonale $D$ (obtenue après diagonalisation de $A$), ses valeurs propres $\lambda_1,\hdots,\lambda_n$ ainsi que ses vecteurs propres $v_1,...,v_n$.\\
-Une solution homogène du système ($B=0$) est de la forme :
-$$Y(t)=\alpha_1 e^{\lambda_1 t}v_1 +\alpha_2 e^{\lambda_2 t}v_2+\hdots+\alpha_n e^{\lambda_n t}v_n$$
+On s'intéresse aux solutions homogènes ($B=0$) d'un tel système.
+On pose $Y=PZ$, le système devient : $Z^{\prime}=DZ$
+Où $D$ est la matrice diagonale semblable à $A$ 
+ et $P$ la matrice de passage vers la base où $D$ existe.\\
+Les solutions d'un tel système sont données par :
+$$\begin{cases}
+z_1=C_1e^{\lambda_1 t}\\
+\vdots\\
+z_n=C_ne^{\lambda_n t}
+\end{cases}$$
+Seulement nous cherchons les solutions de $Y$ et non de $Z$, par définition de $Z$ il suffit de poser :
+$$Y=PZ$$
 \end{thm}
 \begin{demo}
 Soit un système différentiel linéaire d'ordre 1 et sa représentation matriciel :
@@ -99,17 +121,17 @@ La matrice $P$ est, par définition, inversible (matrice de passage), on peut do
 $$Z^{\prime}=DZ$$
 On obtient donc le système différentiel suivant :
 $$\begin{cases}
-y_1^{\prime}=\lambda_1 y_1\\
+z_1^{\prime}=\lambda_1 z_1\\
 \vdots\\
-y_n^{\prime}=\lambda_n y_n\\
+z_n^{\prime}=\lambda_n z_n\\
 \end{cases}$$
 Et en résolvant, les équations une a une du système on obtient finalement :
 $$\begin{cases}
-y_1(t)=C_1 e^{\lambda_1 t}\\
+z_1(t)=C_1 e^{\lambda_1 t}\\
 \vdots\\
-y_n(t)=C_n e^{\lambda_n t}\\
+z_n(t)=C_n e^{\lambda_n t}\\
 \end{cases}$$
-Donc $y(t)=C_1 e^{\lambda_1 t}+\hdots+C_n e^{\lambda_n t}$
+Donc $z(t)=C_1 e^{\lambda_1 t}+\hdots+C_n e^{\lambda_n t}$
 \end{demo}
 \begin{ex}
 Nous souhaitons résoudre le système différentiel suivant :
@@ -117,8 +139,7 @@ $$\begin{cases}
 -x^{\prime}+x+3y = 0\\
 -y^{\prime}+4x-3y = 0
 \end{cases}$$
-avec les conditions $x(0)=a$ et $y(0)=b$.\\
-On commence par isoler la dérivée la plus haute.
+On commence par mettre le système sous forme résolue :
 $$\begin{cases}
 x^{\prime}=x+3y\\
 y^{\prime}=4x-3y
@@ -126,31 +147,37 @@ y^{\prime}=4x-3y
 On cherche sa représentation matriciel, on pose $Y=\begin{pmatrix}x\\y\end{pmatrix}$.\\
 On peut écrire :
 $$Y^{\prime}=\begin{pmatrix}x^{\prime}\\y^{\prime}\end{pmatrix}=\begin{pmatrix}1&3\\4&-3\end{pmatrix}\begin{pmatrix}x\\y\end{pmatrix}$$
+On pose : $Z=\begin{pmatrix}z_1\\z_2\end{pmatrix}=PV$.
+On peut réécrire le système comme $Z^{\prime}=DZ$.\\
 Partons à la recherche de la matrice diagonale $D$ et notamment des éléments propres de $A$.\\
 Ici $P_A(\lambda)=(1-\lambda)(-3-\lambda)-12$, sa résolution nous renvoie : $\lambda_1=-5$ et $\lambda_2=3$.\\
 On recherche les vecteurs propres associés aux valeurs propres $\lambda_1$ et $\lambda_2$.\\
 La recherche des vecteurs et sous-espaces propres nous donne :\\
-La matrice $A$ est diagonalisable, on en déduit la matrice $D$ :
-$$\begin{pmatrix}-5&0\\0&3\end{pmatrix}$$
+La matrice $A$ est diagonalisable, on en déduit les matrices $D$ et $P$ :
+$$D=\begin{pmatrix}-5&0\\0&3\end{pmatrix}\ \text{et}\ P=\begin{pmatrix}-1&3\\2&2\end{pmatrix}$$
 On peut donc réécrire le système comme :
-$$Y^{\prime}=\begin{pmatrix}x^{\prime}\\y^{\prime}\end{pmatrix}=\begin{pmatrix}-5&0\\0&3\end{pmatrix}\begin{pmatrix}x\\y\end{pmatrix}$$
+$$Z^{\prime}=\begin{pmatrix}z_1^{\prime}\\z_2^{\prime}\end{pmatrix}=\begin{pmatrix}-5&0\\0&3\end{pmatrix}\begin{pmatrix}z_1\\z_2\end{pmatrix}$$
 Il nous faut donc résoudre :
 $$\begin{cases}
-x^{\prime}=-5x\\
-y^{\prime}=3y
+z_1^{\prime}=-5z_1\\
+z_2^{\prime}=3z_2
 \end{cases}$$
 Par le théorème précédent, on déduit :
 $$\begin{cases}
-x(t)=C_1 e^{-5t}\\
-y(t)=C_2 e^{3t}
+z_1(t)=C_1 e^{-5t}\\
+z_2(t)=C_2 e^{3t}
 \end{cases}$$
-Application des conditions initiales :
-$$x(0)=C_1 e^{-5\times0}=a \Rightarrow C_1=a$$
-$$y(0)=C_2 e^{3\times 0}=b \Rightarrow C_2=b$$
-Les solutions du système sont données par :
+Pour trouver les solution pour $y$ il suffit de poser :
+\begin{align*}
+    \Leftrightarrow & Y=PZ\\
+    \Leftrightarrow & Y=\begin{pmatrix}-1&3\\2&2\end{pmatrix}\begin{pmatrix}z_1\\z_2\end{pmatrix}\\
+    \Leftrightarrow & Y=\begin{pmatrix}-z_1+3z_2\\2(z_1+z_2)\end{pmatrix}\\
+    \Leftrightarrow & Y=\begin{pmatrix}-C_1e^{-5t}+3C_2e^{3t}\\2(C_1e^{-5t}+C_2e^{3t})\end{pmatrix}
+\end{align*}
+Les solutions du système sont donc :
 $$\begin{cases}
-x(t)=ae^{-5t}\\
-y(t)=be^{3t}
+x(t)=-C_1e^{-5t}+3C_1e^{3t}\\
+y(t)=2(C_1e^{-5t}+C_2e^{3t})\\
 \end{cases}$$
 \end{ex}
 On s'intéresse désormais aux solutions particulières de tels systèmes.
@@ -299,6 +326,31 @@ z_1(t)=C_1e^{3t}-\frac{e^t}{2}+C_2e^{2t}+2e^t\\
 z_2(t)=-2C_1e^{3t}+e^t-C_2e^{2t}-2e^t
 \end{cases}$$
 \end{ex}
+\subsection{Comportement des solutions selon les valeurs propres}
+\subsection{Tracés de systèmes différentiels}
+\begin{ex}
+On reprend l'exemple de la résolution d'un système homogène. On a le système suivant, ses solutions et ses conditions :
+$$\begin{array}{ccc}
+    \begin{cases}x^{\prime}=x+3y\\y^{\prime}=4x-3y\end{cases} & \begin{cases}x(t)=-C_1e^{-5t}+3C_2e^{3t}\\y(t)=2(C_1e^{-5t}+C_2e^{3t})\\\end{cases} & \text{les conditions}\ x(0)=a\ \text{et}\ y(0)=b\\
+\end{array}$$
+On commence par déterminer les constantes $C_1=\mu$ et $C_2=\nu$ en fonction des conditions initiales :
+\begin{align*}
+    \Leftrightarrow & \begin{cases}x(0)=-\mu e^{-5t}+3\nu e^{3t}\\y(0)=2(\mu e^{-5t}+\nu e^{3t})\end{cases}\\
+    \Leftrightarrow & \begin{cases}-\mu e^{-5t}+3\nu e^{3t}=a\\2(\mu e^{-5t}+\nu e^{3t})=b\end{cases}\\
+    \Leftrightarrow & \begin{cases}-\mu +3\nu=a\\2\mu+2\nu=b\end{cases}\\
+    \Leftrightarrow & \begin{cases}-\mu+3\nu=a\\8\nu=b+2a\end{cases}\\
+    \Leftrightarrow & \begin{cases}-\mu+3\nu=a\\\nu = \frac{b+2a}{8}\end{cases}\\
+    \Leftrightarrow & \begin{cases}-\mu =a-\frac{3b-6a}{8}\\\nu=\frac{b+2a}{8}\end{cases}\\
+    \Leftrightarrow & \begin{cases}\mu = \frac{3b+2a}{8}\\\nu=\frac{b+2a}{8}
+    \end{cases}
+\end{align*}
+On peut donc réécrire les solutions :
+$$\begin{cases}
+x(t)=\left( \frac{-3b-2a}{8} \right)e^{-5t}+\left( \frac{3b+6a}{8} \right)e^{3t}\\
+y(t)=\left(\frac{6b+2a}{8}\right)e^{-5t}+\left(\frac{2b+4a}{8}\right)e^{3t}
+\end{cases}$$
+$$\Leftrightarrow\ \begin{cases}x(t)=\frac{1}{8}\left(\left(-3b-2a\right)e^{-5t}+3\left(b+2a\right)e^{3t}\right)\\y(t)=\frac{1}{4}\left(\left(3b+a\right)e^{-5t}+\left(b+2a\right)e^{3t}\right)\end{cases}$$
+\end{ex}
 \section{Intégrales premières ou constantes du mouvement}
 Lorsqu'il n'est pas possible de résoudre de manière explicite une équation ou un système différentielle, il peut être judicieux de passer par une intégrale première (autrement appelée constante du mouvement.
 \begin{defi}
@@ -334,6 +386,9 @@ Pour un système autonome, la fonction $V$ est une intégrale première si et se
 \section{Autres méthodes}
 
 
+\section{Comportement des solutions}
+\subsection{Comportement asymptotique}
+\subsection{Comportement selon les valeurs propres}
 
 
 
@@ -378,6 +433,3 @@ Donc on peut écrire : $Y^{\prime}=\begin{pmatrix}x^{\prime}\\y^{\prime}\\x^{\pr
 
 \subsubsection{Diagonalisation dans $\mathbb{C}$}
 \subsection{Résolution par triangulation}
-\subsection{Comportement des solutions}
-\subsubsection{Comportement en fonction des valeurs propres}
-\subsubsection{Comportement asymptotique}

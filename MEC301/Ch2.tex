@@ -1,0 +1,75 @@
+\chapter{Torseurs}
+Le torseur est un objet français (Cocorico !), permettant de représenter toutes les actions que subit un solide.\\
+C'est un outils qui facilite les calculs et la formulation des lois.
+En effet, il faudrait diviser les lois en plusieurs théorème pour complètement inclure les informations contenues dans un torseur.
+
+Les torseurs sont un manière de d'écrire un champ de vecteur, ils sont tous caractérisés par trois paramètres : deux vecteurs et un point.
+\section{Actions mécaniques}
+\section{Moment d'une force}
+\begin{defi}
+On appelle moment en $A$ de la force $\overrightarrow{F}$ passant par le point $P$, du solide $\Sigma$ :
+$$\overrightarrow{M_{A}(\overrightarrow{F})}=\overrightarrow{AP}\land\overrightarrow{A}$$
+\end{defi}
+Un moment représente la capacité d'une force a crée une rotation autour d'un axe.\\
+On peut définir la formule de transport des moments qui permet, connaissant le moment en un point $A$ du solide, de calculer le moments de cette force sur n'importe quel point du solide.
+\begin{prop}
+Soient $A$ et $B$ deux points de l'espace et $\overrightarrow{M_{A}}(\overrightarrow{F})$, $\overrightarrow{M_{B}}(\overrightarrow{F})$ leurs moments associés de la force $\overrightarrow{F}$ appliquée en $P$ au solide $\Sigma$.\\
+On définit la formule de transport des moments :
+$$\overrightarrow{M_{B}}(\overrightarrow{F})=\overrightarrow{M_{A}}(\overrightarrow{F})+\overrightarrow{BA}\land\overrightarrow{F}$$
+\end{prop}
+\begin{demo}
+Soit
+\end{demo}
+\begin{meth}[Calcul d'un moment avec le bras de levier]
+Dans un problème a deux dimensions, nous pouvons calculer un moment sans passer par le produit vectoriel. Pour ce faire, on utilise le bras de levier.\\
+On commence par trouver sa norme : $\|\overrightarrow{M_O}(\overrightarrow{F})\|=\|\overrightarrow{F}\|\times\|\overrightarrow{OA}\|$\\
+Puis on détermine le vecteur unitaire par lequel il est porté ainsi que son signe :\\
+Ici la force $\overrightarrow{F}$
+\end{meth}
+\section{Torseur force}
+\begin{defi}
+On appelle torseur force l'objet constitué de deux éléments de réductions :
+\begin{itemize}
+    \item la résultante des Forces appliquées au système, noté $R$
+    \item la résultante des Moments appliqués au point considéré, noté $M_A$ avec $A$ un point du solide $\Sigma$
+\end{itemize}
+Le torseur force a donc trois paramètres : résultante des forces, résultante des moments et point d'application.
+$$\{\tau\}_{A}=\begin{Bmatrix}\overrightarrow{R}\\\overrightarrow{M_A}\end{Bmatrix}_A=\begin{Bmatrix} \displaystyle\sum_{i=1}^{n}\overrightarrow{F_i}\\\displaystyle\sum_{i=1}^{n}\overrightarrow{AP_i}\land\overrightarrow{F_i}\end{Bmatrix}_A=\begin{Bmatrix} R_x & R_y  & R_z\\ M_x & M_y & M_z\end{Bmatrix}_A$$
+\end{defi}
+\begin{ex}
+jfienf
+\end{ex}
+\begin{rmq}
+Dans le cas d'un point matériel le torseur force se réduit seulement à la résultante des forces.
+\end{rmq}
+\subsection{Torseur de force répartie}
+
+\begin{ex}
+     Balle en l'air avec son poids une rotation et la pression de l'aire ou une mongolfière avec la poussée d'archimède et la pression de l'aire et son poids
+\end{ex}
+\section{Torseur cinématique}
+\begin{defi}
+On appelle torseur cinématique, l'objet constitué des éléments de réduction :
+`\begin{itemize}
+    \item 
+\end{itemize}
+$${\lbrace\chi\rbrace}_{A/R_0}=\begin{Bmatrix}\overrightarrow{\omega}_{\Sigma/R_0}\\\overrightarrow{V}_{\Sigma/R_0}(A)\end{Bmatrix}_{A/R_0}=\begin{Bmatrix} \omega_x & \omega_y  & \omega_z\\ u_A & v_A & w_A\end{Bmatrix}_{A/R_0}$$
+\end{defi}
+\section{Torseur de liaisons}
+\section{Torseur déplacement infinitésimal}
+\begin{defi}
+
+$${\lbrace\delta\chi\rbrace}_{A/R_0}=\begin{Bmatrix}\delta\overrightarrow{\omega}_{\Sigma/R_0}\\\delta\overrightarrow{l}_{\Sigma/R_0}(A)\end{Bmatrix}_{A/R_0}=\begin{Bmatrix} \delta\omega_x & \delta\omega_y  & \delta\omega_z\\ \delta u_A & \delta v_A & \delta w_A\end{Bmatrix}_{A/R_0}$$
+\end{defi}
+\section{Opérations sur les torseurs}
+On définit pour les torseurs les opérations de base permettant a ces dernier d'interagir entre-eux.
+\begin{prop}
+\begin{itemize}
+    \item Addition :
+    $$\{\tau_1\}_A+\{\tau_2\}_A=\begin{Bmatrix}\overrightarrow{R}_1\\\overrightarrow{M_{A1}}\end{Bmatrix}_A+\begin{Bmatrix}\overrightarrow{R}_2\\\overrightarrow{M_{A2}}\end{Bmatrix}_A=\begin{Bmatrix}\overrightarrow{R}_1+\overrightarrow{R}_2\\\overrightarrow{M_{A1}}+\overrightarrow{M_{A2}}\end{Bmatrix}_A$$
+    \item Multiplication par un scalaire :
+    $$\{\tau_2\}_A=\lambda\{\tau_1\}_A \Leftrightarrow \{\tau_2\}_A=\begin{Bmatrix}\overrightarrow{R_2}\\\overrightarrow{M_{A2}}\end{Bmatrix}_A=\begin{Bmatrix}\lambda\overrightarrow{R_1}\\\lambda\overrightarrow{M_{A1}}\end{Bmatrix}_A$$
+    \item Produit :
+    $$\lambda=\{\tau_1\}_A\cdot\{\tau_2\}_A \Leftrightarrow\lambda=\overrightarrow{R_1}\cdot\overrightarrow{M_{A2}}+\overrightarrow{R_2}\cdot\overrightarrow{M_{A1}}$$
+\end{itemize}
+\end{prop}

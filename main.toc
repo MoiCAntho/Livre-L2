@@ -1,7 +1,7 @@
 \babel@toc {french}{}\relax 
 \contentsline {part}{I\hspace {1em}Mat-304 : Calcul matriciel et fonctions de plusieurs variables}{7}{part.1}%
 \contentsline {chapter}{\numberline {1}Repérage dans $\mathbb {R}^3$}{9}{chapter.1.1}%
-\contentsline {chapter}{\numberline {2}Repérage dans $\mathbb {R}^3$}{11}{chapter.1.2}%
+\contentsline {chapter}{\numberline {2}Fonctions de plusieurs variables}{11}{chapter.1.2}%
 \contentsline {chapter}{\numberline {3}Dérivation en plusieurs variables}{13}{chapter.1.3}%
 \contentsline {section}{\numberline {3.1}Définition et premières propriétés}{13}{section.1.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Gradient et matrice jacobienne}{14}{subsection.1.3.1.1}%
@@ -47,83 +47,94 @@
 \contentsline {subsubsection}{Convexité}{51}{section*.4}%
 \contentsline {subsection}{\numberline {1.2.4}Tableau de variation}{51}{subsection.3.1.2.4}%
 \contentsline {subsection}{\numberline {1.2.5}Applications}{51}{subsection.3.1.2.5}%
-\contentsline {section}{\numberline {1.3}Courbes en polaire}{52}{section.3.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Domaine de définition et intervalle d'étude}{53}{subsection.3.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Étude des branches infinies}{53}{subsection.3.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Étude locale}{53}{subsection.3.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Tableau de variation}{53}{subsection.3.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Applications}{53}{subsection.3.1.3.5}%
-\contentsline {section}{\numberline {1.4}Coniques}{53}{section.3.1.4}%
-\contentsline {chapter}{\numberline {2}Propriétés métrique des courbes}{55}{chapter.3.2}%
-\contentsline {chapter}{\numberline {3}Intégrales curvilignes}{57}{chapter.3.3}%
-\contentsline {part}{IV\hspace {1em}Équations et systèmes différentielles}{59}{part.4}%
-\contentsline {chapter}{\numberline {1}Généralités}{61}{chapter.4.1}%
-\contentsline {chapter}{\numberline {2}Méthodes de résolutions explicites}{63}{chapter.4.2}%
-\contentsline {section}{\numberline {2.1}Équations différentielles linéaires à coefficients constants}{63}{section.4.2.1}%
-\contentsline {section}{\numberline {2.2}Équations à variables séparables}{63}{section.4.2.2}%
-\contentsline {section}{\numberline {2.3}Systèmes différentielles linéaires}{65}{section.4.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Résolution par diagonalisation}{65}{subsection.4.2.3.1}%
-\contentsline {subsubsection}{Diagonalisation dans $\mathbb {R}$}{65}{section*.5}%
-\contentsline {section}{\numberline {2.4}Intégrales premières ou constantes du mouvement}{71}{section.4.2.4}%
-\contentsline {section}{\numberline {2.5}Utilisation des formes différentielles}{72}{section.4.2.5}%
-\contentsline {section}{\numberline {2.6}Autres méthodes}{72}{section.4.2.6}%
-\contentsline {section}{\numberline {2.7}Systèmes différentiels linéaires d'ordre 1}{74}{section.4.2.7}%
-\contentsline {subsubsection}{Diagonalisation dans $\mathbb {C}$}{74}{section*.6}%
-\contentsline {subsection}{\numberline {2.7.1}Résolution par triangulation}{74}{subsection.4.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Comportement des solutions}{74}{subsection.4.2.7.2}%
-\contentsline {subsubsection}{Comportement en fonction des valeurs propres}{74}{section*.7}%
-\contentsline {subsubsection}{Comportement asymptotique}{74}{section*.8}%
-\contentsline {chapter}{\numberline {3}Introduction au calcul variationnel}{75}{chapter.4.3}%
-\contentsline {part}{V\hspace {1em}Mec-301 : Mécanique du solide indéformable}{77}{part.5}%
-\contentsline {chapter}{\numberline {1}Torseurs}{79}{chapter.5.1}%
-\contentsline {section}{\numberline {1.1}Actions mécaniques}{79}{section.5.1.1}%
-\contentsline {section}{\numberline {1.2}Moment d'une force}{79}{section.5.1.2}%
-\contentsline {section}{\numberline {1.3}Torseur force}{80}{section.5.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Éléments de réduction}{80}{subsection.5.1.3.1}%
-\contentsline {section}{\numberline {1.4}Torseur de force répartie}{80}{section.5.1.4}%
-\contentsline {section}{\numberline {1.5}Torseur cinématique}{80}{section.5.1.5}%
-\contentsline {section}{\numberline {1.6}Torseur de liaisons}{80}{section.5.1.6}%
-\contentsline {section}{\numberline {1.7}Torseur déplacement infinitésimal}{80}{section.5.1.7}%
-\contentsline {section}{\numberline {1.8}Opérations sur les torseurs}{80}{section.5.1.8}%
-\contentsline {chapter}{\numberline {2}Statique du solide}{81}{chapter.5.2}%
-\contentsline {section}{\numberline {2.1}Principe fondamentale de la statique}{81}{section.5.2.1}%
-\contentsline {section}{\numberline {2.2}Principe des actions réciproques}{81}{section.5.2.2}%
-\contentsline {section}{\numberline {2.3}Applications aux cas usuelles}{81}{section.5.2.3}%
-\contentsline {section}{\numberline {2.4}Frottements secs}{81}{section.5.2.4}%
-\contentsline {chapter}{\numberline {3}Cinématique du solide}{83}{chapter.5.3}%
-\contentsline {section}{\numberline {3.1}Composition des vitesses}{83}{section.5.3.1}%
-\contentsline {section}{\numberline {3.2}Composition des accélérations}{83}{section.5.3.2}%
-\contentsline {chapter}{\numberline {4}Cinétique du solide}{85}{chapter.5.4}%
-\contentsline {section}{\numberline {4.1}Géométrie des masses}{85}{section.5.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Notion de masse}{85}{subsection.5.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Centre de Gravité et référentiel barycentrique}{86}{subsection.5.4.1.2}%
-\contentsline {section}{\numberline {4.2}Torseur cinétique}{86}{section.5.4.2}%
-\contentsline {section}{\numberline {4.3}Matrice d'inertie}{86}{section.5.4.3}%
-\contentsline {part}{VI\hspace {1em}Phy-301 : Électromagnétisme 1}{87}{part.6}%
-\contentsline {part}{VII\hspace {1em}Electrostatique}{89}{part.7}%
-\contentsline {part}{VIII\hspace {1em}Magnétisme et Electromgnétisme}{91}{part.8}%
-\contentsline {part}{IX\hspace {1em}Phy302 : Thermodynamique}{93}{part.9}%
-\contentsline {chapter}{\numberline {1}Transformations thermodynamiques}{95}{chapter.9.1}%
-\contentsline {section}{\numberline {1.1}Description d'un système thermodynamique}{95}{section.9.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Systèmes thermodynamiques}{95}{subsection.9.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Grandeurs thermodynamiques et variables d'états}{96}{subsection.9.1.1.2}%
-\contentsline {subsubsection}{Pression}{96}{section*.9}%
-\contentsline {subsubsection}{Température}{96}{section*.10}%
-\contentsline {subsection}{\numberline {1.1.3}Équations d'états}{96}{subsection.9.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Coefficients thermoélastiques}{96}{subsection.9.1.1.4}%
-\contentsline {section}{\numberline {1.2}Transformations}{97}{section.9.1.2}%
-\contentsline {section}{\numberline {1.3}Modèles}{97}{section.9.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Modèle du gaz parfait}{97}{subsection.9.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Modèle de Van der Waals, gaz réel}{98}{subsection.9.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Modèle}{98}{subsection.9.1.3.3}%
-\contentsline {section}{\numberline {1.4}Représentations graphique}{98}{section.9.1.4}%
-\contentsline {chapter}{\numberline {2}Premier principe}{99}{chapter.9.2}%
-\contentsline {section}{\numberline {2.1}Préliminaires}{99}{section.9.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Chaleur}{99}{subsection.9.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Travail}{99}{subsection.9.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Énergie interne}{99}{subsection.9.2.1.3}%
-\contentsline {section}{\numberline {2.2}Premier principe de la thermodynamique}{99}{section.9.2.2}%
-\contentsline {chapter}{\numberline {3}Second principe}{101}{chapter.9.3}%
-\contentsline {chapter}{\numberline {4}Machines thermiques}{103}{chapter.9.4}%
-\contentsline {chapter}{\numberline {5}Transitions de phase des corps purs}{105}{chapter.9.5}%
-\contentsline {part}{X\hspace {1em}Annexes}{107}{part.10}%
+\contentsline {section}{\numberline {1.3}Courbes en polaire}{55}{section.3.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Domaine de définition et intervalle d'étude}{56}{subsection.3.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Étude des branches infinies}{56}{subsection.3.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Étude locale}{56}{subsection.3.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Tableau de variation}{56}{subsection.3.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Applications}{56}{subsection.3.1.3.5}%
+\contentsline {section}{\numberline {1.4}Coniques}{57}{section.3.1.4}%
+\contentsline {chapter}{\numberline {2}Propriétés métrique des courbes}{59}{chapter.3.2}%
+\contentsline {chapter}{\numberline {3}Intégrales curvilignes}{61}{chapter.3.3}%
+\contentsline {part}{IV\hspace {1em}Équations et systèmes différentielles}{63}{part.4}%
+\contentsline {chapter}{\numberline {1}Généralités}{65}{chapter.4.1}%
+\contentsline {chapter}{\numberline {2}Méthodes de résolutions explicites}{67}{chapter.4.2}%
+\contentsline {section}{\numberline {2.1}Équations différentielles linéaires d'ordre $n$}{67}{section.4.2.1}%
+\contentsline {section}{\numberline {2.2}Équations différentielles à variables séparables}{68}{section.4.2.2}%
+\contentsline {section}{\numberline {2.3}Systèmes différentielles linéaires}{69}{section.4.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Résolution par diagonalisation}{69}{subsection.4.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Comportement des solutions selon les valeurs propres}{76}{subsection.4.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Tracés de systèmes différentiels}{76}{subsection.4.2.3.3}%
+\contentsline {section}{\numberline {2.4}Intégrales premières ou constantes du mouvement}{77}{section.4.2.4}%
+\contentsline {section}{\numberline {2.5}Utilisation des formes différentielles}{78}{section.4.2.5}%
+\contentsline {section}{\numberline {2.6}Autres méthodes}{78}{section.4.2.6}%
+\contentsline {section}{\numberline {2.7}Comportement des solutions}{78}{section.4.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Comportement asymptotique}{78}{subsection.4.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Comportement selon les valeurs propres}{78}{subsection.4.2.7.2}%
+\contentsline {section}{\numberline {2.8}Systèmes différentiels linéaires d'ordre 1}{80}{section.4.2.8}%
+\contentsline {subsubsection}{Diagonalisation dans $\mathbb {C}$}{80}{section*.5}%
+\contentsline {subsection}{\numberline {2.8.1}Résolution par triangulation}{80}{subsection.4.2.8.1}%
+\contentsline {chapter}{\numberline {3}Introduction au calcul variationnel}{81}{chapter.4.3}%
+\contentsline {section}{\numberline {3.1}Lagrangien}{81}{section.4.3.1}%
+\contentsline {section}{\numberline {3.2}Hamiltonien}{81}{section.4.3.2}%
+\contentsline {part}{V\hspace {1em}Mec-301 : Mécanique du solide indéformable}{83}{part.5}%
+\contentsline {chapter}{\numberline {1}Torseurs}{85}{chapter.5.1}%
+\contentsline {section}{\numberline {1.1}Actions mécaniques}{85}{section.5.1.1}%
+\contentsline {section}{\numberline {1.2}Moment d'une force}{85}{section.5.1.2}%
+\contentsline {section}{\numberline {1.3}Torseur force}{86}{section.5.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Torseur de force répartie}{86}{subsection.5.1.3.1}%
+\contentsline {section}{\numberline {1.4}Torseur cinématique}{87}{section.5.1.4}%
+\contentsline {section}{\numberline {1.5}Torseur de liaisons}{87}{section.5.1.5}%
+\contentsline {section}{\numberline {1.6}Torseur déplacement infinitésimal}{87}{section.5.1.6}%
+\contentsline {section}{\numberline {1.7}Opérations sur les torseurs}{87}{section.5.1.7}%
+\contentsline {chapter}{\numberline {2}Statique du solide}{89}{chapter.5.2}%
+\contentsline {section}{\numberline {2.1}Principe fondamentale de la statique}{89}{section.5.2.1}%
+\contentsline {section}{\numberline {2.2}Principe des actions réciproques}{89}{section.5.2.2}%
+\contentsline {section}{\numberline {2.3}Applications aux cas usuelles}{89}{section.5.2.3}%
+\contentsline {section}{\numberline {2.4}Frottements secs}{89}{section.5.2.4}%
+\contentsline {chapter}{\numberline {3}Cinématique du solide}{91}{chapter.5.3}%
+\contentsline {section}{\numberline {3.1}Expression des vitesses}{91}{section.5.3.1}%
+\contentsline {section}{\numberline {3.2}Expression des accélérations}{91}{section.5.3.2}%
+\contentsline {section}{\numberline {3.3}Vitesse de glissement}{91}{section.5.3.3}%
+\contentsline {chapter}{\numberline {4}Cinétique du solide}{93}{chapter.5.4}%
+\contentsline {section}{\numberline {4.1}Géométrie des masses}{93}{section.5.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Notion de masse}{93}{subsection.5.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Centre de Gravité et référentiel barycentrique}{94}{subsection.5.4.1.2}%
+\contentsline {section}{\numberline {4.2}Torseur cinétique}{94}{section.5.4.2}%
+\contentsline {section}{\numberline {4.3}Matrice d'inertie}{94}{section.5.4.3}%
+\contentsline {part}{VI\hspace {1em}Phy-301 : Électromagnétisme 1}{95}{part.6}%
+\contentsline {chapter}{\numberline {1}Électrostatique}{97}{chapter.6.1}%
+\contentsline {section}{\numberline {1.1}Loi de Coulomb, champ électrostatique}{97}{section.6.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Loi de Coulomb}{97}{subsection.6.1.1.1}%
+\contentsline {chapter}{\numberline {2}Magnétisme et Électromgnétisme}{99}{chapter.6.2}%
+\contentsline {chapter}{\numberline {3}Forces électromagnétiques}{101}{chapter.6.3}%
+\contentsline {chapter}{\numberline {4}Champ magnétique}{103}{chapter.6.4}%
+\contentsline {chapter}{\numberline {5}Induction électromagnétique}{105}{chapter.6.5}%
+\contentsline {section}{\numberline {5.1}Force de Laplace}{105}{section.6.5.1}%
+\contentsline {section}{\numberline {5.2}Loi de Faraday}{105}{section.6.5.2}%
+\contentsline {chapter}{\numberline {6}Équations de Maxwell}{107}{chapter.6.6}%
+\contentsline {part}{VII\hspace {1em}Phy302 : Thermodynamique}{109}{part.7}%
+\contentsline {chapter}{\numberline {1}Transformations thermodynamiques}{111}{chapter.7.1}%
+\contentsline {section}{\numberline {1.1}Description d'un système thermodynamique}{111}{section.7.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Systèmes thermodynamiques}{111}{subsection.7.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Grandeurs thermodynamiques et variables d'états}{112}{subsection.7.1.1.2}%
+\contentsline {subsubsection}{Pression}{112}{section*.6}%
+\contentsline {subsubsection}{Température}{112}{section*.7}%
+\contentsline {subsection}{\numberline {1.1.3}Équations d'états}{112}{subsection.7.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Coefficients thermoélastiques}{112}{subsection.7.1.1.4}%
+\contentsline {section}{\numberline {1.2}Transformations}{113}{section.7.1.2}%
+\contentsline {section}{\numberline {1.3}Modèles}{113}{section.7.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Modèle du gaz parfait}{113}{subsection.7.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Modèle de Van der Waals, gaz réel}{114}{subsection.7.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Modèle}{114}{subsection.7.1.3.3}%
+\contentsline {section}{\numberline {1.4}Représentations graphique}{114}{section.7.1.4}%
+\contentsline {chapter}{\numberline {2}Premier principe}{115}{chapter.7.2}%
+\contentsline {section}{\numberline {2.1}Préliminaires}{115}{section.7.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Chaleur}{115}{subsection.7.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Travail}{115}{subsection.7.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Énergie interne}{115}{subsection.7.2.1.3}%
+\contentsline {section}{\numberline {2.2}Premier principe de la thermodynamique}{115}{section.7.2.2}%
+\contentsline {chapter}{\numberline {3}Second principe}{117}{chapter.7.3}%
+\contentsline {chapter}{\numberline {4}Machines thermiques}{119}{chapter.7.4}%
+\contentsline {chapter}{\numberline {5}Transitions de phase des corps purs}{121}{chapter.7.5}%
+\contentsline {part}{VIII\hspace {1em}Annexes}{123}{part.8}%

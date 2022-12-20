@@ -22,6 +22,7 @@
 \newenvironment{meth}[1][]{\begin{bclogo}[logo=\bclampe,arrondi=0.1,ombre=true, couleur=yellow!60,couleurBord=yellow]{Méthode : #1 }}{\end{bclogo}}
 \newenvironment{demo}{\begin{bclogo}[couleur=gray!20,couleurBord=gray,logo=\bcloupe ,arrondi=0.1, ombre=true, barre = zigzag]{Démonstration}}{\end{bclogo}}
 \newenvironment{rmq}{\begin{bclogo}[couleur=orange!30,couleurBord=orange,arrondi=0.1,ombre=true,logo=\bcinfo]{Remarque}}{\end{bclogo}}
+%\newcommand{\matiere}[1]{\part{}}
 \makeatletter
 \renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
   \hskip -\arraycolsep
@@ -46,16 +47,16 @@
 \maketitle
 \tableofcontents
 \part{Mat-304 : Calcul matriciel et fonctions de plusieurs variables}
-\input{MAT304/MAT304.tex}
+\input{MAT304/MAT304}
 \part{Mat-307 : Courbes paramétrées et équations différentielles pour la physique}
 \input{MAT307/MAT307.tex}
 \part{Mec-301 : Mécanique du solide indéformable}
-\input{MEC301.tex}
+\input{MEC301/MEC301.tex}
 \part{Phy-301 : Électromagnétisme 1}
-\include{PHY301.tex}
+\input{PHY301/PHY301.tex}
 \part{Phy302 : Thermodynamique}
 \include{PHY302.tex}
 \part{Annexes}
-%\include{Annexes.tex}
+\include{Annexes.tex}
 
 \end{document}
