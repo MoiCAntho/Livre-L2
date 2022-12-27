@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  20 DEC 2022 09:23
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.5.30)  27 DEC 2022 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex"
-(c:/Users/segur/Desktop/LaTeX/Livre licence/main.tex
+**"c:/Users/segur/Documents/MEGA/Projet/LaTeX/Livre licence/main.tex"
+(c:/Users/segur/Documents/MEGA/Projet/LaTeX/Livre licence/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-05-04> (C:\Users\segur\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
@@ -1001,7 +1001,7 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mult@nat@firstbox=\box128
 \colbreak@box=\box129
 \mc@col@check@num=\count413
-) (main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (MEC301/Ch2.aux) (MEC301/Ch3.aux) (MEC301/Ch4.aux) (MEC301/Ch5.aux) (PHY301/Ch52.aux) (PHY301/Ch53.aux) (PHY301/Ch54.aux) (PHY301/Ch55.aux) (PHY302.aux) (Annexes.aux))
+) (main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (MEC301/Ch2.aux) (MEC301/Ch3.aux) (MEC301/Ch4.aux) (MEC301/Ch5.aux) (PHY301/Ch52.aux) (PHY301/Ch53.aux) (PHY301/Ch54.aux) (PHY301/Ch55.aux) (PHY302/CH1.aux) (PHY302/Ch2.aux) (PHY302/Ch3.aux) (PHY302/Ch4.aux) (PHY302/Ch5.aux) (PHY302/Ch6.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -1102,9 +1102,17 @@ Overfull \hbox (3.74901pt too wide) in paragraph at lines 37--37
  [6] [7
 
 ] [8] (MAT304/MAT304.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+[9]
 \openout2 = `MAT304/Ch1.aux'.
 
- (MAT304/Ch1.tex
+ (MAT304/Ch1.tex [10
+
+
+]
 Chapitre 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1118,23 +1126,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-) [9
-
-
-]
+) [11]
 \openout2 = `MAT304/Ch2.aux'.
 
- (MAT304/Ch2.tex [10
+ (MAT304/Ch2.tex [12
 
 
 
 
 ]
 Chapitre 2.
-) [11]
+) [13]
 \openout2 = `MAT304/Ch3.aux'.
 
- (MAT304/Ch3.tex [12
+ (MAT304/Ch3.tex [14
 
 
 
@@ -1161,7 +1166,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 16.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 26.
-[13]
+[15]
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 28.
@@ -1180,10 +1185,10 @@ Package mdframed Warning: You got a bad break
 (mdframed)                by changing the text, the space
 (mdframed)                or something else on input line 43.
 
-[14]) [15]
+[16]) [17]
 \openout2 = `MAT304/Ch4.aux'.
 
- (MAT304/Ch4.tex [16
+ (MAT304/Ch4.tex [18
 
 
 
@@ -1288,7 +1293,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 5.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 12.
-[17]
+[19]
 File: bc-loupe.mps Graphic file (type mps)
 <bc-loupe.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 20.
@@ -1314,7 +1319,7 @@ File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 41.
 Package mdframed Info: Not enough space on this page on input line 43.
-[18]
+[20]
 Package mdframed Info: Not enough space on this page on input line 43.
 
 
@@ -1343,20 +1348,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 53.
-) [19]
+) [21]
 \openout2 = `MAT304/Ch5.aux'.
 
- (MAT304/Ch5.tex [20
+ (MAT304/Ch5.tex [22
 
 
 
 
 ]
 Chapitre 5.
-) [21]
+) [23]
 \openout2 = `MAT304/Ch6.aux'.
 
- (MAT304/Ch6.tex [22
+ (MAT304/Ch6.tex [24
 
 
 
@@ -1377,7 +1382,7 @@ Overfull \hbox (4.58673pt too wide) detected at line 20
 [] \OT1/cmr/m/n/12 + [] = []
  []
 
-[23]
+[25]
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 22.
@@ -1398,10 +1403,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[24]) [25]
+[26]) [27]
 \openout2 = `MAT304/Ch7.aux'.
 
- (MAT304/Ch7.tex [26
+ (MAT304/Ch7.tex [28
 
 
 
@@ -1438,7 +1443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--36
  []
 
 Package mdframed Info: Not enough space on this page on input line 36.
-[27]
+[29]
 Package mdframed Info: Not enough space on this page on input line 36.
 
 Overfull \hbox (22.227pt too wide) in paragraph at lines 39--39
@@ -1882,7 +1887,7 @@ Package mdframed Warning: correct box splittet fails
 Package mdframed Info: You first box width is to small
  mdframed fixed it
 (mdframed)              on input line 56.
-[28]
+[30]
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 58.
@@ -1907,7 +1912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--94
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 95.
-[29]
+[31]
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 101.
@@ -1937,14 +1942,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--169
 
  []
 
-[30]
+[32]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 172.
- [31]
+ [33]
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
- [32]
+ [34]
 Package mdframed Info: mdframed works in twoside mode on input line 177.
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
@@ -1963,7 +1968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--194
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 209.
-[33]
+[35]
 File: bc-lampe.mps Graphic file (type mps)
 <bc-lampe.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 217.
@@ -1984,7 +1989,7 @@ Package mdframed Warning: You got a bad break
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 240.
-[34]
+[36]
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 241.
@@ -1997,7 +2002,7 @@ File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 269.
 Package mdframed Info: Not enough space on this page on input line 273.
-[35]
+[37]
 Package mdframed Info: Not enough space on this page on input line 273.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
@@ -2022,7 +2027,7 @@ Package mdframed Warning: You got a bad break
 (mdframed)                by changing the text, the space
 (mdframed)                or something else on input line 301.
 
-[36]
+[38]
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 302.
@@ -2032,26 +2037,32 @@ Package mdframed Info: mdframed works in twoside mode on input line 305.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 312.
-) [37]
+) [39]
 \openout2 = `MAT304/Ch8.aux'.
 
- (MAT304/Ch8.tex [38
+ (MAT304/Ch8.tex [40
 
 
 
 
 ]
 Chapitre 8.
-) [39]) [40
+) [41]) [42
 
 
 
-] [41] [42] (MAT307/MAT307.tex [43
+] [43] [44] (MAT307/MAT307.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
-] [44]
+ []
+
+[45]
 \openout2 = `MAT307/Ch1.aux'.
 
- (MAT307/Ch1.tex
+ (MAT307/Ch1.tex [46
+
+
+]
 Chapitre 1.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
@@ -2061,10 +2072,7 @@ File: bc-info.mps Graphic file (type mps)
 Package mdframed Info: mdframed works in twoside mode on input line 18.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-[45
-
-
-]
+[47]
 Package mdframed Info: mdframed works in twoside mode on input line 26.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
@@ -2080,7 +2088,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 43.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 53.
-[46]
+[48]
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 78.
@@ -2091,12 +2099,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-[47]
+[49]
 Package mdframed Info: mdframed works in twoside mode on input line 85.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 108.
- [48]
+ [50]
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 118.
@@ -2123,7 +2131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--163
 
  []
 
-[49]
+[51]
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 175.
@@ -2138,7 +2146,7 @@ Package mdframed Warning: You got a bad break
 Package mdframed Info: You first box width is to small
  mdframed fixed it
 (mdframed)              on input line 187.
-[50]
+[52]
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last split box is empty
@@ -2176,18 +2184,18 @@ Package mdframed Info: Box was splittet wrong
 Package mdframed Info: You first box width is to small
  mdframed fixed it
 (mdframed)              on input line 315.
-[51] [52] [53]
+[53] [54] [55]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 315.
- [54]
+ [56]
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 318.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 326.
- [55]
+ [57]
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 329.
@@ -2616,45 +2624,43 @@ Package mdframed Warning: correct box splittet fails
 Package mdframed Info: You first box width is to small
  mdframed fixed it
 (mdframed)              on input line 364.
-[56]) [57]
+[58]) [59]
 \openout2 = `MAT307/Ch2.aux'.
 
- (MAT307/Ch2.tex [58
+ (MAT307/Ch2.tex [60
 
 
 
 
 ]
 Chapitre 2.
-) [59]
+) [61]
 \openout2 = `MAT307/Ch3.aux'.
 
- (MAT307/Ch3.tex [60
+ (MAT307/Ch3.tex [62
 
 
 
 
 ]
 Chapitre 3.
-) [61] [62
-
-
-
-] [63] [64]
+) [63]
 \openout2 = `MAT307/Ch4.aux'.
 
- (MAT307/Ch4.tex
-Chapitre 1.
+ (MAT307/Ch4.tex [64
+
+
+
+
+]
+Chapitre 4.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 3.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 8.
-) [65
-
-
-]
+) [65]
 \openout2 = `MAT307/Ch5.aux'.
 
  (MAT307/Ch5.tex [66
@@ -2663,7 +2669,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 8.
 
 
 ]
-Chapitre 2.
+Chapitre 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
@@ -2823,7 +2829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 420--423
 \openout2 = `MAT307/Ch6.aux'.
 
  (MAT307/Ch6.tex
-Chapitre 3.
+Chapitre 6.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 5.
@@ -2843,75 +2849,66 @@ Package mdframed Info: mdframed works in twoside mode on input line 12.
 
 
 ] [83] [84] (MEC301/MEC301.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+[85]
 \openout2 = `MEC301/Ch2.aux'.
 
- (MEC301/Ch2.tex
+ (MEC301/Ch2.tex [86
+
+
+]
 Chapitre 1.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 9.
+Package mdframed Info: mdframed works in twoside mode on input line 8.
 File: bc-outil.mps Graphic file (type mps)
 <bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 15.
-File: bc-loupe.mps Graphic file (type mps)
-<bc-loupe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 20.
-Package mdframed Info: Not enough space on this page on input line 22.
-[85
+Package mdframed Info: mdframed works in twoside mode on input line 17.
+File: bc-outil.mps Graphic file (type mps)
+<bc-outil.mps>
 
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
-]
-Package mdframed Info: Not enough space on this page on input line 22.
-File: bc-lampe.mps Graphic file (type mps)
-<bc-lampe.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 23.
+ []
+
+[87]
+Package mdframed Info: mdframed works in twoside mode on input line 26.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 30.
+Package mdframed Info: mdframed works in twoside mode on input line 37.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 39.
+Package mdframed Info: mdframed works in twoside mode on input line 46.
 File: bc-info.mps Graphic file (type mps)
 <bc-info.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 42.
+Package mdframed Info: mdframed works in twoside mode on input line 49.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 47.
- [86]
+ [88]
+Package mdframed Info: mdframed works in twoside mode on input line 54.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 51.
+Package mdframed Info: mdframed works in twoside mode on input line 58.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 60.
-File: bc-outil.mps Graphic file (type mps)
-<bc-outil.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 66.
-
-
-Package mdframed Warning: You got a bad break
-(mdframed)                because the last box will be empty
-(mdframed)                you have to change it manually
-(mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 75.
-
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 75.
-[87]) [88]
+Package mdframed Info: mdframed works in twoside mode on input line 67.
+) [89]
 \openout2 = `MEC301/Ch3.aux'.
 
- (MEC301/Ch3.tex
-Chapitre 2.
-) [89
+ (MEC301/Ch3.tex [90
 
 
 
 
 ]
+Chapitre 2.
+) [91]
 \openout2 = `MEC301/Ch4.aux'.
 
- (MEC301/Ch4.tex [90
+ (MEC301/Ch4.tex [92
 
 
 
@@ -2924,10 +2921,10 @@ Package mdframed Info: mdframed works in twoside mode on input line 7.
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 17.
-) [91]
+) [93]
 \openout2 = `MEC301/Ch5.aux'.
 
- (MEC301/Ch5.tex [92
+ (MEC301/Ch5.tex [94
 
 
 
@@ -2947,7 +2944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--11
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 13.
-[93]
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
@@ -2955,48 +2952,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 39.
-) [94]) [95
+) [96]) [97
 
 
 
-] [96] (PHY301/PHY301.tex
+] [98] (PHY301/PHY301.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+[99] [100
+
+]
 Chapitre 1.
 File: bc-crayon.mps Graphic file (type mps)
 <bc-crayon.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 10.
+Package mdframed Info: mdframed works in twoside mode on input line 12.
 
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 11--39
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 13--41
 []$[]$ $[]$ 
  []
 
-[97
-
-] [98
+[101] [102
 
 ]
 Chapitre 2.
-[99]
+[103]
 \openout2 = `PHY301/Ch52.aux'.
 
- (PHY301/Ch52.tex [100
+ (PHY301/Ch52.tex [104
 
 
 ]
 Chapitre 3.
-) [101]
+) [105]
 \openout2 = `PHY301/Ch53.aux'.
 
- (PHY301/Ch53.tex [102
+ (PHY301/Ch53.tex [106
 
 
 
 
 ]
 Chapitre 4.
-) [103]
+) [107]
 \openout2 = `PHY301/Ch54.aux'.
 
- (PHY301/Ch54.tex [104
+ (PHY301/Ch54.tex [108
 
 
 
@@ -3012,24 +3014,32 @@ Package mdframed Info: mdframed works in twoside mode on input line 7.
 File: bc-cle.mps Graphic file (type mps)
 <bc-cle.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 12.
-) [105]
+) [109]
 \openout2 = `PHY301/Ch55.aux'.
 
- (PHY301/Ch55.tex [106
+ (PHY301/Ch55.tex [110
 
 
 
 
 ]
 Chapitre 6.
-) [107]) [108
+) [111]) [112
 
 
 
-] [109] [110]
-\openout2 = `PHY302.aux'.
+] [113] [114] (PHY302/PHY302.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
- (PHY302.tex
+ []
+
+[115]
+\openout2 = `PHY302/CH1.aux'.
+
+ (PHY302/CH1.tex [116
+
+
+]
 Chapitre 1.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
@@ -3045,10 +3055,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 16.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
 Package mdframed Info: mdframed works in twoside mode on input line 24.
-[111
-
-
-]
+[117]
 Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
@@ -3058,82 +3065,120 @@ File: bc-crayon.mps Graphic file (type mps)
 Package mdframed Info: mdframed works in twoside mode on input line 35.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 40.
+Package mdframed Info: mdframed works in twoside mode on input line 42.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 46.
+Package mdframed Info: mdframed works in twoside mode on input line 48.
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 50.
+Package mdframed Info: mdframed works in twoside mode on input line 52.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+Package mdframed Info: Not enough space on this page on input line 59.
+[118]
+Package mdframed Info: Not enough space on this page on input line 59.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 63.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Package mdframed Warning: You got a bad break
-(mdframed)                because the last box will be empty
-(mdframed)                you have to change it manually
-(mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 57.
-
-[112]
-File: bc-book.mps Graphic file (type mps)
-<bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 61.
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 5091) in paragraph at lines 72--73
+Underfull \hbox (badness 5091) in paragraph at lines 74--75
 []\TU/lmr/m/n/12 isoénergétique : énergie interne $\OML/cmm/m/it/12 U$
  []
 
 File: bc-book.mps Graphic file (type mps)
 <bc-book.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 96.
-[113]
+Package mdframed Info: mdframed works in twoside mode on input line 98.
+[119]
+Package mdframed Info: Not enough space on this page on input line 112.
 File: bc-info.mps Graphic file (type mps)
 <bc-info.mps>
-Package mdframed Info: mdframed works in twoside mode on input line 111.
- [114]
-Chapitre 2.
-[115
+Package mdframed Info: mdframed works in twoside mode on input line 113.
+File: bc-book.mps Graphic file (type mps)
+<bc-book.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 117.
+) [120]
+\openout2 = `PHY302/Ch2.aux'.
 
-] [116
+ (PHY302/Ch2.tex
+Chapitre 2.
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 10.
+) [121
+
+
+
+
+]
+\openout2 = `PHY302/Ch3.aux'.
+
+ (PHY302/Ch3.tex [122
+
+
+
 
 ]
 Chapitre 3.
-[117] [118
+File: bc-cle.mps Graphic file (type mps)
+<bc-cle.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+File: bc-info.mps Graphic file (type mps)
+<bc-info.mps>
+Package mdframed Info: mdframed works in twoside mode on input line 8.
+) [123]
+\openout2 = `PHY302/Ch4.aux'.
+
+ (PHY302/Ch4.tex [124
+
+
+
 
 ]
 Chapitre 4.
-[119] [120
+) [125]
+\openout2 = `PHY302/Ch5.aux'.
+
+ (PHY302/Ch5.tex [126
+
+
+
 
 ]
 Chapitre 5.
-) [121] [122
+) [127]
+\openout2 = `PHY302/Ch6.aux'.
+
+ (PHY302/Ch6.tex [128
 
 
 
-] [123] [124]
-\openout2 = `Annexes.aux'.
 
-
-No file Annexes.tex.
-(main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (MEC301/Ch2.aux) (MEC301/Ch3.aux) (MEC301/Ch4.aux) (MEC301/Ch5.aux) (PHY301/Ch52.aux) (PHY301/Ch53.aux) (PHY301/Ch54.aux) (PHY301/Ch55.aux) (PHY302.aux) (Annexes.aux))
+]
+Chapitre 6.
+) [129]) (main.aux (MAT304/Ch1.aux) (MAT304/Ch2.aux) (MAT304/Ch3.aux) (MAT304/Ch4.aux) (MAT304/Ch5.aux) (MAT304/Ch6.aux) (MAT304/Ch7.aux) (MAT304/Ch8.aux) (MAT307/Ch1.aux) (MAT307/Ch2.aux) (MAT307/Ch3.aux) (MAT307/Ch4.aux) (MAT307/Ch5.aux) (MAT307/Ch6.aux) (MEC301/Ch2.aux) (MEC301/Ch3.aux) (MEC301/Ch4.aux) (MEC301/Ch5.aux) (PHY301/Ch52.aux) (PHY301/Ch53.aux) (PHY301/Ch54.aux) (PHY301/Ch55.aux) (PHY302/CH1.aux) (PHY302/Ch2.aux) (PHY302/Ch3.aux) (PHY302/Ch4.aux) (PHY302/Ch5.aux) (PHY302/Ch6.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A3DEFB46E911390C4AABF684FD3CF16F;26524.
+(rerunfilecheck)             Checksum: 01C155C5DA38A1DF6867287F7B8FE7C7;25960.
  ) 
 Here is how much of TeX's memory you used:
- 34697 strings out of 410921
- 681516 string characters out of 2822672
- 1304375 words of memory out of 3000000
- 54754 multiletter control sequences out of 15000+600000
+ 34810 strings out of 410921
+ 684915 string characters out of 2822672
+ 1307610 words of memory out of 3000000
+ 54838 multiletter control sequences out of 15000+600000
  485859 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,23n,99p,709b,1229s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 93i,23n,99p,723b,1229s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on main.xdv (124 pages, 4725488 bytes).
+Output written on main.xdv (129 pages, 4676736 bytes).

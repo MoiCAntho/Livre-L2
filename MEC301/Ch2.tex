@@ -4,31 +4,38 @@ C'est un outils qui facilite les calculs et la formulation des lois.
 En effet, il faudrait diviser les lois en plusieurs théorème pour complètement inclure les informations contenues dans un torseur.
 
 Les torseurs sont un manière de d'écrire un champ de vecteur, ils sont tous caractérisés par trois paramètres : deux vecteurs et un point.
-\section{Actions mécaniques}
-\section{Moment d'une force}
+
 \begin{defi}
-On appelle moment en $A$ de la force $\overrightarrow{F}$ passant par le point $P$, du solide $\Sigma$ :
-$$\overrightarrow{M_{A}(\overrightarrow{F})}=\overrightarrow{AP}\land\overrightarrow{A}$$
+On appelle torseur, l'objet constitué de deux vecteurs appelé éléments de réductions ($\overrightarrow{A}$ et $\overrightarrow{B}$) et d'un point $P$.\\
+L'élément de réduction $\overrightarrow{B}$ dépend du point $P$ ce qui n'est pas le cas de l'élément $\overrightarrow{A}$.\\
+On note un torseur $T$, constitué de $\overrightarrow{A}$ et $\overrightarrow{B}$ au point $P$ comme il suit :
+$$\{T\}_P=\begin{Bmatrix}\overrightarrow{A}\\\overrightarrow{B}\end{Bmatrix}_P$$
 \end{defi}
-Un moment représente la capacité d'une force a crée une rotation autour d'un axe.\\
-On peut définir la formule de transport des moments qui permet, connaissant le moment en un point $A$ du solide, de calculer le moments de cette force sur n'importe quel point du solide.
+Peu importe le type de torseur, l'élément dépendant du point se trouve toujours dans la partie basse de ce dernier.\\
+Il peut être utile de pouvoir "déplacer" le torseur en un autre point, notamment pour les opérations.\\
+Pour ce faire, on utilise la formule de transport.
 \begin{prop}
-Soient $A$ et $B$ deux points de l'espace et $\overrightarrow{M_{A}}(\overrightarrow{F})$, $\overrightarrow{M_{B}}(\overrightarrow{F})$ leurs moments associés de la force $\overrightarrow{F}$ appliquée en $P$ au solide $\Sigma$.\\
-On définit la formule de transport des moments :
-$$\overrightarrow{M_{B}}(\overrightarrow{F})=\overrightarrow{M_{A}}(\overrightarrow{F})+\overrightarrow{BA}\land\overrightarrow{F}$$
+Soit le torseur $\{T\}_P$ que l'on souhaite déplacer au point $Q$, le nouveau torseur $\{T\}_Q$ s'écrit :
+$$\{T\}_Q=\begin{Bmatrix}\overrightarrow{A}\\\overrightarrow{B^\prime}\end{Bmatrix}$$
+avec : $\overrightarrow{B^\prime}=\overrightarrow{B_Q}=\overrightarrow{B_P}+\overrightarrow{QP}\land\overrightarrow{A}$
 \end{prop}
-\begin{demo}
-Soit
-\end{demo}
-\begin{meth}[Calcul d'un moment avec le bras de levier]
-Dans un problème a deux dimensions, nous pouvons calculer un moment sans passer par le produit vectoriel. Pour ce faire, on utilise le bras de levier.\\
-On commence par trouver sa norme : $\|\overrightarrow{M_O}(\overrightarrow{F})\|=\|\overrightarrow{F}\|\times\|\overrightarrow{OA}\|$\\
-Puis on détermine le vecteur unitaire par lequel il est porté ainsi que son signe :\\
-Ici la force $\overrightarrow{F}$
-\end{meth}
+Cette propriété trouve son origine dans la géométrie du champ de moment.\\
+\\
+On peut maintenant définir les opérations usuelles sur les torseurs.
+Elles permettent a ces dernier de pouvoir interagir entre-eux.
+\begin{prop}
+\begin{itemize}
+    \item Addition :
+    $$\{\tau_1\}_A+\{\tau_2\}_A=\begin{Bmatrix}\overrightarrow{R}_1\\\overrightarrow{M_{A1}}\end{Bmatrix}_A+\begin{Bmatrix}\overrightarrow{R}_2\\\overrightarrow{M_{A2}}\end{Bmatrix}_A=\begin{Bmatrix}\overrightarrow{R}_1+\overrightarrow{R}_2\\\overrightarrow{M_{A1}}+\overrightarrow{M_{A2}}\end{Bmatrix}_A$$
+    \item Multiplication par un scalaire :
+    $$\{\tau_2\}_A=\lambda\{\tau_1\}_A \Leftrightarrow \{\tau_2\}_A=\begin{Bmatrix}\overrightarrow{R_2}\\\overrightarrow{M_{A2}}\end{Bmatrix}_A=\begin{Bmatrix}\lambda\overrightarrow{R_1}\\\lambda\overrightarrow{M_{A1}}\end{Bmatrix}_A$$
+    \item Produit :
+    $$\lambda=\{\tau_1\}_A\cdot\{\tau_2\}_A \Leftrightarrow\lambda=\overrightarrow{R_1}\cdot\overrightarrow{M_{A2}}+\overrightarrow{R_2}\cdot\overrightarrow{M_{A1}}$$
+\end{itemize}
+\end{prop}
 \section{Torseur force}
 \begin{defi}
-On appelle torseur force l'objet constitué de deux éléments de réductions :
+On appelle torseur force le torseur constitué des éléments de réductions suivants :
 \begin{itemize}
     \item la résultante des Forces appliquées au système, noté $R$
     \item la résultante des Moments appliqués au point considéré, noté $M_A$ avec $A$ un point du solide $\Sigma$
@@ -61,15 +68,4 @@ $${\lbrace\chi\rbrace}_{A/R_0}=\begin{Bmatrix}\overrightarrow{\omega}_{\Sigma/R_
 
 $${\lbrace\delta\chi\rbrace}_{A/R_0}=\begin{Bmatrix}\delta\overrightarrow{\omega}_{\Sigma/R_0}\\\delta\overrightarrow{l}_{\Sigma/R_0}(A)\end{Bmatrix}_{A/R_0}=\begin{Bmatrix} \delta\omega_x & \delta\omega_y  & \delta\omega_z\\ \delta u_A & \delta v_A & \delta w_A\end{Bmatrix}_{A/R_0}$$
 \end{defi}
-\section{Opérations sur les torseurs}
-On définit pour les torseurs les opérations de base permettant a ces dernier d'interagir entre-eux.
-\begin{prop}
-\begin{itemize}
-    \item Addition :
-    $$\{\tau_1\}_A+\{\tau_2\}_A=\begin{Bmatrix}\overrightarrow{R}_1\\\overrightarrow{M_{A1}}\end{Bmatrix}_A+\begin{Bmatrix}\overrightarrow{R}_2\\\overrightarrow{M_{A2}}\end{Bmatrix}_A=\begin{Bmatrix}\overrightarrow{R}_1+\overrightarrow{R}_2\\\overrightarrow{M_{A1}}+\overrightarrow{M_{A2}}\end{Bmatrix}_A$$
-    \item Multiplication par un scalaire :
-    $$\{\tau_2\}_A=\lambda\{\tau_1\}_A \Leftrightarrow \{\tau_2\}_A=\begin{Bmatrix}\overrightarrow{R_2}\\\overrightarrow{M_{A2}}\end{Bmatrix}_A=\begin{Bmatrix}\lambda\overrightarrow{R_1}\\\lambda\overrightarrow{M_{A1}}\end{Bmatrix}_A$$
-    \item Produit :
-    $$\lambda=\{\tau_1\}_A\cdot\{\tau_2\}_A \Leftrightarrow\lambda=\overrightarrow{R_1}\cdot\overrightarrow{M_{A2}}+\overrightarrow{R_2}\cdot\overrightarrow{M_{A1}}$$
-\end{itemize}
-\end{prop}
+\section{Travail élémentaire et puissance}
